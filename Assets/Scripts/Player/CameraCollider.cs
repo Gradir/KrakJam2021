@@ -1,17 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+
+public class StoryShouldProgress : ASignal { }
 
 public class CameraCollider : MonoBehaviour
 {
 	[SerializeField] private TextMeshProUGUI _text;
+	private Interactible _interInFront;
 	private Door _doorInFront;
 
 	private void OnTriggerEnter(Collider other)
 	{
 		var door = other.GetComponent<Door>();
-		if (door != null)
+		var inter = other.GetComponent<Interactible>();
+		if (inter != null)
+		{
+			_interInFront = inter;
+			_text.text = "Interact with" + inter.gameObject.name;
+		}
+		else if (door != null)
 		{
 			_text.text = "Door!";
 			_doorInFront = door;
@@ -21,7 +28,13 @@ public class CameraCollider : MonoBehaviour
 	private void OnTriggerExit(Collider other)
 	{
 		var door = other.GetComponent<Door>();
-		if (door != null)
+		var inter = other.GetComponent<Interactible>();
+		if (inter != null)
+		{
+			_interInFront = null;
+			_text.text = string.Empty;
+		}
+		else if (door != null)
 		{
 			_text.text = string.Empty;
 			_doorInFront = null;
@@ -32,8 +45,14 @@ public class CameraCollider : MonoBehaviour
 	{
 		if (Input.GetKeyUp(KeyCode.E))
 		{
-			if (_doorInFront != null)
+			if (_interInFront != null && _interInFront.gameObject.activeSelf)
 			{
+
+			}
+			else if (_doorInFront != null)
+			{
+				_doorInFront.OnPassedThrough();
+				// Pause, move camera etc
 				transform.parent.transform.position = _doorInFront._teleportTo.position;
 			}
 		}
