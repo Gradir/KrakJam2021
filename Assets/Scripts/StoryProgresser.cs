@@ -5,7 +5,7 @@ public abstract class StoryProgresser : MonoBehaviour
 {
 	public bool _progressesStory = false;
 	public string _displayName;
-	public Interactible[] _interactiblesToActivate;
+	public StoryProgresser[] _interactiblesToActivate;
 	public bool _hideOnStart = true;
 
 	private void Start()

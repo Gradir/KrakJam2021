@@ -5,9 +5,10 @@ public class StoryShouldProgress : ASignal { }
 
 public class CameraCollider : MonoBehaviour
 {
-	[SerializeField] private TextMeshProUGUI _text;
+	[SerializeField] private FloatingText _text;
 	[SerializeField] private CharacterController _characterController;
 	private StoryProgresser storyProgresserInFront;
+	private const string interactString = "Interact with ";
 
 	private void OnTriggerEnter(Collider other)
 	{
@@ -15,7 +16,7 @@ public class CameraCollider : MonoBehaviour
 		if (s != null)
 		{
 			storyProgresserInFront = s;
-			_text.text = "Interact with " + s._displayName;
+			_text.ChangeText(interactString + s._displayName);
 		}
 	}
 
@@ -25,7 +26,7 @@ public class CameraCollider : MonoBehaviour
 		if (s != null)
 		{
 			storyProgresserInFront = null;
-			_text.text = string.Empty;
+			_text.ChangeText(null);
 		}
 	}
 
@@ -35,15 +36,18 @@ public class CameraCollider : MonoBehaviour
 		{
 			if (storyProgresserInFront != null && storyProgresserInFront.gameObject.activeSelf)
 			{
+				var _cachedStoryProgresser = storyProgresserInFront;
+				storyProgresserInFront = null;
+
 				Debug.Log(string.Format("<color=white><b>{0}</b></color>", "activated"));
-				storyProgresserInFront.TryProgress();
-				if (storyProgresserInFront.GetType() == typeof(Door))
+				_cachedStoryProgresser.TryProgress();
+				if (_cachedStoryProgresser.GetType() == typeof(Door))
 				{
-					Debug.Log(string.Format("<color=white><b>{0}</b></color>", "transporting to: " + (storyProgresserInFront as Door)._teleportTo.gameObject.name));
+					Debug.Log(string.Format("<color=white><b>{0}</b></color>", "transporting to: " + (_cachedStoryProgresser as Door)._teleportTo.gameObject.name));
 					// Pause, move camera etc
 					_characterController.enabled = false;
-					_characterController.transform.position = (storyProgresserInFront as Door)._teleportTo.position;
-					_characterController.transform.rotation = storyProgresserInFront.transform.rotation;
+					_characterController.transform.position = (_cachedStoryProgresser as Door)._teleportTo.position;
+					_characterController.transform.rotation = (_cachedStoryProgresser as Door)._teleportTo.transform.rotation;
 					_characterController.enabled = true;
 				}
 			}

@@ -26,6 +26,7 @@ public class GameDirector : MonoBehaviour
 
 	public void ReactOnStoryProgress()
 	{
+		_blackCG.alpha = 1;
 		ChangeBlackOpacity(true);
 		DOVirtual.DelayedCall(_timeForShowBlack, () => ChangeBlackOpacity(false));
 		_progressCount++;
