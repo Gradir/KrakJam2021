@@ -24,7 +24,7 @@ public class CameraCollider : MonoBehaviour
 		var s = other.GetComponent<StoryProgresser>();
 		if (s != null)
 		{
-			s = null;
+			storyProgresserInFront = null;
 			_text.text = string.Empty;
 		}
 	}
@@ -39,10 +39,11 @@ public class CameraCollider : MonoBehaviour
 				storyProgresserInFront.TryProgress();
 				if (storyProgresserInFront.GetType() == typeof(Door))
 				{
-					Debug.Log(string.Format("<color=white><b>{0}</b></color>", "is door"));
+					Debug.Log(string.Format("<color=white><b>{0}</b></color>", "transporting to: " + (storyProgresserInFront as Door)._teleportTo.gameObject.name));
 					// Pause, move camera etc
 					_characterController.enabled = false;
 					_characterController.transform.position = (storyProgresserInFront as Door)._teleportTo.position;
+					_characterController.transform.rotation = storyProgresserInFront.transform.rotation;
 					_characterController.enabled = true;
 				}
 			}
