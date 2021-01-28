@@ -1,6 +1,8 @@
 using UnityEngine;
 
-public class Door : MonoBehaviour
+public class Door : StoryProgresser
 {
 	public Transform _teleportTo;
+
+
 }
