@@ -6,38 +6,26 @@ public class StoryShouldProgress : ASignal { }
 public class CameraCollider : MonoBehaviour
 {
 	[SerializeField] private TextMeshProUGUI _text;
-	private Interactible _interInFront;
-	private Door _doorInFront;
+	[SerializeField] private CharacterController _characterController;
+	private StoryProgresser storyProgresserInFront;
 
 	private void OnTriggerEnter(Collider other)
 	{
-		var door = other.GetComponent<Door>();
-		var inter = other.GetComponent<Interactible>();
-		if (inter != null)
+		var s = other.GetComponent<StoryProgresser>();
+		if (s != null)
 		{
-			_interInFront = inter;
-			_text.text = "Interact with" + inter.gameObject.name;
-		}
-		else if (door != null)
-		{
-			_text.text = "Door!";
-			_doorInFront = door;
+			storyProgresserInFront = s;
+			_text.text = "Interact with " + s._displayName;
 		}
 	}
 
 	private void OnTriggerExit(Collider other)
 	{
-		var door = other.GetComponent<Door>();
-		var inter = other.GetComponent<Interactible>();
-		if (inter != null)
+		var s = other.GetComponent<StoryProgresser>();
+		if (s != null)
 		{
-			_interInFront = null;
+			s = null;
 			_text.text = string.Empty;
-		}
-		else if (door != null)
-		{
-			_text.text = string.Empty;
-			_doorInFront = null;
 		}
 	}
 
@@ -45,15 +33,18 @@ public class CameraCollider : MonoBehaviour
 	{
 		if (Input.GetKeyUp(KeyCode.E))
 		{
-			if (_interInFront != null && _interInFront.gameObject.activeSelf)
+			if (storyProgresserInFront != null && storyProgresserInFront.gameObject.activeSelf)
 			{
-
-			}
-			else if (_doorInFront != null)
-			{
-				_doorInFront.OnPassedThrough();
-				// Pause, move camera etc
-				transform.parent.transform.position = _doorInFront._teleportTo.position;
+				Debug.Log(string.Format("<color=white><b>{0}</b></color>", "activated"));
+				storyProgresserInFront.TryProgress();
+				if (storyProgresserInFront.GetType() == typeof(Door))
+				{
+					Debug.Log(string.Format("<color=white><b>{0}</b></color>", "is door"));
+					// Pause, move camera etc
+					_characterController.enabled = false;
+					_characterController.transform.position = (storyProgresserInFront as Door)._teleportTo.position;
+					_characterController.enabled = true;
+				}
 			}
 		}
 	}

@@ -15,7 +15,12 @@ public class GameDirector : MonoBehaviour
 	private GameProgress _gameProgress;
 	private int _progressCount;
 
-	public void ReactOnInteraction()
+	private void Start()
+	{
+		
+	}
+
+	public void ReactOnStoryProgress()
 	{
 		_progressCount++;
 		_gameProgress = (GameProgress)_progressCount;
