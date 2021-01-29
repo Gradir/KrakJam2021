@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
   m_Name: 05_Accident
   m_EditorClassIdentifier: 
-  id: 6
+  blockInteraction: 0
+  waitTime: 0
+  id: 12
   text: 
   voiceOver: {fileID: 0}

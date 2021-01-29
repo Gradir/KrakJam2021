@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
   m_Name: 01_ToyCar_AUDIOMISSING
   m_EditorClassIdentifier: 
-  id: 1
-  text: 
-  voiceOver: {fileID: 0}
+  blockInteraction: 0
+  waitTime: 0
+  id: 2
+  text: But dark and cold after fire burned out Nothing - but following a bison ochre
+    tinted
+  voiceOver: {fileID: 8300000, guid: e7b24a1deb0ab2241bfc35814ecc8f6f, type: 3}

@@ -38,6 +38,11 @@ public abstract class StoryProgresser : MonoBehaviour
 				{
 					i._interactible = true;
 				}
+				if (i.GetType() == typeof(Door))
+				{
+					var door = i as Door;
+					door.SwitchTarget();
+				}
 			}
 		}
 		if (_hideOnInteraction)
@@ -59,6 +64,10 @@ public abstract class StoryProgresser : MonoBehaviour
 		}
 		foreach (var i in _interactiblesToActivate)
 		{
+			if (i == null)
+			{
+				continue;
+			}
 			DrawArrow.ForGizmo(transform.position, i.transform.position, Color.white);
 		}
 	}

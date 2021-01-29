@@ -1,8 +1,10 @@
 using DG.Tweening;
 using UnityEngine;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 public class BrotherController : MonoBehaviour
 {
+	[SerializeField] private AICharacterControl _ai;
 	private Material _brotherMaterial;
 	private float _texturePanningDuration = 2f;
 	private const string _offsetString = "_Offset";
@@ -29,5 +31,17 @@ public class BrotherController : MonoBehaviour
 	private void StopPanning()
 	{
 		DOTween.Kill(this);
+	}
+
+	private void Update()
+	{
+		var t = _ai.target.GetComponent<Target>();
+		if (t)
+		{
+			if (Vector3.Distance(t.transform.position, transform.position) < 0.5f)
+			{
+				t.ReactOnArrive(gameObject);
+			}
+		}
 	}
 }

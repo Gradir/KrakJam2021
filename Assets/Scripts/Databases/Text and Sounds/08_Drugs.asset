@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
   m_Name: 08_Drugs
   m_EditorClassIdentifier: 
-  id: 9
+  blockInteraction: 0
+  waitTime: 0
+  id: 18
   text: On earth, maybe one the same<br>in heaven? maybe in the seventh?
   voiceOver: {fileID: 0}

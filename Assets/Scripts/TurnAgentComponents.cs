@@ -5,6 +5,7 @@ using UnityStandardAssets.Characters.ThirdPerson;
 
 public class TurnAgentComponents : MonoBehaviour
 {
+	[SerializeField] private bool _activateOnStart = false;
 	[SerializeField] private AICharacterControl _ai;
 	[SerializeField] private Animator _am;
 	[SerializeField] private NavMeshAgent _nv;
@@ -16,5 +17,13 @@ public class TurnAgentComponents : MonoBehaviour
 		_am.enabled = on;
 		_nv.enabled = on;
 		_th.enabled = on;
+	}
+
+	private void Start()
+	{
+		if (_activateOnStart)
+		{
+			TurnOnOrOff(true);
+		}
 	}
 }

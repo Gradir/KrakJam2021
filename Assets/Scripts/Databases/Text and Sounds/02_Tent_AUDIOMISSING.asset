@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
   m_Name: 02_Tent_AUDIOMISSING
   m_EditorClassIdentifier: 
-  id: 3
+  blockInteraction: 0
+  waitTime: 0
+  id: 4
   text: You always pick the warrior, I wanna be the warrior this time!
   voiceOver: {fileID: 0}

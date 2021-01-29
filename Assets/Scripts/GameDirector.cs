@@ -1,4 +1,5 @@
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 
 public enum GameProgress
@@ -37,11 +38,21 @@ public class GameDirector : MonoBehaviour
 	[SerializeField] private CanvasGroup _blackCG;
 	[SerializeField] private float _timeForShowBlack = 0.4f;
 	[SerializeField] private float _timeForHideBlack = 0.3f;
+	[SerializeField] private CanvasGroup _interactionStoryCG;
+	[SerializeField] private TextMeshProUGUI _interactionStory;
+	[SerializeField] private AudioManager _audioManager;
+	[SerializeField] private TextWithSoundDatabase _textWithSoundDatabase;
+
+	public float GetFadeTime()
+	{
+		return _timeForShowBlack;
+	}
+
 	private GameProgress _gameProgress;
-	private int _progressCount;
 
 	private void Start()
 	{
+		Signals.Get<StoryShouldProgressSignal>().AddListener(ReactOnStoryProgress);
 		ChangeBlackOpacity(false);
 	}
 
@@ -50,13 +61,34 @@ public class GameDirector : MonoBehaviour
 		return _gameProgress;
 	}
 
-	public void ReactOnStoryProgress()
+	public void ReactOnStoryProgress(GameProgress progress)
 	{
-		_blackCG.alpha = 1;
-		ChangeBlackOpacity(true);
-		DOVirtual.DelayedCall(_timeForShowBlack, () => ChangeBlackOpacity(false));
-		_progressCount++;
-		_gameProgress = (GameProgress)_progressCount;
+		_gameProgress = progress;
+		var txt = _textWithSoundDatabase.GetText(progress);
+		// ToDo: blocking interaction, wait time
+		if (txt != null)
+		{
+			_interactionStoryCG.DOFade(1, 0.3f);
+			var length = txt.Length * 0.1f;
+			DOVirtual.DelayedCall(length, () => _interactionStoryCG.DOFade(0, 0.5f));
+			_interactionStory.text = txt;
+		}
+		var vo = _textWithSoundDatabase.GetVoiceOver(progress);
+		if (vo != null)
+		{
+			_audioManager.PlayVoiceOver(vo);
+		}
+		else
+		{
+			_audioManager.ReactOnStoryProgress(progress);
+		}
+
+		if (_textWithSoundDatabase.DoesFadeOut(progress))
+		{
+			_blackCG.alpha = 0;
+			ChangeBlackOpacity(true);
+			DOVirtual.DelayedCall(_timeForShowBlack, () => ChangeBlackOpacity(false));
+		}
 	}
 
 	public void ChangeBlackOpacity(bool showBlack)

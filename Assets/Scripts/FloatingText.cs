@@ -7,6 +7,7 @@ public class FloatingText : MonoBehaviour
 	[SerializeField] private float _lengthBase = 10f;
 	[SerializeField] private float _lengthRandom = 2f;
 	[SerializeField] private float _maxDistance = 100f;
+	[SerializeField] private CanvasGroup _cg;
 	[SerializeField] private TextMeshProUGUI _text;
 	[SerializeField] private RectTransform _textRectTransform;
 	private Vector2 _textStartPosition;
@@ -28,6 +29,7 @@ public class FloatingText : MonoBehaviour
 	{
 		if (txt != null && txt != string.Empty)
 		{
+			_cg.DOFade(1, 0.25f);
 			_textRectTransform.anchoredPosition = _textStartPosition;
 			_text.text = txt;
 			_text.DOColor(Color.black, _lengthBase).SetLoops(-1, LoopType.Yoyo).SetTarget(this);
@@ -35,6 +37,7 @@ public class FloatingText : MonoBehaviour
 		}
 		else
 		{
+			_cg.DOFade(0, 0.15f);
 			_text.text = string.Empty;
 			StopAnimation();
 		}

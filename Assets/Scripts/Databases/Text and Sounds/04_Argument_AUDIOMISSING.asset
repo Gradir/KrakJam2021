@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
   m_Name: 04_Argument_AUDIOMISSING
   m_EditorClassIdentifier: 
-  id: 5
+  blockInteraction: 0
+  waitTime: 0
+  id: 10
   text: 
   voiceOver: {fileID: 0}
