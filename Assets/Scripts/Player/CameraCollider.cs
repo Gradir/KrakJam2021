@@ -13,7 +13,7 @@ public class CameraCollider : MonoBehaviour
 	private void OnTriggerEnter(Collider other)
 	{
 		var s = other.GetComponent<StoryProgresser>();
-		if (s != null)
+		if (s != null && s._interactible)
 		{
 			storyProgresserInFront = s;
 			_text.ChangeText(interactString + s._displayName);
@@ -23,7 +23,7 @@ public class CameraCollider : MonoBehaviour
 	private void OnTriggerExit(Collider other)
 	{
 		var s = other.GetComponent<StoryProgresser>();
-		if (s != null)
+		if (s != null && s._interactible)
 		{
 			storyProgresserInFront = null;
 			_text.ChangeText(null);
