@@ -25,8 +25,7 @@ public enum MusicType
 
 public class AudioManager : MonoBehaviour
 {
-	private Dictionary<GameProgress, MusicType> musicTypeByProgress = new Dictionary<GameProgress, MusicType>();
-	[SerializeField] private GameDirector _gameDirector;
+	private Dictionary<GameProgress, MusicType> _musicTypeByProgress = new Dictionary<GameProgress, MusicType>();
 	[SerializeField] private AudioMixer _mixer;
 	[SerializeField] private AudioSource _musicSource;
 	[SerializeField] private AudioSource _sfxSource;
@@ -42,16 +41,19 @@ public class AudioManager : MonoBehaviour
 		Signals.Get<StoryShouldProgressSignal>().AddListener(ReactOnStoryProgress);
 	}
 
-	private void ReactOnStoryProgress()
+	private void ReactOnStoryProgress(GameProgress _thisStory)
 	{
-		var newType = musicTypeByProgress[_gameDirector.GetCurrentProgress()];
-		if (newType != _currentMusicType)
+		if (_musicTypeByProgress.ContainsKey(_thisStory))
 		{
-			Sequence newSequence = DOTween.Sequence();
-			newSequence.Append(_musicSource.DOFade(0, _fadeInDuration));
-			newSequence.AppendCallback(() => ChangeMusicTrack(newType));
-			newSequence.Append(_musicSource.DOFade(1, _fadeOutDuration));
-			newSequence.Play();
+			var newType = _musicTypeByProgress[_thisStory];
+			if (newType != _currentMusicType)
+			{
+				Sequence newSequence = DOTween.Sequence();
+				newSequence.Append(_musicSource.DOFade(0, _fadeInDuration));
+				newSequence.AppendCallback(() => ChangeMusicTrack(newType));
+				newSequence.Append(_musicSource.DOFade(1, _fadeOutDuration));
+				newSequence.Play();
+			}
 		}
 	}
 

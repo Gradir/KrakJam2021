@@ -3,10 +3,33 @@ using UnityEngine;
 
 public enum GameProgress
 {
-	FirstInteraction,
-	SecondInteraction,
-	ThirdInteraction,
-	FourthInteraction
+	Entrance,
+	Room_Childs,
+	Interaction_ToyCar,
+	Room_HappyTimes,
+	Interaction_Tent,
+	Room_Girl,
+	Interaction_Girl,
+	Room_Corridor,
+	Interaction_Corridor,
+	Room_Brother,
+	Interaction_Picture,
+	Room_Accident,
+	Interaction_BrokenCar,
+	Room_Transfusion,
+	Interaction_Transfusion,
+	Room_Death,
+	Interaction_Coffin,
+	Room_Squat,
+	Interaction_Squat,
+	Room_Window,
+	Interaction_Window,
+	Room_Tunnel,
+	Interaction_Tunnel,
+	Room_Exit,
+	Interaction_Exit,
+	Room_Hospital,
+	TheEnd
 }
 
 public class GameDirector : MonoBehaviour

@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class StoryShouldProgressSignal : ASignal { }
+public class StoryShouldProgressSignal : ASignal<GameProgress> { }
 
 public class CameraCollider : MonoBehaviour
 {
@@ -41,6 +41,10 @@ public class CameraCollider : MonoBehaviour
 
 				Debug.Log(string.Format("<color=white><b>{0}</b></color>", "activated"));
 				_cachedStoryProgresser.TryProgress();
+				if (_cachedStoryProgresser.isActiveAndEnabled == false)
+				{
+					_text.ChangeText(null);
+				}
 				if (_cachedStoryProgresser.GetType() == typeof(Door))
 				{
 					Debug.Log(string.Format("<color=white><b>{0}</b></color>", "transporting to: " + (_cachedStoryProgresser as Door)._teleportTo.gameObject.name));

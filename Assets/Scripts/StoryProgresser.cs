@@ -4,7 +4,10 @@ using System.Collections;
 public abstract class StoryProgresser : MonoBehaviour
 {
 	public bool _progressesStory = false;
+	public GameProgress _thisStory;
 	public bool _interactible = true;
+	public bool _setInteractibleOnEnable = true;
+	public bool _hideOnInteraction = false;
 	public string _displayName;
 	
 	public StoryProgresser[] _interactiblesToActivate;
@@ -22,7 +25,7 @@ public abstract class StoryProgresser : MonoBehaviour
 	{
 		if (_progressesStory)
 		{
-			Signals.Get<StoryShouldProgressSignal>().Dispatch();
+			Signals.Get<StoryShouldProgressSignal>().Dispatch(_thisStory);
 			foreach (var i in _interactiblesToActivate)
 			{
 				var agent = i.GetComponent<TurnAgentComponents>();
@@ -31,7 +34,15 @@ public abstract class StoryProgresser : MonoBehaviour
 					agent.TurnOnOrOff(true);
 				}
 				i.gameObject.SetActive(true);
+				if (i._setInteractibleOnEnable)
+				{
+					i._interactible = true;
+				}
 			}
+		}
+		if (_hideOnInteraction)
+		{
+			gameObject.SetActive(false);
 		}
 	}
 
