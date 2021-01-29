@@ -22,7 +22,7 @@ public abstract class StoryProgresser : MonoBehaviour
 	{
 		if (_progressesStory)
 		{
-			Signals.Get<StoryShouldProgress>().Dispatch();
+			Signals.Get<StoryShouldProgressSignal>().Dispatch();
 			foreach (var i in _interactiblesToActivate)
 			{
 				var agent = i.GetComponent<TurnAgentComponents>();

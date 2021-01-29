@@ -1,11 +1,9 @@
 using DG.Tweening;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DirectionalLightAnimation : MonoBehaviour
 {
-	[SerializeField] private float _animationSpeed;
+	[SerializeField] private float _length;
 	[SerializeField] private bool _beginOnStart;
 	private Vector3 yRotation = new Vector3(0, 360, 0);
 
@@ -13,16 +11,16 @@ public class DirectionalLightAnimation : MonoBehaviour
 	{
 		if (_beginOnStart)
 		{
-
+			StartTween();
 		}
 	}
 
-	private void StartTween()
+	public void StartTween()
 	{
-		transform.DORotate(yRotation, ).SetEase
+		transform.DORotate(yRotation, _length).SetEase(Ease.Linear);
 	}
 
-	private void StopTween()
+	public void StopTween()
 	{
 		DOTween.Kill(this);
 	}

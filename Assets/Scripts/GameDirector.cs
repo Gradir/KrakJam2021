@@ -1,15 +1,13 @@
 using DG.Tweening;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-	public enum GameProgress
-	{
-		FirstInteraction,
-		SecondInteraction,
-		ThirdInteraction,
-		FourthInteraction
-	}
+public enum GameProgress
+{
+	FirstInteraction,
+	SecondInteraction,
+	ThirdInteraction,
+	FourthInteraction
+}
 
 public class GameDirector : MonoBehaviour
 {
@@ -22,6 +20,11 @@ public class GameDirector : MonoBehaviour
 	private void Start()
 	{
 		ChangeBlackOpacity(false);
+	}
+
+	public GameProgress GetCurrentProgress()
+	{
+		return _gameProgress;
 	}
 
 	public void ReactOnStoryProgress()

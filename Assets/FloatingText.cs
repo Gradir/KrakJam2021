@@ -20,8 +20,8 @@ public class FloatingText : MonoBehaviour
 		if (_textRectTransform == null)
 		{
 			_textRectTransform = _text.GetComponent<RectTransform>();
-			_textStartPosition = _textRectTransform.anchoredPosition;
 		}
+		_textStartPosition = _textRectTransform.anchoredPosition;
 	}
 
 	public void ChangeText(string txt)

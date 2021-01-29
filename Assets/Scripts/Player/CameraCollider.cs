@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class StoryShouldProgress : ASignal { }
+public class StoryShouldProgressSignal : ASignal { }
 
 public class CameraCollider : MonoBehaviour
 {
