@@ -1,9 +1,14 @@
+using DG.Tweening;
 using UnityEngine;
 
 public class Door : StoryProgresser
 {
 	public Transform _teleportTo;
 	public Transform _newTargetAfterInteraction;
+	public float _timeForColorChange = 5f;
+	public GameProgress _nextProgress;
+
+	[SerializeField] private Color _newColor;
 
 	public override void OnDrawGizmosSelected()
 	{
@@ -13,6 +18,8 @@ public class Door : StoryProgresser
 
 	public void SwitchTarget()
 	{
+		GetComponent<MeshRenderer>().material.DOColor(_newColor, "_BaseColor", _timeForColorChange);
+		_thisStory = _nextProgress;
 		_teleportTo = _newTargetAfterInteraction;
 	}
 }

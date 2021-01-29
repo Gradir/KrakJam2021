@@ -46,6 +46,7 @@ public class AudioManager : MonoBehaviour
 			//var newType = _musicTypeByProgress[_thisStory];
 			//if (newType != _currentMusicType)
 			{
+				_currentStory = _thisStory;
 				var fadeInTime = _gameDirector.GetFadeTime();
 				_cachedMusicProgress = musicProgress;
 				Sequence newSequence = DOTween.Sequence();

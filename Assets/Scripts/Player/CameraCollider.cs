@@ -8,6 +8,7 @@ public class CameraCollider : MonoBehaviour
 {
 	[SerializeField] private FloatingText _text;
 	[SerializeField] private Camera _thisCamera;
+	[SerializeField] private LookWithMouse _mouseLook;
 	[SerializeField] private CharacterController _characterController;
 	[SerializeField] private GameDirector gameDirector;
 	[SerializeField] private float _zoomSpeed = 5f;
@@ -30,7 +31,7 @@ public class CameraCollider : MonoBehaviour
 		if (s != null && s._interactible)
 		{
 			storyProgresserInFront = s;
-			_text.ChangeText(interactString + s._displayName);
+			_text.ChangeText(s._displayName);
 		}
 	}
 
@@ -91,10 +92,12 @@ public class CameraCollider : MonoBehaviour
 
 	public void DisableControl()
 	{
+		_mouseLook.enabled = false;
 		_characterController.enabled = false;
 	}
 	public void EnableControl()
 	{
+		_mouseLook.enabled = true;
 		_characterController.enabled = true;
 	}
 }

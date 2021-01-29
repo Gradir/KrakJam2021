@@ -32,6 +32,7 @@ public class FloatingText : MonoBehaviour
 			_cg.DOFade(1, 0.25f);
 			_textRectTransform.anchoredPosition = _textStartPosition;
 			_text.text = txt;
+			//_revealer.RestartWithText(txt);
 			_text.DOColor(Color.black, _lengthBase).SetLoops(-1, LoopType.Yoyo).SetTarget(this);
 			StartAnimation();
 		}

@@ -38,17 +38,20 @@ public class GameDirector : MonoBehaviour
 	[SerializeField] private CanvasGroup _blackCG;
 	[SerializeField] private float _timeForShowBlack = 0.4f;
 	[SerializeField] private float _timeForHideBlack = 0.3f;
+	[SerializeField] private CameraCollider _player;
 	[SerializeField] private CanvasGroup _interactionStoryCG;
 	[SerializeField] private TextMeshProUGUI _interactionStory;
 	[SerializeField] private AudioManager _audioManager;
 	[SerializeField] private TextWithSoundDatabase _textWithSoundDatabase;
+	private bool _isInInteractionMode;
+	private GameProgress _cachedLastProgress;
+	private int _iterationsNumber;
 
 	public float GetFadeTime()
 	{
 		return _timeForShowBlack;
 	}
 
-	private GameProgress _gameProgress;
 
 	private void Start()
 	{
@@ -56,21 +59,27 @@ public class GameDirector : MonoBehaviour
 		ChangeBlackOpacity(false);
 	}
 
-	public GameProgress GetCurrentProgress()
-	{
-		return _gameProgress;
-	}
-
 	public void ReactOnStoryProgress(GameProgress progress)
 	{
-		_gameProgress = progress;
+		if (progress != _cachedLastProgress)
+		{
+			if (_iterationsNumber > 1)
+			{
+				_cachedLastProgress = progress;
+				_iterationsNumber = 0;
+			}
+			else
+			{
+				_iterationsNumber++;
+			}
+		}
 		var txt = _textWithSoundDatabase.GetText(progress);
 		// ToDo: blocking interaction, wait time
 		if (txt != null)
 		{
-			_interactionStoryCG.DOFade(1, 0.3f);
+			_interactionStoryCG.DOFade(1, 0.3f).SetId("story");
 			var length = txt.Length * 0.1f;
-			DOVirtual.DelayedCall(length, () => _interactionStoryCG.DOFade(0, 0.5f));
+			DOVirtual.DelayedCall(length, FadeOutStory);
 			_interactionStory.text = txt;
 		}
 		var vo = _textWithSoundDatabase.GetVoiceOver(progress);
@@ -82,6 +91,11 @@ public class GameDirector : MonoBehaviour
 		{
 			_audioManager.ReactOnStoryProgress(progress);
 		}
+		if (_textWithSoundDatabase.IsInteractionBlocked(progress))
+		{
+			_player.DisableControl();
+			_isInInteractionMode = true;
+		}
 
 		if (_textWithSoundDatabase.DoesFadeOut(progress))
 		{
@@ -89,6 +103,12 @@ public class GameDirector : MonoBehaviour
 			ChangeBlackOpacity(true);
 			DOVirtual.DelayedCall(_timeForShowBlack, () => ChangeBlackOpacity(false));
 		}
+	}
+
+	private void FadeOutStory()
+	{
+		DOTween.Kill("story");
+		_interactionStoryCG.DOFade(0, 0.5f);
 	}
 
 	public void ChangeBlackOpacity(bool showBlack)
@@ -100,6 +120,20 @@ public class GameDirector : MonoBehaviour
 		else
 		{
 			_blackCG.DOFade(0, _timeForHideBlack);
+		}
+	}
+
+	private void Update()
+	{
+		if (Input.GetMouseButtonUp(0) || Input.GetMouseButtonUp(1))
+		{
+			if (_isInInteractionMode)
+			{
+				FadeOutStory();
+				_player.EnableControl();
+				_audioManager.ReactOnStoryProgress(_cachedLastProgress);
+				_isInInteractionMode = false;
+			}
 		}
 	}
 

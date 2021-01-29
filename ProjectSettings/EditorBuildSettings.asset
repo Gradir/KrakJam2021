@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Testowe Drzwi 1.unity
-    guid: c0911f54051b8a3458ee9423275788d4
+    path: Assets/Scenes/GAME.unity
+    guid: 59512fb0f706d764db9bc1e2fa81a394
   m_configObjects: {}
