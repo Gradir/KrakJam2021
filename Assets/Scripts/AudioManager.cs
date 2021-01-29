@@ -29,10 +29,9 @@ public class AudioManager : MonoBehaviour
 	//private Dictionary<GameProgress, MusicType> _musicTypeByProgress = new Dictionary<GameProgress, MusicType>();
 	[SerializeField] private MusicByGameProgressDatabase _musicDatabase;
 	[SerializeField] private AudioMixer _mixer;
+	[SerializeField] private GameDirector _gameDirector;
 	[SerializeField] private AudioSource _musicSource;
 	[SerializeField] private AudioSource _voiceOverSource;
-	[SerializeField] private float _fadeInDuration = 1.2f;
-	[SerializeField] private float _fadeOutDuration = 0.8f;
 
 	private MusicType _currentMusicType;
 	private GameProgress _currentStory;
@@ -47,11 +46,12 @@ public class AudioManager : MonoBehaviour
 			//var newType = _musicTypeByProgress[_thisStory];
 			//if (newType != _currentMusicType)
 			{
+				var fadeInTime = _gameDirector.GetFadeTime();
 				_cachedMusicProgress = musicProgress;
 				Sequence newSequence = DOTween.Sequence();
-				newSequence.Append(_musicSource.DOFade(0, _fadeInDuration));
+				newSequence.Append(_musicSource.DOFade(0, fadeInTime));
 				newSequence.AppendCallback(() => ChangeMusicTrack(_thisStory));
-				newSequence.Append(_musicSource.DOFade(1, _fadeOutDuration));
+				newSequence.Append(_musicSource.DOFade(1, fadeInTime / 2));
 				newSequence.Play();
 			}
 		}

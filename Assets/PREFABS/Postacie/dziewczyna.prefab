@@ -1286,6 +1286,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5679028296173377601}
   - component: {fileID: 1742852309499740731}
+  - component: {fileID: 2016616833629383482}
+  - component: {fileID: 2016616833629383483}
   m_Layer: 0
   m_Name: dziewczyna
   m_TagString: Untagged
@@ -1323,15 +1325,49 @@ Animator:
   m_GameObject: {fileID: 5009171055873229563}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 6d911ffec0603f64faafb75815d04035, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e9f826f8a1ce9ca4aabe989cb4518a84, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2016616833629383482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5009171055873229563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f288fcb457bac843ae4a771b5fa2b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _progressesStory: 1
+  _thisStory: 6
+  _interactible: 1
+  _setInteractibleOnEnable: 1
+  _hideOnInteraction: 0
+  _displayName: Girl
+  _interactiblesToActivate:
+  - {fileID: 0}
+  _hideOnStart: 1
+--- !u!65 &2016616833629383483
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5009171055873229563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &5197543585643322920
 GameObject:
   m_ObjectHideFlags: 0

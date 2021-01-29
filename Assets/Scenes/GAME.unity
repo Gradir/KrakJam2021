@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 9464009}
   - component: {fileID: 9464008}
   m_Layer: 0
-  m_Name: GAMEDIRECTOR
+  m_Name: GAME DIRECTOR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29419,7 +29419,7 @@ GameObject:
   - component: {fileID: 2044459652}
   - component: {fileID: 2044459651}
   m_Layer: 0
-  m_Name: AudioManager
+  m_Name: AUDIO MANAGER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29439,10 +29439,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _musicDatabase: {fileID: 11400000, guid: b09bc6c6252288946893546be78f33a5, type: 2}
   _mixer: {fileID: 24100000, guid: b78db675a425f614787f9fd0d444a9e1, type: 2}
+  _gameDirector: {fileID: 9464008}
   _musicSource: {fileID: 1729035818}
   _voiceOverSource: {fileID: 1329791328}
-  _fadeInDuration: 1.2
-  _fadeOutDuration: 0.8
 --- !u!4 &2044459652
 Transform:
   m_ObjectHideFlags: 0
@@ -31508,32 +31507,17 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!1 &2016616833629383481 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5009171055873229563, guid: 1435b248502ffee46a52c4a4e3ce96c1, type: 3}
+--- !u!114 &2016616833629383482 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2016616833629383482, guid: 1435b248502ffee46a52c4a4e3ce96c1, type: 3}
   m_PrefabInstance: {fileID: 6807279736099924418}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2016616833629383482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016616833629383481}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f288fcb457bac843ae4a771b5fa2b3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _progressesStory: 1
-  _thisStory: 6
-  _interactible: 1
-  _setInteractibleOnEnable: 1
-  _hideOnInteraction: 0
-  _displayName: Girl
-  _interactiblesToActivate:
-  - {fileID: 0}
-  _hideOnStart: 1
 --- !u!1001 &2190475313019716555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32612,14 +32596,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2129719897}
     m_Modifications:
-    - target: {fileID: 1742852309499740731, guid: 1435b248502ffee46a52c4a4e3ce96c1, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: e9f826f8a1ce9ca4aabe989cb4518a84, type: 2}
-    - target: {fileID: 1742852309499740731, guid: 1435b248502ffee46a52c4a4e3ce96c1, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5009171055873229563, guid: 1435b248502ffee46a52c4a4e3ce96c1, type: 3}
       propertyPath: m_Name
       value: dziewczyna
