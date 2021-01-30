@@ -16,5 +16,9 @@ MonoBehaviour:
   blockInteraction: 0
   waitTime: 0
   id: 7
-  text: 
+  text: Nothing - but after us, <br>Who were here<br>And who were eating our own
+    hearts<br>And drinking our own blood<br>
+  text2: 
+  text3: 
   voiceOver: {fileID: 0}
+  _timeScaleFactor: 1

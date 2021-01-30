@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
-  m_Name: 02_Tent_AUDIOMISSING
+  m_Name: 02_INTERACTION_Tent_AUDIOMISSING
   m_EditorClassIdentifier: 
   fadeout: 0
-  blockInteraction: 0
+  blockInteraction: 1
   waitTime: 0
   id: 4
   text: Flickering dreams on the white canvas<br>A couple of hours of the lunar scale<br>There
@@ -21,4 +21,6 @@ MonoBehaviour:
   text2: Nothing - but nothing outstanding <br>after the long resistance <br>of the
     leaned head.<br>Thus Nothing Beautiful.<br>nor worth a capital letter.<br>Heresy
     towards casual oblivion<br>unconverted and proud of the distinction.
+  text3: 
   voiceOver: {fileID: 0}
+  _timeScaleFactor: 1

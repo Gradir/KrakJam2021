@@ -12,7 +12,10 @@ public class Door : StoryProgresser
 
 	public override void OnDrawGizmosSelected()
 	{
-		DrawArrow.ForGizmo(transform.position, _teleportTo.transform.position, Color.blue);
+		if (_teleportTo != null)
+		{
+			DrawArrow.ForGizmo(transform.position, _teleportTo.transform.position, Color.blue);
+		}
 		base.OnDrawGizmos();
 	}
 

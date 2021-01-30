@@ -72,7 +72,7 @@ public class CameraCollider : MonoBehaviour
 
 	private void Update()
 	{
-		if (Input.GetKeyUp(KeyCode.E))
+		if (Input.GetKeyUp(KeyCode.E) || Input.GetMouseButton(0))
 		{
 			if (storyProgresserInFront != null && storyProgresserInFront.gameObject.activeSelf)
 			{
