@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: 02_Room_Tent_XX
   m_EditorClassIdentifier: 
   gameProgress: 3
-  music: {fileID: 8300000, guid: 517e567a85925dc419f12b25ca0b096b, type: 3}
+  music: {fileID: 8300000, guid: a95eb2e9304db7242a7167cac5244574, type: 3}

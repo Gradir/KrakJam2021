@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: 07_Room_Death_XX
   m_EditorClassIdentifier: 
   gameProgress: 15
-  music: {fileID: 8300000, guid: 517e567a85925dc419f12b25ca0b096b, type: 3}
+  music: {fileID: 8300000, guid: d58954cd8ec03604981e1679d15c246e, type: 3}
