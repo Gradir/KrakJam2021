@@ -16,5 +16,11 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 18
-  text: On earth, maybe one the same<br>in heaven? maybe in the seventh?
+  text: "I\u2019m the soothing pill.<br> I work at home,<br> I\u2019m effective in
+    the office,<br> I get down to exams,<br> I carefully glue the broken pots- just
+    take me,<br> Dissolve me under the tongue,<br> Just swallow me, take a sip."
+  text2: On Earth maybe the one<br>In heaven? Maybe the seventh?
+  text3: ' know what to do with misery,<br>How to handle bad news,<br>Lessen the
+    injustice,<br>Brighten up the luck of God,<br>match a mourning hat to the face.<br>What
+    are you waiting for-<br>Trust the chemical mercy.'
   voiceOver: {fileID: 0}

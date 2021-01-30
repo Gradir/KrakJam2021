@@ -16,6 +16,7 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 6
-  text: 'Nothing, meaning our dance<br>not danced to the end.<br>Your first at fire<br>thighs,
-    hands, faces, necks.<br>My first holy bellies<br>with tiny pascals. '
+  text: Nothing, that is the dance of ours<br>Incomplete.<br>Your first by the flame<br>Thighs,
+    hands, necks, faces.<br>My first holy guts<br>With tiny pascal
+  text2: 
   voiceOver: {fileID: 0}

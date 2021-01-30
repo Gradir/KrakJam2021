@@ -16,5 +16,10 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 24
-  text: Exit interaction
+  text: "The sharpness of images has nothing to do with reality. You can often think
+    of suicide, precisely see various details, you can even fiercely imagine you\u2019re
+    own dead body, on the balk under the ceiling, but somewhere deep down your soul
+    you know that you won\u2019t do this.<br> Everyone had the demon they deserve."
+  text2: 
+  text3: 
   voiceOver: {fileID: 0}

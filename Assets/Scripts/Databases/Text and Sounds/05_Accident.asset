@@ -16,5 +16,8 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 12
-  text: 
+  text: "Give me your precipice- <br> I\u2019ll settle it down with a dream,<br>
+    You\u2019ll be thankful,<br> For four falling paws.<br> <br> Sell me your soul.<br>
+    You won\u2019t find another trader.<br> <br> There\u2019s no other devil."
+  text2: 
   voiceOver: {fileID: 0}

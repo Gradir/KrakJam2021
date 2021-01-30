@@ -18,4 +18,5 @@ MonoBehaviour:
   id: 0
   text: "There\u2019s nothing on the walls<br>only moisture\u2019s dripping off<br>It\u2019s
     dark and cold in here.<br>"
+  text2: 
   voiceOver: {fileID: 8300000, guid: 9fcb66f5df8c9584382550924ea93211, type: 3}

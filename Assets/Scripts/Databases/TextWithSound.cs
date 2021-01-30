@@ -8,5 +8,7 @@ public class TextWithSound : ScriptableObject
 	public float waitTime;
 	public GameProgress id;
 	public string text;
+	public string text2;
+	public string text3;
 	public AudioClip voiceOver;
 }

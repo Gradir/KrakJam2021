@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
   m_Name: The End
   m_EditorClassIdentifier: 
-  fadeout: 1
+  fadeout: 0
   blockInteraction: 1
   waitTime: 0
   id: 26
-  text: 
+  text: "Returning memories?<br>No, at the time of death<br>I\u2019d like to see
+    lost objects<br>return instead"
+  text2: 
+  text3: 
   voiceOver: {fileID: 0}

@@ -16,5 +16,7 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 22
-  text: 'You crawled out of the void<br>and you really want to know. '
+  text: You crawled out of the void<br>and you really want to know.
+  text2: 
+  text3: 
   voiceOver: {fileID: 0}

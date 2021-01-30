@@ -16,7 +16,8 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 16
-  text: 'Silence - but in the darknesses<br> exalted by the eyelids.<br>Darknesses
-    - but in the cold<br>throughout the skin, throughout the bone.<br>Chill - but
-    deathly. '
+  text: Silence - but in the dark<br>Elevated by the eyelids.<br>Darkness- but in
+    the cold<br>Through the skin, through the bone.<br>Coldness- but the death.
+  text2: 
+  text3: 
   voiceOver: {fileID: 0}
