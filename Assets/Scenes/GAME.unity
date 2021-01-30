@@ -20741,6 +20741,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 581364565672759706, guid: 179b7d7729eaa6045b1c402a11535285, type: 3}
+      propertyPath: _thisStory
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 581364565672759706, guid: 179b7d7729eaa6045b1c402a11535285, type: 3}
       propertyPath: _teleportTo
       value: 
       objectReference: {fileID: 1370606653}
