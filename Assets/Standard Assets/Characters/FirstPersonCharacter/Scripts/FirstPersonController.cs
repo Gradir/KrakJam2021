@@ -10,7 +10,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour
     {
-        [SerializeField] private bool m_IsWalking;
+		public bool _mouseLookEnabled = true;
+		[SerializeField] private bool m_IsWalking;
         [SerializeField] private float m_WalkSpeed;
         [SerializeField] private float m_RunSpeed;
         [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
@@ -61,7 +62,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
-            RotateView();
+			if (_mouseLookEnabled)
+			{
+				RotateView();
+			}
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
             {
@@ -125,7 +129,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_MoveDir += Physics.gravity*m_GravityMultiplier*Time.fixedDeltaTime;
             }
-            m_CollisionFlags = m_CharacterController.Move(m_MoveDir*Time.fixedDeltaTime);
+			if (m_CharacterController.enabled)
+			{
+				m_CollisionFlags = m_CharacterController.Move(m_MoveDir*Time.fixedDeltaTime);
+			}
 
             ProgressStepCycle(speed);
             UpdateCameraPosition(speed);

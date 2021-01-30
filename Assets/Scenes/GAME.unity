@@ -192,7 +192,7 @@ MonoBehaviour:
   _blackCG: {fileID: 219843124}
   _timeForShowBlack: 1
   _timeForHideBlack: 0.8
-  _player: {fileID: 1456646566}
+  _player: {fileID: 936988636}
   _interactionStoryCG: {fileID: 373659822}
   _interactionStory: {fileID: 373659820}
   _audioManager: {fileID: 2044459651}
@@ -7478,6 +7478,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &936988636 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1456646566, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+  m_PrefabInstance: {fileID: 1448742964}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cbba92825fd76e419cc9915eb013e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &939383988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 581364567474631896, guid: 179b7d7729eaa6045b1c402a11535285, type: 3}
@@ -11204,6 +11215,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1448742966, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_JumpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: a5f660dc1c1a84b46af0e4cfb25d6a80, type: 3}
+    - target: {fileID: 1448742966, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_LandSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1448742966, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_FootstepSounds.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1448742966, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_FootstepSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 64f487afc73b6d9499e7a033cc7291a0, type: 3}
+    - target: {fileID: 1448742966, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_FootstepSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 80b3246d4ae4fce4896c93acbff3b32d, type: 3}
+    - target: {fileID: 1448742966, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_FootstepSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: b1087728b87edbf45a0c3fef60e6680a, type: 3}
+    - target: {fileID: 1448742966, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_FootstepSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 09a4e4f5aaa41af4598cc7ad084903c2, type: 3}
+    - target: {fileID: 1448742966, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_FootstepSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4d9cddc31b50f5d409e7e10d0c49d724, type: 3}
+    - target: {fileID: 1448742966, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_FootstepSounds.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c93d12e770ee8348bfdb01a73aeb157, type: 3}
+    - target: {fileID: 1448742966, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_FootstepSounds.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7dd849e786f2002459eea6a150a7f842, type: 3}
     - target: {fileID: 1456646566, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: _text
       value: 
@@ -11262,17 +11313,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
---- !u!114 &1456646566 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1456646566, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
-  m_PrefabInstance: {fileID: 1448742964}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cbba92825fd76e419cc9915eb013e03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1462492497
 GameObject:
   m_ObjectHideFlags: 0

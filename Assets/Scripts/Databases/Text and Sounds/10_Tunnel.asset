@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: 10_Tunnel
   m_EditorClassIdentifier: 
   fadeout: 0
-  blockInteraction: 1
+  blockInteraction: 0
   waitTime: 0
-  id: 22
+  id: 21
   text: You crawled out of the void<br>and you really want to know.
   text2: 
   text3: 
   voiceOver: {fileID: 0}
+  _timeScaleFactor: 1

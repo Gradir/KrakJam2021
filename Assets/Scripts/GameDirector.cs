@@ -32,7 +32,9 @@ public enum GameProgress
 	Room_Hospital,
 	TheEnd,
 	None,
-	Console
+	Console,
+	Tunnel1,
+	Tunnel2
 }
 
 public class GameDirector : MonoBehaviour
@@ -101,6 +103,7 @@ public class GameDirector : MonoBehaviour
 		{
 			_audioManager.ReactOnStoryProgress(progress);
 		}
+
 		if (_textWithSoundDatabase.IsInteractionBlocked(progress))
 		{
 			_player.HideFloatingText();

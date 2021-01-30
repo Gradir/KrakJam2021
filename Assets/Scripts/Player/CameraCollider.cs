@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using DG.Tweening;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class StoryShouldProgressSignal : ASignal<GameProgress> { }
 
@@ -8,7 +9,7 @@ public class CameraCollider : MonoBehaviour
 {
 	[SerializeField] private FloatingText _text;
 	[SerializeField] private Camera _thisCamera;
-	[SerializeField] private LookWithMouse _mouseLook;
+	[SerializeField] private FirstPersonController firstPersonController;
 	[SerializeField] private Collider _thisCollider;
 	[SerializeField] private CharacterController _characterController;
 	[SerializeField] private GameDirector gameDirector;
@@ -100,11 +101,11 @@ public class CameraCollider : MonoBehaviour
 	{
 		if (Input.GetMouseButton(1))
 		{
-			Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 35, Time.deltaTime * _zoomSpeed);
+			_thisCamera.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 35, Time.deltaTime * _zoomSpeed);
 		}
 		else
 		{
-			Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, baseFOV, Time.deltaTime * _zoomSpeed);
+			_thisCamera.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, baseFOV, Time.deltaTime * _zoomSpeed);
 		}
 	}
 
@@ -117,12 +118,12 @@ public class CameraCollider : MonoBehaviour
 
 	public void DisableControl()
 	{
-		_mouseLook.enabled = false;
+		firstPersonController._mouseLookEnabled = false;
 		_characterController.enabled = false;
 	}
 	public void EnableControl()
 	{
-		_mouseLook.enabled = true;
+		firstPersonController._mouseLookEnabled = true;
 		_characterController.enabled = true;
 	}
 }

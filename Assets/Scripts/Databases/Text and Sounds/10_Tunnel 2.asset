@@ -15,10 +15,11 @@ MonoBehaviour:
   fadeout: 0
   blockInteraction: 1
   waitTime: 0
-  id: 22
+  id: 29
   text: And not without an exit, even through the door,<br>Not without views, even
     through the window,<br>This room seemed.<br>The distance glasses were lying on
     the windowsill. <br>The lonely fly was buzzing, which means it was still alive.
   text2: 
   text3: 
   voiceOver: {fileID: 0}
+  _timeScaleFactor: 1
