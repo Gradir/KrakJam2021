@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 607685884297422698}
   - component: {fileID: 5834853579098811414}
   - component: {fileID: 6459419242088345436}
+  - component: {fileID: 2155430306607263669}
   m_Layer: 0
   m_Name: Gravestone
   m_TagString: Untagged
@@ -114,6 +115,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2155430306607263669
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6289467933978841379}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0362664, y: 1.2717981, z: 0.14012599}
+  m_Center: {x: 0.00000047683716, y: 0.63589895, z: 0}
 --- !u!1 &8780547596429553751
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +139,7 @@ GameObject:
   - component: {fileID: 6133245808599009336}
   - component: {fileID: 6267671828772223867}
   - component: {fileID: 7795599602420295433}
+  - component: {fileID: 4048142646691773000}
   m_Layer: 0
   m_Name: GraveCover
   m_TagString: Untagged
@@ -195,6 +210,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4048142646691773000
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8780547596429553751}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2685326, y: 0.16948836, z: 2.502296}
+  m_Center: {x: 0, y: 0.08474413, z: 0}
 --- !u!1 &9183571654968172768
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +234,7 @@ GameObject:
   - component: {fileID: 5347154264701986533}
   - component: {fileID: 1912931832907459588}
   - component: {fileID: 5217920181206944635}
+  - component: {fileID: 7057602560263889695}
   m_Layer: 0
   m_Name: Grave
   m_TagString: Untagged
@@ -276,3 +305,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7057602560263889695
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9183571654968172768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5954803, y: 0.36753917, z: 2.9268203}
+  m_Center: {x: 0, y: 0.18376958, z: 0}

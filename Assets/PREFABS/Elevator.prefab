@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 729284290836943375}
   - component: {fileID: 2091797757950836316}
   - component: {fileID: 28270774181066462}
+  - component: {fileID: 8411091014838806720}
   m_Layer: 0
   m_Name: ElevatorFloor
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8411091014838806720
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044776670711102066}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.77346706, y: 0.00000024370772, z: 1.4958673}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4322018693231378681
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4802245064181172655}
   - component: {fileID: 1031078742583114434}
   - component: {fileID: 6775404762082155291}
+  - component: {fileID: 7585816180931374233}
   m_Layer: 0
   m_Name: StairBed
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7585816180931374233
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6594220320606141930}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010216447, y: 0.021480283, z: 0.016000003}
+  m_Center: {x: -0.0048225233, y: 0.005934236, z: 0.00003170991}
 --- !u!1 &6621118954819157250
 GameObject:
   m_ObjectHideFlags: 0
