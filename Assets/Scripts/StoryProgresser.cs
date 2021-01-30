@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+public class HideTextOnHoverSignal : ASignal { };
+
 public abstract class StoryProgresser : MonoBehaviour
 {
 	public bool _progressesStory = true;
@@ -27,7 +29,7 @@ public abstract class StoryProgresser : MonoBehaviour
 		}
 	}
 
-	public void TryProgress()
+	public virtual void TryProgress()
 	{
 		if (_progressesStory)
 		{
@@ -67,6 +69,7 @@ public abstract class StoryProgresser : MonoBehaviour
 		}
 		if (_timeLineToActivate != null)
 		{
+			Signals.Get<HideTextOnHoverSignal>().Dispatch();
 			_timeLineToActivate.SetActive(true);
 		}
 	}

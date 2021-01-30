@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: 08_Room_Squat
   m_EditorClassIdentifier: 
   gameProgress: 17
-  music: {fileID: 8300000, guid: f17a18492fa319241b5eaf728341cbbc, type: 3}
+  music: {fileID: 8300000, guid: 3e5129c26580f6a49bae542970714f72, type: 3}
   loops: 1

@@ -107,6 +107,7 @@ public class TextWithSoundDatabase : ScriptableObject
 
 	public AudioClip GetVoiceOver(TextWithSound vo, int interactionCount)
 	{
+		var countEmpty = 0;
 		if (vo != null)
 		{
 			if (interactionCount > 0)
@@ -117,6 +118,7 @@ public class TextWithSoundDatabase : ScriptableObject
 					{
 						return vo.voiceOver2;
 					}
+					countEmpty++;
 				}
 				if (interactionCount > 1)
 				{
@@ -124,7 +126,12 @@ public class TextWithSoundDatabase : ScriptableObject
 					{
 						return vo.voiceOver3;
 					}
+					countEmpty++;
 				}
+			}
+			if (interactionCount > countEmpty)
+			{
+				return null;
 			}
 			return vo.voiceOver;
 		}

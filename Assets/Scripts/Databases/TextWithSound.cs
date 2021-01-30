@@ -14,6 +14,9 @@ public class TextWithSound : ScriptableObject
 	public AudioClip voiceOver;
 	public AudioClip voiceOver2;
 	public AudioClip voiceOver3;
+	public float _waitTime = 0;
+	public float _waitTime2 = 0;
+	public float _waitTime3 = 0;
 	public bool customFootsteps = false;
 	public AudioClip[] footsteps;
 	public float _timeScaleFactor = 1f;

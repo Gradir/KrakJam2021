@@ -7,8 +7,19 @@ public class Door : StoryProgresser
 	public Transform _newTargetAfterInteraction;
 	public float _timeForColorChange = 5f;
 	public GameProgress _nextProgress;
+	public bool startAnimationOnInteract = false;
+	public Transform transformToMove;
 
 	[SerializeField] private Color _newColor;
+
+	public override void TryProgress()
+	{
+		if (startAnimationOnInteract)
+		{
+			transformToMove.DOMoveX(transform.position.x - 2, 2f);
+		}
+		base.TryProgress();
+	}
 
 	public override void OnDrawGizmosSelected()
 	{

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: 07_Room_Death_loop1
   m_EditorClassIdentifier: 
   gameProgress: 15
-  music: {fileID: 8300000, guid: bc9f7ce48b1b422438f6c52a5fbab649, type: 3}
+  music: {fileID: 8300000, guid: bd8e5df69eec254419b252c033309a79, type: 3}
+  loops: 1

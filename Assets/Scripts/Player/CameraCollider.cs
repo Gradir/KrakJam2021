@@ -19,11 +19,18 @@ public class CameraCollider : MonoBehaviour
 
 	private void Start()
 	{
+		Signals.Get<HideTextOnHoverSignal>().AddListener(ResetFloatingText);
+
 		if (_thisCamera == null)
 		{
 			_thisCamera = GetComponent<Camera>();
 		}
 		baseFOV = _thisCamera.fieldOfView;
+	}
+
+	private void ResetFloatingText()
+	{
+		_text.ChangeText(null);
 	}
 
 	public void ChangeFootstepSounds(AudioClip[] newFootsteps)
