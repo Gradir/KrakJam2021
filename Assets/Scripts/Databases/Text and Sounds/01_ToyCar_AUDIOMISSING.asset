@@ -16,6 +16,6 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 2
-  text: But dark and cold after fire burned out Nothing - but following a bison ochre
-    tinted
+  text: "It\u2019s so dark and so cold<br>after the burned out fire.<br>Nothing-
+    but bison <br>painted with ocher<br>"
   voiceOver: {fileID: 0}

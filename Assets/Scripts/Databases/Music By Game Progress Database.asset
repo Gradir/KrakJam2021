@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ec37b21b74436499a398509c7d347f, type: 3}
+  m_Name: Music By Game Progress Database
+  m_EditorClassIdentifier: 
+  music:
+  - {fileID: 11400000, guid: 7b82144ff09673a49927ef819a0e8c37, type: 2}
+  - {fileID: 11400000, guid: 4c51b7ad8811d584f8d7ba03df2e97d7, type: 2}
+  - {fileID: 11400000, guid: 0ae2248e5e66fcb4a9b13116c0f2cfcb, type: 2}
+  - {fileID: 11400000, guid: ad8f2a9c0a8c3c740aa7437997a8564b, type: 2}
+  - {fileID: 11400000, guid: 32252a3680564ca45b3e3242cd691b46, type: 2}
+  - {fileID: 11400000, guid: 42789e8dc2d53db40b7285dc41b56468, type: 2}
+  - {fileID: 11400000, guid: dcf0bb068cd50fb4b97e7189da5f6444, type: 2}
+  - {fileID: 11400000, guid: 3c43a5ce40662f44e96fb9597e50cd5f, type: 2}
+  - {fileID: 11400000, guid: 7d04aaa2b559c874bae6fc2ce6cfa2e1, type: 2}
+  - {fileID: 11400000, guid: 29ea338a36c3448438ddf3779238b2d7, type: 2}

@@ -29,7 +29,7 @@ public class FloatingText : MonoBehaviour
 	{
 		if (txt != null && txt != string.Empty)
 		{
-			_cg.DOFade(1, 0.25f);
+			_cg.DOFade(1, 0.6f);
 			_textRectTransform.anchoredPosition = _textStartPosition;
 			_text.text = txt;
 			//_revealer.RestartWithText(txt);

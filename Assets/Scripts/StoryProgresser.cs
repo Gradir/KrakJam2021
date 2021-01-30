@@ -3,9 +3,10 @@ using System.Collections;
 
 public abstract class StoryProgresser : MonoBehaviour
 {
-	public bool _progressesStory = false;
+	public bool _progressesStory = true;
 	public GameProgress _thisStory;
 	public bool _interactible = true;
+	public bool _activateAutomatically = false;
 	public bool _setInteractibleOnEnable = true;
 	public bool _hideOnInteraction = false;
 	public string _displayName;

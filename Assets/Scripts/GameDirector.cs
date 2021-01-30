@@ -30,7 +30,9 @@ public enum GameProgress
 	Room_Exit,
 	Interaction_Exit,
 	Room_Hospital,
-	TheEnd
+	TheEnd,
+	None,
+	Console
 }
 
 public class GameDirector : MonoBehaviour

@@ -30,8 +30,20 @@ public class CameraCollider : MonoBehaviour
 		var s = other.GetComponent<StoryProgresser>();
 		if (s != null && s._interactible)
 		{
-			storyProgresserInFront = s;
-			_text.ChangeText(s._displayName);
+			if (s._activateAutomatically)
+			{
+				s.TryProgress();
+				if (s is Door)
+				{
+					DisableControl();
+					DOVirtual.DelayedCall(gameDirector.GetFadeTime(), () => TransportPlayer((s as Door)._teleportTo));
+				}
+			}
+			else
+			{
+				storyProgresserInFront = s;
+				_text.ChangeText(s._displayName);
+			}
 		}
 	}
 
