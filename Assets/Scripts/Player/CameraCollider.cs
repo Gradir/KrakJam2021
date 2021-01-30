@@ -1,9 +1,8 @@
-using TMPro;
-using UnityEngine;
 using DG.Tweening;
+using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 
-public class StoryShouldProgressSignal : ASignal<GameProgress> { }
+public class StoryShouldProgressSignal : ASignal<GameProgress, bool, int> { }
 
 public class CameraCollider : MonoBehaviour
 {
@@ -25,6 +24,11 @@ public class CameraCollider : MonoBehaviour
 			_thisCamera = GetComponent<Camera>();
 		}
 		baseFOV = _thisCamera.fieldOfView;
+	}
+
+	public void ChangeFootstepSounds(AudioClip[] newFootsteps)
+	{
+		firstPersonController.m_FootstepSounds = newFootsteps;
 	}
 
 	private void OnTriggerEnter(Collider other)
@@ -73,7 +77,7 @@ public class CameraCollider : MonoBehaviour
 
 	private void Update()
 	{
-		if (Input.GetKeyUp(KeyCode.E) || Input.GetMouseButton(0))
+		if (Input.GetKeyUp(KeyCode.E) || Input.GetMouseButtonUp(0))
 		{
 			if (storyProgresserInFront != null && storyProgresserInFront.gameObject.activeSelf)
 			{
@@ -109,7 +113,7 @@ public class CameraCollider : MonoBehaviour
 		}
 	}
 
-		private void TransportPlayer(Transform t)
+	private void TransportPlayer(Transform t)
 	{
 		_characterController.transform.position = t.position;
 		_characterController.transform.rotation = t.rotation;

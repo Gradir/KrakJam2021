@@ -291,6 +291,7 @@ MonoBehaviour:
   _interactible: 1
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
+  _objectsToDeactivate: []
   _hideOnInteraction: 1
   _displayName: 
   _interactiblesToActivate:
@@ -358,6 +359,7 @@ MonoBehaviour:
   _interactible: 1
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
+  _objectsToDeactivate: []
   _hideOnInteraction: 1
   _displayName: 
   _interactiblesToActivate:
@@ -738,6 +740,7 @@ MonoBehaviour:
   _interactible: 1
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
+  _objectsToDeactivate: []
   _hideOnInteraction: 1
   _displayName: 
   _interactiblesToActivate: []
@@ -922,6 +925,7 @@ MonoBehaviour:
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
+  _objectsToDeactivate: []
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -1761,10 +1765,6 @@ PrefabInstance:
     - target: {fileID: 991944242870207792, guid: 301a882b2c34f124fa9f4ff8a20894a8, type: 3}
       propertyPath: _hideOnStart
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 991944242870207792, guid: 301a882b2c34f124fa9f4ff8a20894a8, type: 3}
-      propertyPath: _progressesStory
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 991944242870207799, guid: 301a882b2c34f124fa9f4ff8a20894a8, type: 3}
       propertyPath: m_StoppingDistance

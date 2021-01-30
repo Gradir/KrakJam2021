@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Linq;
+using UnityEngine;
 
 public abstract class StoryProgresser : MonoBehaviour
 {
@@ -8,14 +8,19 @@ public abstract class StoryProgresser : MonoBehaviour
 	public bool _interactible = true;
 	public bool _activateAutomatically = false;
 	public bool _setInteractibleOnEnable = true;
+	[SerializeField] private GameObject[] _objectsToDeactivate;
 	public bool _hideOnInteraction = false;
 	public string _displayName;
-	
+
 	public StoryProgresser[] _interactiblesToActivate;
 	public bool _hideOnStart = true;
 
+	private int interactionCount;
+	private BrotherController brother;
+
 	private void Start()
 	{
+		brother = GetComponent<BrotherController>();
 		if (_hideOnStart)
 		{
 			gameObject.SetActive(false);
@@ -26,7 +31,13 @@ public abstract class StoryProgresser : MonoBehaviour
 	{
 		if (_progressesStory)
 		{
-			Signals.Get<StoryShouldProgressSignal>().Dispatch(_thisStory);
+			Signals.Get<StoryShouldProgressSignal>().Dispatch(_thisStory, _interactiblesToActivate.Length > 0, interactionCount);
+			interactionCount++;
+
+			foreach (var o in _objectsToDeactivate)
+			{
+				o.SetActive(false);
+			}
 			foreach (var i in _interactiblesToActivate)
 			{
 				var agent = i.GetComponent<TurnAgentComponents>();
@@ -48,6 +59,10 @@ public abstract class StoryProgresser : MonoBehaviour
 		}
 		if (_hideOnInteraction)
 		{
+			if (brother)
+			{
+				brother.FadeAway();
+			}
 			gameObject.SetActive(false);
 		}
 	}

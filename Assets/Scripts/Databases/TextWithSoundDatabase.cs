@@ -26,6 +26,16 @@ public class TextWithSoundDatabase : ScriptableObject
 		return false;
 	}
 
+	public AudioClip[] GetCustomFootsteps(GameProgress id)
+	{
+		var s = textWithSounds.Where(x => x.id == id).FirstOrDefault();
+		if (s != null && s.customFootsteps)
+		{
+			return s.footsteps;
+		}
+		return null;
+	}
+
 	public bool DoesFadeOut(GameProgress id)
 	{
 		var s = textWithSounds.Where(x => x.id == id).FirstOrDefault();
@@ -46,11 +56,28 @@ public class TextWithSoundDatabase : ScriptableObject
 		return 0;
 	}
 
-	public string GetText(GameProgress id)
+	public string GetText(GameProgress id, int interactionCount)
 	{
 		var s = textWithSounds.Where(x => x.id == id).FirstOrDefault();
 		if (s != null)
 		{
+			if (interactionCount > 0)
+			{
+				if (interactionCount == 1)
+				{
+					if (s.text2 != string.Empty)
+					{
+						return s.text2;
+					}
+				}
+				if (interactionCount > 1)
+				{
+					if (s.text3 != string.Empty)
+					{
+						return s.text3;
+					}
+				}
+			}
 			return s.text;
 		}
 		else
@@ -59,11 +86,28 @@ public class TextWithSoundDatabase : ScriptableObject
 		}
 	}
 
-	public AudioClip GetVoiceOver(GameProgress id)
+	public AudioClip GetVoiceOver(GameProgress id, int interactionCount)
 	{
 		var vo = textWithSounds.Where(x => x.id == id).FirstOrDefault();
 		if (vo != null)
 		{
+			if (interactionCount > 0)
+			{
+				if (interactionCount == 1)
+				{
+					if (vo.voiceOver2 != null)
+					{
+						return vo.voiceOver2;
+					}
+				}
+				if (interactionCount > 1)
+				{
+					if (vo.voiceOver3 != null)
+					{
+						return vo.voiceOver3;
+					}
+				}
+			}
 			return vo.voiceOver;
 		}
 		else

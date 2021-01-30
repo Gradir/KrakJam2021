@@ -11,5 +11,10 @@ public class TextWithSound : ScriptableObject
 	public string text2;
 	public string text3;
 	public AudioClip voiceOver;
+	public AudioClip voiceOver2;
+	public AudioClip voiceOver3;
+	public bool customFootsteps = false;
+	public AudioClip[] footsteps;
 	public float _timeScaleFactor = 1f;
+	public GameObject _interactionModel;
 }

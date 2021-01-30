@@ -394,10 +394,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _progressesStory: 1
   _thisStory: 0
-  _interactible: 0
+  _interactible: 1
+  _activateAutomatically: 0
   _setInteractibleOnEnable: 1
+  _objectsToDeactivate: []
   _hideOnInteraction: 0
-  _displayName: 
+  _displayName: Brother
   _interactiblesToActivate: []
   _hideOnStart: 0
 --- !u!114 &991944242870207793

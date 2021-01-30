@@ -19,5 +19,7 @@ MonoBehaviour:
   text: You crawled out of the void<br>and you really want to know.
   text2: 
   text3: 
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 09a4e4f5aaa41af4598cc7ad084903c2, type: 3}
+  customFootsteps: 1
+  footsteps: []
   _timeScaleFactor: 1

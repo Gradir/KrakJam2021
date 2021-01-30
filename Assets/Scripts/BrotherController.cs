@@ -8,6 +8,7 @@ public class BrotherController : MonoBehaviour
 	private Material _brotherMaterial;
 	private float _texturePanningDuration = 2f;
 	private const string _offsetString = "_Offset";
+	private const string colorParameter = "_Color";
 
 	private void OnEnable()
 	{
@@ -18,6 +19,13 @@ public class BrotherController : MonoBehaviour
 	{
 		StopPanning();
 	}
+
+	public void FadeAway()
+	{
+		_brotherMaterial.DOColor(Color.black, colorParameter, 6f);
+	}
+		
+
 
 	private void StartPanning()
 	{

@@ -32,13 +32,19 @@ public class AudioManager : MonoBehaviour
 	[SerializeField] private GameDirector _gameDirector;
 	[SerializeField] private AudioSource _musicSource;
 	[SerializeField] private AudioSource _voiceOverSource;
+	[SerializeField] private AudioSource _sfxSource;
+	[SerializeField] private AudioClip[] _interactionSounds;
+	[SerializeField] private AudioClip[] _interactionSoundsGood;
 
 	private MusicType _currentMusicType;
 	private GameProgress _currentStory;
 	private MusicByGameProgress _cachedMusicProgress;
 
-	public void ReactOnStoryProgress(GameProgress _thisStory)
+	public void ReactOnStoryProgress(GameProgress _thisStory, bool activatesSomething)
 	{
+		var sound = GetRandomClip(activatesSomething ? _interactionSoundsGood : _interactionSounds);
+		PlayOneShot(sound);
+
 		var musicProgress = _musicDatabase.GetMusicScriptable(_thisStory);
 		if (musicProgress != null)
 		{
@@ -56,6 +62,16 @@ public class AudioManager : MonoBehaviour
 				newSequence.Play();
 			}
 		}
+	}
+
+	private AudioClip GetRandomClip(AudioClip[] array)
+	{
+		return array[Random.Range(0, array.Length)];
+	}
+
+	public void PlayOneShot(AudioClip clip)
+	{
+		_sfxSource.PlayOneShot(clip);
 	}
 
 	public void PlayVoiceOver(AudioClip clip)

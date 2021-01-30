@@ -44,7 +44,7 @@ public class GameDirector : MonoBehaviour
 	[SerializeField] private float _timeForHideBlack = 0.3f;
 	[SerializeField] private CameraCollider _player;
 	[SerializeField] private CanvasGroup _interactionStoryCG;
-	[SerializeField] private TextMeshProUGUI _interactionStory;
+	[SerializeField] private FloatingText _interactionStory;
 	[SerializeField] private AudioManager _audioManager;
 	[SerializeField] private TextWithSoundDatabase _textWithSoundDatabase;
 	private bool _isInInteractionMode;
@@ -71,7 +71,7 @@ public class GameDirector : MonoBehaviour
 		DOVirtual.DelayedCall(2f, () => ChangeBlackOpacity(false));
 	}
 
-	public void ReactOnStoryProgress(GameProgress progress)
+	public void ReactOnStoryProgress(GameProgress progress, bool activatesSomething, int interactionCount)
 	{
 		if (progress != _cachedLastProgress)
 		{
@@ -85,23 +85,23 @@ public class GameDirector : MonoBehaviour
 				_iterationsNumber++;
 			}
 		}
-		var txt = _textWithSoundDatabase.GetText(progress);
+
+		var txt = _textWithSoundDatabase.GetText(progress, interactionCount);
 		// ToDo: blocking interaction, wait time
 		if (txt != null)
 		{
-			_interactionStoryCG.DOFade(1, 0.3f).SetId("story");
 			var length = txt.Length * 0.1f;
 			DOVirtual.DelayedCall(length, FadeOutStory);
-			_interactionStory.text = txt;
+			_interactionStory.ChangeText(txt);
 		}
-		var vo = _textWithSoundDatabase.GetVoiceOver(progress);
+		var vo = _textWithSoundDatabase.GetVoiceOver(progress, interactionCount);
 		if (vo != null)
 		{
 			_audioManager.PlayVoiceOver(vo);
 		}
 		else
 		{
-			_audioManager.ReactOnStoryProgress(progress);
+			_audioManager.ReactOnStoryProgress(progress, activatesSomething);
 		}
 
 		if (_textWithSoundDatabase.IsInteractionBlocked(progress))
@@ -112,6 +112,11 @@ public class GameDirector : MonoBehaviour
 		}
 		Time.timeScale = _textWithSoundDatabase.GetTimeScale(progress);
 		Time.fixedDeltaTime = this.fixedDeltaTime * Time.timeScale;
+		var footsteps = _textWithSoundDatabase.GetCustomFootsteps(progress);
+		if (footsteps != null && footsteps.Length > 0)
+		{
+			_player.ChangeFootstepSounds(footsteps);
+		}
 
 		if (_textWithSoundDatabase.DoesFadeOut(progress))
 		{
@@ -148,7 +153,6 @@ public class GameDirector : MonoBehaviour
 				_player.EnableCollider();
 				FadeOutStory();
 				_player.EnableControl();
-				_audioManager.ReactOnStoryProgress(_cachedLastProgress);
 				_isInInteractionMode = false;
 			}
 		}

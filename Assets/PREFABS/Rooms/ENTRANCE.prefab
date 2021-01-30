@@ -158,6 +158,7 @@ MonoBehaviour:
   _interactible: 1
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
+  _objectsToDeactivate: []
   _hideOnInteraction: 1
   _displayName: 
   _interactiblesToActivate:
@@ -372,6 +373,7 @@ MonoBehaviour:
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
+  _objectsToDeactivate: []
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
