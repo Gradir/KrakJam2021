@@ -63,7 +63,6 @@ public class GameDirector : MonoBehaviour
 		this.fixedDeltaTime = Time.fixedDeltaTime;
 	}
 
-
 	public float GetFadeTime()
 	{
 		return _timeForShowBlack;
@@ -87,19 +86,6 @@ public class GameDirector : MonoBehaviour
 		var progressData = _textWithSoundDatabase.GetInteractionData(progress);
 		if (progressData != null)
 		{
-			var txt = _textWithSoundDatabase.GetText(progressData, interactionCount);
-			if (txt != null)
-			{
-				var length = txt.Length * 0.1f;
-				DOVirtual.DelayedCall(length, FadeOutStory);
-				_interactionStory.ChangeText(txt);
-			}
-
-			var vo = _textWithSoundDatabase.GetVoiceOver(progressData, interactionCount);
-			if (vo != null)
-			{
-				_audioManager.PlayVoiceOver(vo);
-			}
 			_audioManager.ReactOnStoryProgress(progress, activatesSomething);
 
 			if (progressData.blockInteraction)
@@ -108,12 +94,14 @@ public class GameDirector : MonoBehaviour
 				_player.DisableControl();
 				_isInInteractionMode = true;
 
-				var closeUpModel = _textWithSoundDatabase.GetCloseUpPrefab(progress);
+				var closeUpModel = progressData._interactionModel;
+				var rotate = progressData.rotateModel;
 				if (closeUpModel != null)
 				{
-					_closeUpModelHolder.SpawnObject(closeUpModel);
+					_closeUpModelHolder.SpawnObject(closeUpModel, rotate);
 				}
 			}
+
 			Time.timeScale = progressData._timeScaleFactor;
 			Time.fixedDeltaTime = this.fixedDeltaTime * Time.timeScale;
 			if (progressData.customFootsteps)
@@ -134,9 +122,21 @@ public class GameDirector : MonoBehaviour
 					DOVirtual.DelayedCall(_timeForShowBlack, () => ChangeBlackOpacity(false));
 				}
 			}
+
+			var txt = _textWithSoundDatabase.GetText(progressData, interactionCount);
+			if (txt != null)
+			{
+				var length = txt.Length * 0.1f;
+				DOVirtual.DelayedCall(length, FadeOutStory);
+				_interactionStory.ChangeText(txt);
+			}
+
+			var vo = _textWithSoundDatabase.GetVoiceOver(progressData, interactionCount);
+			if (vo != null)
+			{
+				_audioManager.PlayVoiceOver(vo);
+			}
 		}
-
-
 	}
 
 	private void FadeOutStory()

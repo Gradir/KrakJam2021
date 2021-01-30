@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
+  m_Name: 00_Entrance 1
+  m_EditorClassIdentifier: 
+  fadeout: 0
+  fadeBackIn: 1
+  blockInteraction: 1
+  waitTime: 0
+  id: 0
+  text: "Returning memories?<br>No, at the time of death<br>I\u2019d like to see
+    lost objects<br>return instead<br>"
+  text2: 
+  text3: 
+  voiceOver: {fileID: 8300000, guid: 659925db129396b44a701296908dd8ac, type: 3}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
+  customFootsteps: 0
+  footsteps: []
+  _timeScaleFactor: 1
+  _interactionModel: {fileID: 0}
+  rotateModel: 1
+  startTimeline: 0

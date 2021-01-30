@@ -13,19 +13,22 @@ MonoBehaviour:
   m_Name: 02_INTERACTION_Tent_AUDIOMISSING
   m_EditorClassIdentifier: 
   fadeout: 0
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
   id: 4
   text: Flickering dreams on the white canvas<br>A couple of hours of the lunar scale<br>There
     was love to the tune of longing,<br>There was a happy return from the slog<br>
-  text2: Nothing - but nothing outstanding <br>after the long resistance <br>of the
-    leaned head.<br>Thus Nothing Beautiful.<br>nor worth a capital letter.<br>Heresy
-    towards casual oblivion<br>unconverted and proud of the distinction.
-  text3: 
-  voiceOver: {fileID: 8300000, guid: 4620a349c03c3e646950ddc1c8e8ae8b, type: 3}
-  voiceOver2: {fileID: 8300000, guid: a5f660dc1c1a84b46af0e4cfb25d6a80, type: 3}
+  text2: Nothing- but nothing outstanding <br>after the long resistance <br>of a
+    leaned head.<br>Thus Nothing Beautiful.<br>Worthy of a capital letter.<br>Heresy
+    towards casual oblivion<br>unconverted and proud of the distinction. <br>
+  text3: Sometimes to progress forward<br>You need to take a step backwards...
+  voiceOver: {fileID: 8300000, guid: b49477a4922ddb943aa0685cd9160609, type: 3}
+  voiceOver2: {fileID: 8300000, guid: 1d17650bf3b018d40a07ed63946f1b8b, type: 3}
   voiceOver3: {fileID: 0}
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1
   _interactionModel: {fileID: 0}
+  rotateModel: 0
+  startTimeline: 0

@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class StoryProgresser : MonoBehaviour
 {
@@ -9,6 +8,7 @@ public abstract class StoryProgresser : MonoBehaviour
 	public bool _activateAutomatically = false;
 	public bool _setInteractibleOnEnable = true;
 	[SerializeField] private GameObject[] _objectsToDeactivate;
+	[SerializeField] private GameObject _timeLineToActivate;
 	public bool _hideOnInteraction = false;
 	public string _displayName;
 
@@ -64,6 +64,10 @@ public abstract class StoryProgresser : MonoBehaviour
 				brother.FadeAway();
 			}
 			gameObject.SetActive(false);
+		}
+		if (_timeLineToActivate != null)
+		{
+			_timeLineToActivate.SetActive(true);
 		}
 	}
 

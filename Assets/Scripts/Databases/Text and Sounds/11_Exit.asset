@@ -13,13 +13,19 @@ MonoBehaviour:
   m_Name: 11_Exit
   m_EditorClassIdentifier: 
   fadeout: 0
-  blockInteraction: 1
+  fadeBackIn: 1
+  blockInteraction: 0
   waitTime: 0
   id: 24
-  text: "The sharpness of images has nothing to do with reality. You can often think
-    of suicide, precisely see various details, you can even fiercely imagine you\u2019re
-    own dead body, on the balk under the ceiling, but somewhere deep down your soul
-    you know that you won\u2019t do this.<br> Everyone had the demon they deserve."
+  text: 
   text2: 
   text3: 
   voiceOver: {fileID: 0}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
+  customFootsteps: 0
+  footsteps: []
+  _timeScaleFactor: 1
+  _interactionModel: {fileID: 0}
+  rotateModel: 1
+  startTimeline: 0

@@ -11,7 +11,7 @@ public class UIWorldSpaceController : MonoBehaviour
 	private Transform spawnedObject;
 	private Vector3 fullCircle = new Vector3(0, 360, 0);
 
-	public void SpawnObject(GameObject prefab)
+	public void SpawnObject(GameObject prefab, bool rotate = true)
 	{
 		if (prefab == null)
 		{

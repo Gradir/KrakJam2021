@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 06_Transfusion
   m_EditorClassIdentifier: 
   fadeout: 0
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
   id: 14
@@ -20,4 +21,12 @@ MonoBehaviour:
     I could tell <br>That you pretend the hour.<br>
   text2: 
   text3: 
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 44ad1f6e30d0e0d42bfba59a93e85f8f, type: 3}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
+  customFootsteps: 0
+  footsteps: []
+  _timeScaleFactor: 1
+  _interactionModel: {fileID: 0}
+  rotateModel: 0
+  startTimeline: 0

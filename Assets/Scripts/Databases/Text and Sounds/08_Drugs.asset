@@ -13,14 +13,23 @@ MonoBehaviour:
   m_Name: 08_Drugs
   m_EditorClassIdentifier: 
   fadeout: 0
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
   id: 18
-  text: "I\u2019m the soothing pill.<br> I work at home,<br> I\u2019m effective in
-    the office,<br> I get down to exams,<br> I carefully glue the broken pots- just
-    take me,<br> Dissolve me under the tongue,<br> Just swallow me, take a sip."
-  text2: On Earth maybe the one<br>In heaven? Maybe the seventh?
-  text3: ' know what to do with misery,<br>How to handle bad news,<br>Lessen the
-    injustice,<br>Brighten up the luck of God,<br>match a mourning hat to the face.<br>What
-    are you waiting for-<br>Trust the chemical mercy.'
-  voiceOver: {fileID: 0}
+  text: "I\u2019m the soothing pill.<br>I work at home,<br>I\u2019m effective in
+    the office,<br>I get down to exams,<br>I carefully glue the broken pots - just
+    take me,<br>Dissolve me under the tongue,<br>Just swallow me, just wash me down.<br>"
+  text2: On Earth maybe one<br>in heaven? Maybe the seventh?<br>
+  text3: I know what to do with misery,<br>How to handle bad news,<br>Lessen the
+    injustice,<br>Brighten up the lack of God,<br>match a mourning hat to the face.<br>What
+    are you waiting for-<br>Trust the chemical mercy.<br>
+  voiceOver: {fileID: 8300000, guid: 184f0dd5c6e73424bb941f5c1239e29b, type: 3}
+  voiceOver2: {fileID: 8300000, guid: 09754483b9eb5b9409c157ec40d4ad1d, type: 3}
+  voiceOver3: {fileID: 8300000, guid: 6bdfa86cfab66ea439f6f13e850e1ace, type: 3}
+  customFootsteps: 0
+  footsteps: []
+  _timeScaleFactor: 1
+  _interactionModel: {fileID: 0}
+  rotateModel: 1
+  startTimeline: 0

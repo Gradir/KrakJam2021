@@ -13,10 +13,20 @@ MonoBehaviour:
   m_Name: 03a_Corridor
   m_EditorClassIdentifier: 
   fadeout: 0
+  fadeBackIn: 1
   blockInteraction: 0
   waitTime: 0
   id: 7
   text: Nothing - but after us, <br>Who were here<br>And who were eating our own
     hearts<br>And drinking our own blood<br>
   text2: 
-  voiceOver: {fileID: 0}
+  text3: 
+  voiceOver: {fileID: 8300000, guid: 51a59ea7c12d1fc4d9e52c81f4476763, type: 3}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
+  customFootsteps: 0
+  footsteps: []
+  _timeScaleFactor: 1
+  _interactionModel: {fileID: 0}
+  rotateModel: 1
+  startTimeline: 0

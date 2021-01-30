@@ -13,11 +13,20 @@ MonoBehaviour:
   m_Name: 07_Death
   m_EditorClassIdentifier: 
   fadeout: 0
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
   id: 16
-  text: Silence - but in the dark<br>Elevated by the eyelids.<br>Darkness- but in
-    the cold<br>Through the skin, through the bone.<br>Coldness- but the death.
+  text: Silence- but in the dark<br>Elevated by the eyelids.<br>Darkness- but in
+    the cold<br>Through the skin, through the bone.<br>Coldness- but of death.<br>
   text2: 
   text3: 
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: e689533488cbb074eb75bf2ac76d3307, type: 3}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
+  customFootsteps: 0
+  footsteps: []
+  _timeScaleFactor: 1
+  _interactionModel: {fileID: 0}
+  rotateModel: 0
+  startTimeline: 0

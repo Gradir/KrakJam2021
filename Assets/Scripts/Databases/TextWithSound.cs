@@ -18,4 +18,6 @@ public class TextWithSound : ScriptableObject
 	public AudioClip[] footsteps;
 	public float _timeScaleFactor = 1f;
 	public GameObject _interactionModel;
+	public bool rotateModel = true;
+	public bool startTimeline = false;
 }

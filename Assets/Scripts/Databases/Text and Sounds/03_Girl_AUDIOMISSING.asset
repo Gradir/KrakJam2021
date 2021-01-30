@@ -13,10 +13,20 @@ MonoBehaviour:
   m_Name: 03_Girl_AUDIOMISSING
   m_EditorClassIdentifier: 
   fadeout: 0
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
   id: 6
   text: Nothing, that is the dance of ours<br>Incomplete.<br>Your first by the flame<br>Thighs,
-    hands, necks, faces.<br>My first holy guts<br>With tiny pascal
+    hands, necks, faces.<br>My first holy loins<br>With tiny pascal<br>
   text2: 
-  voiceOver: {fileID: 0}
+  text3: 
+  voiceOver: {fileID: 8300000, guid: a9f29e8ec4824d14ab4e1d873cec6a78, type: 3}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
+  customFootsteps: 0
+  footsteps: []
+  _timeScaleFactor: 1
+  _interactionModel: {fileID: 0}
+  rotateModel: 0
+  startTimeline: 0

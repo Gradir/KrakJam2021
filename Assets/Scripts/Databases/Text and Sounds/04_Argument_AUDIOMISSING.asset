@@ -13,17 +13,20 @@ MonoBehaviour:
   m_Name: 04_Argument_AUDIOMISSING
   m_EditorClassIdentifier: 
   fadeout: 0
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
   id: 10
-  text: "You\u2019re still young,<br>Should settle down<br>Who said <br>That life
-    must be bravely lived through?"
+  text: "Sell me your soul.<br>You won\u2019t find another trader.<br><br>There\u2019s
+    no other devil.<br>"
   text2: 
   text3: 
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: a4b799a41b982da47944927808d3341f, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1
   _interactionModel: {fileID: 8192676027003778834, guid: e274ffaaa79d64a4fb1ed56a29f0383c, type: 3}
+  rotateModel: 1
+  startTimeline: 0

@@ -13,10 +13,20 @@ MonoBehaviour:
   m_Name: 00_Entrance
   m_EditorClassIdentifier: 
   fadeout: 0
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
   id: 0
-  text: "There\u2019s nothing on the walls<br>only moisture\u2019s dripping off<br>It\u2019s
+  text: "There\u2019s nothing on the walls<br>only moisture dripping<br>It\u2019s
     dark and cold in here.<br>"
   text2: 
-  voiceOver: {fileID: 8300000, guid: 9fcb66f5df8c9584382550924ea93211, type: 3}
+  text3: 
+  voiceOver: {fileID: 8300000, guid: 7a9ffd81cbca63049b306dd03cde43d2, type: 3}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
+  customFootsteps: 0
+  footsteps: []
+  _timeScaleFactor: 1
+  _interactionModel: {fileID: 0}
+  rotateModel: 1
+  startTimeline: 0

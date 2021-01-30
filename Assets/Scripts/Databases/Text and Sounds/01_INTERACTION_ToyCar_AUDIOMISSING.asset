@@ -13,17 +13,20 @@ MonoBehaviour:
   m_Name: 01_INTERACTION_ToyCar_AUDIOMISSING
   m_EditorClassIdentifier: 
   fadeout: 0
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
   id: 2
-  text: "It\u2019s so dark and so cold<br>after the burned out fire.<br>Nothing-
-    but bison <br>painted with ocher<br>"
+  text: "It\u2019s so dark and so cold<br>but after the burned out fire.<br>Nothing
+    - but bison <br>painted with ocher<br>"
   text2: 
   text3: 
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 28d3462769b4a29499cfc35f06ea6503, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1
   _interactionModel: {fileID: 3906290212820355243, guid: 300bbbd36b1bbbf4193c4b8ff239926c, type: 3}
+  rotateModel: 1
+  startTimeline: 0

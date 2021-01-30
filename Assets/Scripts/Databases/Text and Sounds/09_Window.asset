@@ -13,11 +13,20 @@ MonoBehaviour:
   m_Name: 09_Window
   m_EditorClassIdentifier: 
   fadeout: 0
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
   id: 20
   text: 'Fly into the open window,<br>Fly away into the wide world,<br>Let somebody
-    call out: oh!<br>So that I could cry.'
+    call out: oh!<br>So that I could cry.<br>'
   text2: 
   text3: 
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: bff43bdc4e2ac804f96e75185d788b1c, type: 3}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
+  customFootsteps: 0
+  footsteps: []
+  _timeScaleFactor: 1
+  _interactionModel: {fileID: 0}
+  rotateModel: 1
+  startTimeline: 0

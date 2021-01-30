@@ -9,12 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
-  m_Name: 02A_StepBackwards
+  m_Script: {fileID: 11500000, guid: 9a21be43b025c9e43ab03d1b107952df, type: 3}
+  m_Name: 07_Interaction_Coffin
   m_EditorClassIdentifier: 
-  fadeout: 0
-  blockInteraction: 1
-  waitTime: 0
-  id: 28
-  text: Sometimes to progress you need to step backwards
-  voiceOver: {fileID: 0}
+  gameProgress: 16
+  music: {fileID: 8300000, guid: bf319f888815b2e42ab454582107e71a, type: 3}
+  loops: 1
