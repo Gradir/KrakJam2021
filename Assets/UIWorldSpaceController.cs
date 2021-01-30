@@ -13,6 +13,10 @@ public class UIWorldSpaceController : MonoBehaviour
 
 	public void SpawnObject(GameObject prefab)
 	{
+		if (prefab == null)
+		{
+			return;
+		}
 		spawnedObject = Instantiate(prefab, _holder).transform;
 		spawnedObject.transform.localScale = Vector3.zero;
 		spawnedObject.DOScale(1, timeToScale).SetTarget(this);
@@ -21,8 +25,22 @@ public class UIWorldSpaceController : MonoBehaviour
 
 	public void CleanUp()
 	{
+		if (spawnedObject == null)
+		{
+			return;
+		}
 		DOTween.Kill(this);
-		spawnedObject.DOScale(0, 0.25f).OnComplete(()=> Destroy(spawnedObject.gameObject));
+		spawnedObject.DOScale(0, 0.25f).OnComplete(Clean);
+	}
+
+	private void Clean()
+	{
+		if (spawnedObject == null)
+		{
+			return;
+		}
+		DOTween.Kill(this);
+		Destroy(spawnedObject.gameObject);
 		spawnedObject = null;
 	}
 }

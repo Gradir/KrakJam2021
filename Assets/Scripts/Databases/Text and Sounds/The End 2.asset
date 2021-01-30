@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
-  m_Name: 10_Tunnel 2
+  m_Name: The End 2
   m_EditorClassIdentifier: 
-  fadeout: 0
+  fadeout: 1
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
-  id: 30
-  text: And not without an exit, even through the door,<br>Not without views, even
-    through the window,<br>This room seemed.<br>The distance glasses were lying on
-    the windowsill. <br>The lonely fly was buzzing, which means it was still alive.
+  id: 32
+  text: Broken car model by Renafox
   text2: 
   text3: 
   voiceOver: {fileID: 0}

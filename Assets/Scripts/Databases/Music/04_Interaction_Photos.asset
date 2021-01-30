@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a21be43b025c9e43ab03d1b107952df, type: 3}
-  m_Name: 02_Room_Tent_XX
+  m_Name: 04_Interaction_Photos
   m_EditorClassIdentifier: 
-  gameProgress: 3
-  music: {fileID: 8300000, guid: a95eb2e9304db7242a7167cac5244574, type: 3}
+  gameProgress: 10
+  music: {fileID: 8300000, guid: 037726adf9bb6ba42b7b808868d7ac5a, type: 3}

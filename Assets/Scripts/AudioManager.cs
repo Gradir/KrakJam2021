@@ -42,25 +42,26 @@ public class AudioManager : MonoBehaviour
 
 	public void ReactOnStoryProgress(GameProgress _thisStory, bool activatesSomething)
 	{
-		var sound = GetRandomClip(activatesSomething ? _interactionSoundsGood : _interactionSounds);
-		PlayOneShot(sound);
+//		var sound = GetRandomClip(activatesSomething ? _interactionSoundsGood : _interactionSounds);
+		//PlayOneShot(sound);
 
 		var musicProgress = _musicDatabase.GetMusicScriptable(_thisStory);
 		if (musicProgress != null)
 		{
-			if (_thisStory != _currentStory && musicProgress != _cachedMusicProgress)
+			if (_thisStory != _currentStory && _cachedMusicProgress != null && musicProgress.music != _cachedMusicProgress.music)
 			//var newType = _musicTypeByProgress[_thisStory];
 			//if (newType != _currentMusicType)
 			{
+				_musicSource.loop = musicProgress.loops;
 				_currentStory = _thisStory;
 				var fadeInTime = _gameDirector.GetFadeTime();
-				_cachedMusicProgress = musicProgress;
 				Sequence newSequence = DOTween.Sequence();
 				newSequence.Append(_musicSource.DOFade(0, fadeInTime));
 				newSequence.AppendCallback(() => ChangeMusicTrack(_thisStory));
 				newSequence.Append(_musicSource.DOFade(1, fadeInTime / 2));
 				newSequence.Play();
 			}
+			_cachedMusicProgress = musicProgress;
 		}
 	}
 
@@ -78,6 +79,11 @@ public class AudioManager : MonoBehaviour
 	{
 		_voiceOverSource.clip = clip;
 		_voiceOverSource.Play();
+	}
+
+	public void StopVoiceOver()
+	{
+		_voiceOverSource.Stop();
 	}
 
 	public void ChangeMusicTrack(GameProgress progress)

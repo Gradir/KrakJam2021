@@ -1,5 +1,4 @@
 using DG.Tweening;
-using TMPro;
 using UnityEngine;
 
 public enum GameProgress
@@ -34,7 +33,10 @@ public enum GameProgress
 	None,
 	Console,
 	Tunnel1,
-	Tunnel2
+	Tunnel2,
+	TheEnd1,
+	TheEnd2,
+	TheEnd3
 }
 
 public class GameDirector : MonoBehaviour
@@ -50,8 +52,10 @@ public class GameDirector : MonoBehaviour
 	[SerializeField] private UIWorldSpaceController _closeUpModelHolder;
 	private bool _isInInteractionMode;
 	private GameProgress _cachedLastProgress;
+	private GameProgress _currentProgress;
 	private int _iterationsNumber;
 	private float fixedDeltaTime;
+	private bool cached;
 
 	void Awake()
 	{
@@ -73,64 +77,66 @@ public class GameDirector : MonoBehaviour
 
 	public void ReactOnStoryProgress(GameProgress progress, bool activatesSomething, int interactionCount)
 	{
-		if (progress != _cachedLastProgress)
+		cached = !cached;
+		if (cached == false)
 		{
-			if (_iterationsNumber > 1)
-			{
-				_cachedLastProgress = progress;
-				_iterationsNumber = 0;
-			}
-			else
-			{
-				_iterationsNumber++;
-			}
+			_cachedLastProgress = progress;
 		}
+		_currentProgress = progress;
 
+		var progressData = _textWithSoundDatabase.GetInteractionData(progress);
+		if (progressData != null)
+		{
+			var txt = _textWithSoundDatabase.GetText(progressData, interactionCount);
+			if (txt != null)
+			{
+				var length = txt.Length * 0.1f;
+				DOVirtual.DelayedCall(length, FadeOutStory);
+				_interactionStory.ChangeText(txt);
+			}
 
-		var txt = _textWithSoundDatabase.GetText(progress, interactionCount);
-		// ToDo: blocking interaction, wait time
-		if (txt != null)
-		{
-			var length = txt.Length * 0.1f;
-			DOVirtual.DelayedCall(length, FadeOutStory);
-			_interactionStory.ChangeText(txt);
-		}
-		var vo = _textWithSoundDatabase.GetVoiceOver(progress, interactionCount);
-		if (vo != null)
-		{
-			_audioManager.PlayVoiceOver(vo);
-		}
-		else
-		{
+			var vo = _textWithSoundDatabase.GetVoiceOver(progressData, interactionCount);
+			if (vo != null)
+			{
+				_audioManager.PlayVoiceOver(vo);
+			}
 			_audioManager.ReactOnStoryProgress(progress, activatesSomething);
-		}
 
-		if (_textWithSoundDatabase.IsInteractionBlocked(progress))
-		{
-			_player.HideFloatingText();
-			_player.DisableControl();
-			_isInInteractionMode = true;
-
-			var closeUpModel = _textWithSoundDatabase.GetCloseUpPrefab(progress);
-			if (closeUpModel != null)
+			if (progressData.blockInteraction)
 			{
-				_closeUpModelHolder.SpawnObject(closeUpModel);
+				_player.HideFloatingText();
+				_player.DisableControl();
+				_isInInteractionMode = true;
+
+				var closeUpModel = _textWithSoundDatabase.GetCloseUpPrefab(progress);
+				if (closeUpModel != null)
+				{
+					_closeUpModelHolder.SpawnObject(closeUpModel);
+				}
+			}
+			Time.timeScale = progressData._timeScaleFactor;
+			Time.fixedDeltaTime = this.fixedDeltaTime * Time.timeScale;
+			if (progressData.customFootsteps)
+			{
+				var footsteps = progressData.footsteps;
+				if (footsteps != null && footsteps.Length > 0)
+				{
+					_player.ChangeFootstepSounds(footsteps);
+				}
+			}
+
+			if (progressData.fadeout)
+			{
+				_blackCG.alpha = 0;
+				ChangeBlackOpacity(true);
+				if (progressData.fadeBackIn)
+				{
+					DOVirtual.DelayedCall(_timeForShowBlack, () => ChangeBlackOpacity(false));
+				}
 			}
 		}
-		Time.timeScale = _textWithSoundDatabase.GetTimeScale(progress);
-		Time.fixedDeltaTime = this.fixedDeltaTime * Time.timeScale;
-		var footsteps = _textWithSoundDatabase.GetCustomFootsteps(progress);
-		if (footsteps != null && footsteps.Length > 0)
-		{
-			_player.ChangeFootstepSounds(footsteps);
-		}
 
-		if (_textWithSoundDatabase.DoesFadeOut(progress))
-		{
-			_blackCG.alpha = 0;
-			ChangeBlackOpacity(true);
-			DOVirtual.DelayedCall(_timeForShowBlack, () => ChangeBlackOpacity(false));
-		}
+
 	}
 
 	private void FadeOutStory()
@@ -157,6 +163,15 @@ public class GameDirector : MonoBehaviour
 		{
 			if (_isInInteractionMode)
 			{
+				if (_cachedLastProgress != _currentProgress)
+				{
+					_audioManager.ReactOnStoryProgress(_cachedLastProgress, false);
+				}
+				else
+				{
+					_audioManager.ReactOnStoryProgress(_currentProgress, false);
+				}
+				_audioManager.StopVoiceOver();
 				_player.EnableCollider();
 				FadeOutStory();
 				_player.EnableControl();

@@ -5,4 +5,5 @@ public class MusicByGameProgress : ScriptableObject
 {
 	public GameProgress gameProgress;
 	public AudioClip music;
+	public bool loops = true;
 }

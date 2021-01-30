@@ -4,6 +4,7 @@ using UnityEngine;
 public class TextWithSound : ScriptableObject
 {
 	public bool fadeout = false;
+	public bool fadeBackIn = true;
 	public bool blockInteraction;
 	public float waitTime;
 	public GameProgress id;

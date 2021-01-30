@@ -6,6 +6,16 @@ public class TextWithSoundDatabase : ScriptableObject
 {
 	[SerializeField] private TextWithSound[] textWithSounds;
 
+	public TextWithSound GetInteractionData(GameProgress id)
+	{
+		var p = textWithSounds.Where(x => x.id == id).FirstOrDefault();
+		if (p != null)
+		{
+			return p;
+		}
+		return null;
+	}
+
 	public float GetTimeScale(GameProgress id)
 	{
 		var s = textWithSounds.Where(x => x.id == id).FirstOrDefault();
@@ -66,9 +76,8 @@ public class TextWithSoundDatabase : ScriptableObject
 		return 0;
 	}
 
-	public string GetText(GameProgress id, int interactionCount)
+	public string GetText(TextWithSound s, int interactionCount)
 	{
-		var s = textWithSounds.Where(x => x.id == id).FirstOrDefault();
 		if (s != null)
 		{
 			if (interactionCount > 0)
@@ -96,9 +105,8 @@ public class TextWithSoundDatabase : ScriptableObject
 		}
 	}
 
-	public AudioClip GetVoiceOver(GameProgress id, int interactionCount)
+	public AudioClip GetVoiceOver(TextWithSound vo, int interactionCount)
 	{
-		var vo = textWithSounds.Where(x => x.id == id).FirstOrDefault();
 		if (vo != null)
 		{
 			if (interactionCount > 0)

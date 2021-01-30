@@ -13,10 +13,19 @@ MonoBehaviour:
   m_Name: The End 1
   m_EditorClassIdentifier: 
   fadeout: 1
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
-  id: 26
-  text: "In memory of<br>Wis\u0142awa Szymborska (2.7.1921-1.2.2012)"
+  id: 31
+  text: "Authors: Marta Bernard, Marcin Bia\u0142kowski, Piotr Ko\u0142odziejczyk,
+    Nikola Ko\u0142odziejczyk, Norbert Trzeciakiewicz    Translation made by Paulina
+    Komenda"
   text2: 
   text3: 
   voiceOver: {fileID: 0}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
+  customFootsteps: 0
+  footsteps: []
+  _timeScaleFactor: 1
+  _interactionModel: {fileID: 0}

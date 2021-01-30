@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a21be43b025c9e43ab03d1b107952df, type: 3}
-  m_Name: 03_Interaction_Girl_XX
+  m_Name: 05_Interaction_Car
   m_EditorClassIdentifier: 
-  gameProgress: 6
-  music: {fileID: 8300000, guid: 517e567a85925dc419f12b25ca0b096b, type: 3}
+  gameProgress: 12
+  music: {fileID: 8300000, guid: aad507175fa9df44bb120a023c5d08b8, type: 3}
+  loops: 0

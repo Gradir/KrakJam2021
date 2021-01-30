@@ -19,4 +19,11 @@ MonoBehaviour:
   text: "You\u2019re still young,<br>Should settle down<br>Who said <br>That life
     must be bravely lived through?"
   text2: 
+  text3: 
   voiceOver: {fileID: 0}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
+  customFootsteps: 0
+  footsteps: []
+  _timeScaleFactor: 1
+  _interactionModel: {fileID: 8192676027003778834, guid: e274ffaaa79d64a4fb1ed56a29f0383c, type: 3}

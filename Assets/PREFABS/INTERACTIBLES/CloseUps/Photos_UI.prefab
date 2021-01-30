@@ -212,7 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2761138139082807110}
   m_Layer: 5
-  m_Name: Photos
+  m_Name: Photos_UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -227,7 +227,7 @@ RectTransform:
   m_GameObject: {fileID: 8192676027003778834}
   m_LocalRotation: {x: 0.6851948, y: -0.021382572, z: -0.14795084, w: 0.71285444}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 3310533690718320709}
   - {fileID: 7136163703539835145}
@@ -236,6 +236,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 76.063, y: -75.55, z: -85.896}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}

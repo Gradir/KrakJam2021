@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: 10_Room_Tunnel_XX
   m_EditorClassIdentifier: 
   gameProgress: 21
-  music: {fileID: 8300000, guid: 517e567a85925dc419f12b25ca0b096b, type: 3}
+  music: {fileID: 8300000, guid: 71c02a51298881d449ceae8363caec72, type: 3}
+  loops: 1
