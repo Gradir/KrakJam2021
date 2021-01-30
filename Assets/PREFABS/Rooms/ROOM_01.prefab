@@ -348,7 +348,8 @@ MonoBehaviour:
   _objectsToDeactivate: []
   _hideOnInteraction: 0
   _displayName: Door
-  _interactiblesToActivate: []
+  _interactiblesToActivate:
+  - {fileID: 0}
   _hideOnStart: 0
   _teleportTo: {fileID: 0}
   _newTargetAfterInteraction: {fileID: 0}

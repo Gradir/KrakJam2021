@@ -3433,7 +3433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -40, y: 294}
+  m_AnchoredPosition: {x: -417, y: 333.3}
   m_SizeDelta: {x: 809.1512, y: 227.4215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &373659819
@@ -5316,6 +5316,17 @@ MonoBehaviour:
   m_Offset: {x: 0, y: 0, z: 1.5}
   m_Size: {x: 8, y: 8, z: 3}
   m_FadeFactor: 0.18
+--- !u!114 &578530688 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6606728842707443664, guid: 843dce675c89c034ba610a4efba3e571, type: 3}
+  m_PrefabInstance: {fileID: 7896594060606645725}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f288fcb457bac843ae4a771b5fa2b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &581053291
 GameObject:
   m_ObjectHideFlags: 3
@@ -11086,6 +11097,10 @@ PrefabInstance:
       propertyPath: gameDirector
       value: 
       objectReference: {fileID: 9464008}
+    - target: {fileID: 1546294395, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 738646681744756154, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: m_Name
       value: PlayerControllerFPS
@@ -11137,6 +11152,10 @@ PrefabInstance:
     - target: {fileID: 2730928518405609537, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: m_Name
       value: Holder
+      objectReference: {fileID: 0}
+    - target: {fileID: 8113715791398745194, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
@@ -20741,10 +20760,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 581364565672759706, guid: 179b7d7729eaa6045b1c402a11535285, type: 3}
-      propertyPath: _thisStory
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 581364565672759706, guid: 179b7d7729eaa6045b1c402a11535285, type: 3}
       propertyPath: _teleportTo
       value: 
       objectReference: {fileID: 1370606653}
@@ -21370,6 +21385,10 @@ PrefabInstance:
       propertyPath: _teleportTo
       value: 
       objectReference: {fileID: 80136051}
+    - target: {fileID: 2467922644175932715, guid: 5a688a581a74a7148bfb0776be0a310e, type: 3}
+      propertyPath: _interactiblesToActivate.Array.data[0]
+      value: 
+      objectReference: {fileID: 578530688}
     - target: {fileID: 2467922645210030710, guid: 5a688a581a74a7148bfb0776be0a310e, type: 3}
       propertyPath: _teleportTo
       value: 
@@ -22530,6 +22549,14 @@ PrefabInstance:
       propertyPath: _teleportTo
       value: 
       objectReference: {fileID: 1972091663}
+    - target: {fileID: 5630546844577661199, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: _objectsToDeactivate.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5630546844577661199, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: _objectsToDeactivate.Array.data[0]
+      value: 
+      objectReference: {fileID: 7500460318439975938}
     - target: {fileID: 5630546844577661199, guid: 99090a418d90b3743bf2d24666082805, type: 3}
       propertyPath: _interactiblesToActivate.Array.data[0]
       value: 
@@ -23724,6 +23751,11 @@ PrefabInstance:
       objectReference: {fileID: 1060144084}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ad0001b03ec726498c30652ffa5e73d, type: 3}
+--- !u!1 &7500460318439975938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2741210569634932703, guid: 2ad0001b03ec726498c30652ffa5e73d, type: 3}
+  m_PrefabInstance: {fileID: 7500460318439975937}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7896594060606645725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23731,6 +23763,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6606728842707443664, guid: 843dce675c89c034ba610a4efba3e571, type: 3}
+      propertyPath: _interactiblesToActivate.Array.data[0]
+      value: 
+      objectReference: {fileID: 2016616833629383482}
     - target: {fileID: 7896594059806955856, guid: 843dce675c89c034ba610a4efba3e571, type: 3}
       propertyPath: _interactiblesToActivate.Array.data[0]
       value: 
