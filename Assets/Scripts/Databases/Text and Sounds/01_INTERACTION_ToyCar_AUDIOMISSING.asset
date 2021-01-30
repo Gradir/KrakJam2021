@@ -21,4 +21,9 @@ MonoBehaviour:
   text2: 
   text3: 
   voiceOver: {fileID: 0}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
+  customFootsteps: 0
+  footsteps: []
   _timeScaleFactor: 1
+  _interactionModel: {fileID: 3906290212820355243, guid: 300bbbd36b1bbbf4193c4b8ff239926c, type: 3}

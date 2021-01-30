@@ -4,13 +4,14 @@ public class UIWorldSpaceController : MonoBehaviour
 {
 	public float speed = 100f;
 
+	[SerializeField] private Transform _holder;
 	private Vector2 _lastMousePosition = Vector2.zero;
 	private Transform spawnedObject;
 
 
 	public void SpawnObject(GameObject prefab)
 	{
-		spawnedObject = Instantiate(prefab, transform).transform;
+		spawnedObject = Instantiate(prefab, _holder).transform;
 	}
 
 	void Update()
@@ -25,9 +26,12 @@ public class UIWorldSpaceController : MonoBehaviour
 
 		_lastMousePosition = _currentMousePosition;
 
-		if (Input.GetMouseButton(0))
-		{
-			spawnedObject.Rotate(0f, mouseDelta.x * -1f, 0f, Space.World);
-		}
+		spawnedObject.Rotate(0f, mouseDelta.x * -1f, 0f, Space.World);
+	}
+
+	public void CleanUp()
+	{
+		Destroy(spawnedObject.gameObject);
+		spawnedObject = null;
 	}
 }

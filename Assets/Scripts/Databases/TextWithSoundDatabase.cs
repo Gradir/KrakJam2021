@@ -46,6 +46,16 @@ public class TextWithSoundDatabase : ScriptableObject
 		return false;
 	}
 
+	public GameObject GetCloseUpPrefab(GameProgress id)
+	{
+		var s = textWithSounds.Where(x => x.id == id).FirstOrDefault();
+		if (s != null)
+		{
+			return s._interactionModel;
+		}
+		return null;
+	}
+
 	public float GetWaitTime(GameProgress id)
 	{
 		var s = textWithSounds.Where(x => x.id == id).FirstOrDefault();

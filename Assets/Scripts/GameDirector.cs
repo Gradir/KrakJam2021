@@ -47,10 +47,10 @@ public class GameDirector : MonoBehaviour
 	[SerializeField] private FloatingText _interactionStory;
 	[SerializeField] private AudioManager _audioManager;
 	[SerializeField] private TextWithSoundDatabase _textWithSoundDatabase;
+	[SerializeField] private UIWorldSpaceController _closeUpModelHolder;
 	private bool _isInInteractionMode;
 	private GameProgress _cachedLastProgress;
 	private int _iterationsNumber;
-
 	private float fixedDeltaTime;
 
 	void Awake()
@@ -86,6 +86,7 @@ public class GameDirector : MonoBehaviour
 			}
 		}
 
+
 		var txt = _textWithSoundDatabase.GetText(progress, interactionCount);
 		// ToDo: blocking interaction, wait time
 		if (txt != null)
@@ -109,6 +110,12 @@ public class GameDirector : MonoBehaviour
 			_player.HideFloatingText();
 			_player.DisableControl();
 			_isInInteractionMode = true;
+
+			var closeUpModel = _textWithSoundDatabase.GetCloseUpPrefab(progress);
+			if (closeUpModel != null)
+			{
+				_closeUpModelHolder.SpawnObject(closeUpModel);
+			}
 		}
 		Time.timeScale = _textWithSoundDatabase.GetTimeScale(progress);
 		Time.fixedDeltaTime = this.fixedDeltaTime * Time.timeScale;
@@ -154,6 +161,7 @@ public class GameDirector : MonoBehaviour
 				FadeOutStory();
 				_player.EnableControl();
 				_isInInteractionMode = false;
+				_closeUpModelHolder.CleanUp();
 			}
 		}
 	}

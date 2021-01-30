@@ -22,8 +22,8 @@ MonoBehaviour:
     leaned head.<br>Thus Nothing Beautiful.<br>nor worth a capital letter.<br>Heresy
     towards casual oblivion<br>unconverted and proud of the distinction.
   text3: 
-  voiceOver: {fileID: 0}
-  voiceOver2: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 4620a349c03c3e646950ddc1c8e8ae8b, type: 3}
+  voiceOver2: {fileID: 8300000, guid: a5f660dc1c1a84b46af0e4cfb25d6a80, type: 3}
   voiceOver3: {fileID: 0}
   customFootsteps: 0
   footsteps: []
