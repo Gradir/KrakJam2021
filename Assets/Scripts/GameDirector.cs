@@ -91,6 +91,7 @@ public class GameDirector : MonoBehaviour
 			var length = txt.Length * 0.1f;
 			DOVirtual.DelayedCall(length, FadeOutStory);
 			_interactionStory.text = txt;
+			_player.HideFloatingText();
 		}
 		var vo = _textWithSoundDatabase.GetVoiceOver(progress);
 		if (vo != null)
@@ -141,6 +142,7 @@ public class GameDirector : MonoBehaviour
 		{
 			if (_isInInteractionMode)
 			{
+				_player.EnableCollider();
 				FadeOutStory();
 				_player.EnableControl();
 				_audioManager.ReactOnStoryProgress(_cachedLastProgress);

@@ -9,6 +9,7 @@ public class CameraCollider : MonoBehaviour
 	[SerializeField] private FloatingText _text;
 	[SerializeField] private Camera _thisCamera;
 	[SerializeField] private LookWithMouse _mouseLook;
+	[SerializeField] private Collider _thisCollider;
 	[SerializeField] private CharacterController _characterController;
 	[SerializeField] private GameDirector gameDirector;
 	[SerializeField] private float _zoomSpeed = 5f;
@@ -55,6 +56,18 @@ public class CameraCollider : MonoBehaviour
 			storyProgresserInFront = null;
 			_text.ChangeText(null);
 		}
+	}
+
+	public void HideFloatingText()
+	{
+		_thisCollider.enabled = false;
+		storyProgresserInFront = null;
+		_text.ChangeText(null);
+	}
+
+	public void EnableCollider()
+	{
+		_thisCollider.enabled = true;
 	}
 
 	private void Update()
