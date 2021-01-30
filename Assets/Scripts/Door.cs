@@ -18,6 +18,10 @@ public class Door : StoryProgresser
 
 	public void SwitchTarget()
 	{
+		if (_newTargetAfterInteraction == null)
+		{
+			return;
+		}
 		GetComponent<MeshRenderer>().material.DOColor(_newColor, "_BaseColor", _timeForColorChange);
 		_thisStory = _nextProgress;
 		_teleportTo = _newTargetAfterInteraction;

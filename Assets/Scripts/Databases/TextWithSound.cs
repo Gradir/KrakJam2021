@@ -11,4 +11,5 @@ public class TextWithSound : ScriptableObject
 	public string text2;
 	public string text3;
 	public AudioClip voiceOver;
+	public float _timeScaleFactor = 1f;
 }

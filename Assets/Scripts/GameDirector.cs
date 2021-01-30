@@ -49,16 +49,24 @@ public class GameDirector : MonoBehaviour
 	private GameProgress _cachedLastProgress;
 	private int _iterationsNumber;
 
+	private float fixedDeltaTime;
+
+	void Awake()
+	{
+		// Make a copy of the fixedDeltaTime, it defaults to 0.02f, but it can be changed in the editor
+		this.fixedDeltaTime = Time.fixedDeltaTime;
+	}
+
+
 	public float GetFadeTime()
 	{
 		return _timeForShowBlack;
 	}
 
-
 	private void Start()
 	{
 		Signals.Get<StoryShouldProgressSignal>().AddListener(ReactOnStoryProgress);
-		ChangeBlackOpacity(false);
+		DOVirtual.DelayedCall(2f, () => ChangeBlackOpacity(false));
 	}
 
 	public void ReactOnStoryProgress(GameProgress progress)
@@ -98,6 +106,8 @@ public class GameDirector : MonoBehaviour
 			_player.DisableControl();
 			_isInInteractionMode = true;
 		}
+		Time.timeScale = _textWithSoundDatabase.GetTimeScale(progress);
+		Time.fixedDeltaTime = this.fixedDeltaTime * Time.timeScale;
 
 		if (_textWithSoundDatabase.DoesFadeOut(progress))
 		{

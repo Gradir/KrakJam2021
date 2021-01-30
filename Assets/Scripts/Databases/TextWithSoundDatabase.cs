@@ -6,6 +6,16 @@ public class TextWithSoundDatabase : ScriptableObject
 {
 	[SerializeField] private TextWithSound[] textWithSounds;
 
+	public float GetTimeScale(GameProgress id)
+	{
+		var s = textWithSounds.Where(x => x.id == id).FirstOrDefault();
+		if (s != null)
+		{
+			return s._timeScaleFactor;
+		}
+		return 1f;
+	}
+
 	public bool IsInteractionBlocked(GameProgress id)
 	{
 		var s = textWithSounds.Where(x => x.id == id).FirstOrDefault();

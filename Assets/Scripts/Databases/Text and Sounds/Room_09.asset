@@ -17,4 +17,7 @@ MonoBehaviour:
   waitTime: 0
   id: 19
   text: 
+  text2: 
+  text3: 
   voiceOver: {fileID: 0}
+  _timeScaleFactor: 0.5
