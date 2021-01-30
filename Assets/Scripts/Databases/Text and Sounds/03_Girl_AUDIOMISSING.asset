@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
   m_Name: 03_Girl_AUDIOMISSING
   m_EditorClassIdentifier: 
-  blockInteraction: 0
+  fadeout: 0
+  blockInteraction: 1
   waitTime: 0
   id: 6
   text: 'Nothing, meaning our dance<br>not danced to the end.<br>Your first at fire<br>thighs,

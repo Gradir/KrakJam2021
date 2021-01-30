@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 02A_StepBackwards
   m_EditorClassIdentifier: 
   fadeout: 0
-  blockInteraction: 0
+  blockInteraction: 1
   waitTime: 0
   id: 28
   text: Sometimes to progress you need to step backwards
