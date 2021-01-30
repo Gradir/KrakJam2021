@@ -131,8 +131,9 @@ MonoBehaviour:
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
+  _objectsToDeactivate: []
   _hideOnInteraction: 0
-  _displayName: 
+  _displayName: Brother's crashed car
   _interactiblesToActivate: []
   _hideOnStart: 1
 --- !u!65 &8955114537849719562
