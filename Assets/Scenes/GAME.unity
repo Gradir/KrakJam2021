@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 1481.6191, g: 1835.6934, b: 2430.2617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8747,6 +8747,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1923546240606602988, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1923546240606602988, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3038402843575334727, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.4420004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202063725871856110, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202063725871856110, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4309551900323425858, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.4420004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4627737801103006766, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4627737801103006766, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6067285246583955620, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -8794,6 +8826,26 @@ PrefabInstance:
     - target: {fileID: 6067285246583955623, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
       propertyPath: m_Name
       value: ROOM_12_HOSPITAL
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160787043813128649, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637377937960671338, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.442
+      objectReference: {fileID: 0}
+    - target: {fileID: 8870809733923600938, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8870809733923600938, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8886030028312501994, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.4420004
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
@@ -9533,6 +9585,10 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[39].value
       value: 
       objectReference: {fileID: 219843122}
+    - target: {fileID: 5745043822223446527, guid: 2ad0001b03ec726498c30652ffa5e73d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7500460318596177526, guid: 2ad0001b03ec726498c30652ffa5e73d, type: 3}
       propertyPath: m_Name
       value: ROOM_07_DEATH

@@ -33,6 +33,10 @@ public abstract class StoryProgresser : MonoBehaviour
 	{
 		if (_progressesStory)
 		{
+			if (_thisStory == GameProgress.TheEnd)
+			{
+				GameObject.FindObjectOfType<CameraCollider>().DisableControl();
+			}
 			Signals.Get<StoryShouldProgressSignal>().Dispatch(_thisStory, _interactiblesToActivate.Length > 0, interactionCount);
 			interactionCount++;
 
