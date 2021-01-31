@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
   m_Name: The End
   m_EditorClassIdentifier: 
-  fadeout: 0
-  fadeBackIn: 0
+  fadeout: 1
+  fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
   id: 26

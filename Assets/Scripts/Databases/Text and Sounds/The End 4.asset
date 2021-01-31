@@ -10,18 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
-  m_Name: 12_Hospital
+  m_Name: The End 4
   m_EditorClassIdentifier: 
-  fadeout: 0
-  fadeBackIn: 1
+  fadeout: 1
+  fadeBackIn: 0
   blockInteraction: 1
   waitTime: 0
-  id: 25
-  text: You leave the hospital, that is you recover<br>and come back to the world,
-    the one which is a great disease on its own.<br>
+  id: 33
+  text: "In memory of<br>Wis\u0142awa Szymborska (2.7.1921-1.2.2012)"
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: 5e3b5f5088e718a479aee0fb347ac99e, type: 3}
+  voiceOver: {fileID: 0}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0

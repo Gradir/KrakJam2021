@@ -78,6 +78,14 @@ public abstract class StoryProgresser : MonoBehaviour
 		}
 	}
 
+	private void Update()
+	{
+		if (Input.GetKeyUp(KeyCode.Escape))
+		{
+			Application.Quit();
+		}
+	}
+
 	public void OnDrawGizmos()
 	{
 		Gizmos.DrawIcon(transform.position, "Interactible.png");
