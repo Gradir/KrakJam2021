@@ -248,6 +248,7 @@ MonoBehaviour:
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -256,6 +257,8 @@ MonoBehaviour:
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 9
+  startAnimationOnInteract: 0
+  transformToMove: {fileID: 0}
   _newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &5630546843033657913
 GameObject:
@@ -454,6 +457,7 @@ MonoBehaviour:
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -462,6 +466,8 @@ MonoBehaviour:
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 15
+  startAnimationOnInteract: 0
+  transformToMove: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5630546843552105992
 GameObject:
@@ -615,6 +621,7 @@ MonoBehaviour:
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -623,6 +630,8 @@ MonoBehaviour:
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 11
+  startAnimationOnInteract: 0
+  transformToMove: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5630546843880570692
 GameObject:
@@ -1018,7 +1027,9 @@ MonoBehaviour:
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
-  _objectsToDeactivate: []
+  _objectsToDeactivate:
+  - {fileID: 0}
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Pipes
   _interactiblesToActivate:

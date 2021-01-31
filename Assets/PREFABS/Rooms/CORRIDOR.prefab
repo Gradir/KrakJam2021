@@ -1,5 +1,73 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &998234146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 998234147}
+  - component: {fileID: 998234149}
+  - component: {fileID: 998234148}
+  m_Layer: 13
+  m_Name: CORRIDOR_INTERACTION
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &998234147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998234146}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -4.0367813, y: 0.9129095, z: 5.9527216}
+  m_LocalScale: {x: 6.8535, y: 4.2386, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5475568895461502131}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &998234149
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998234146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &998234148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998234146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f288fcb457bac843ae4a771b5fa2b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _progressesStory: 1
+  _thisStory: 8
+  _interactible: 1
+  _activateAutomatically: 1
+  _setInteractibleOnEnable: 1
+  _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
+  _hideOnInteraction: 1
+  _displayName: 
+  _interactiblesToActivate: []
+  _hideOnStart: 0
 --- !u!1 &5475568894187865631
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,6 +182,7 @@ MonoBehaviour:
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -122,6 +191,8 @@ MonoBehaviour:
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 5
+  startAnimationOnInteract: 0
+  transformToMove: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5475568894217183526
 GameObject:
@@ -333,6 +404,7 @@ MonoBehaviour:
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -341,6 +413,8 @@ MonoBehaviour:
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 9
+  startAnimationOnInteract: 0
+  transformToMove: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5475568894391171599
 GameObject:
@@ -456,6 +530,7 @@ MonoBehaviour:
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -464,6 +539,8 @@ MonoBehaviour:
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 15
+  startAnimationOnInteract: 0
+  transformToMove: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5475568894465302222
 GameObject:
@@ -1028,6 +1105,7 @@ Transform:
   - {fileID: 5475568894465302221}
   - {fileID: 5475568894727657305}
   - {fileID: 5475568895444932780}
+  - {fileID: 998234147}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1337,6 +1415,7 @@ MonoBehaviour:
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -1345,6 +1424,8 @@ MonoBehaviour:
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 11
+  startAnimationOnInteract: 0
+  transformToMove: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5475568896064065001
 GameObject:

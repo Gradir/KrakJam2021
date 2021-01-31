@@ -205,6 +205,7 @@ MonoBehaviour:
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -213,6 +214,8 @@ MonoBehaviour:
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 19
+  startAnimationOnInteract: 0
+  transformToMove: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1040366661913534930
 GameObject:

@@ -522,6 +522,7 @@ MonoBehaviour:
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -530,6 +531,8 @@ MonoBehaviour:
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 15
+  startAnimationOnInteract: 0
+  transformToMove: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &6925725000320177029
 GameObject:
@@ -1255,6 +1258,7 @@ MonoBehaviour:
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -1263,6 +1267,8 @@ MonoBehaviour:
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 11
+  startAnimationOnInteract: 0
+  transformToMove: {fileID: 0}
   _newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &6925725001271248219
 GameObject:
@@ -2008,6 +2014,10 @@ PrefabInstance:
     - target: {fileID: 4858853491623424784, guid: 7d54c997e2f0d1e4385d72e389af1df9, type: 3}
       propertyPath: _hideOnStart
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858853491623424784, guid: 7d54c997e2f0d1e4385d72e389af1df9, type: 3}
+      propertyPath: _hideOnInteraction
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858853491623424784, guid: 7d54c997e2f0d1e4385d72e389af1df9, type: 3}
       propertyPath: _interactiblesToActivate.Array.data[0]

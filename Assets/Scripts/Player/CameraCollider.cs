@@ -91,7 +91,6 @@ public class CameraCollider : MonoBehaviour
 				var _cachedStoryProgresser = storyProgresserInFront;
 				storyProgresserInFront = null;
 
-				Debug.Log(string.Format("<color=white><b>{0}</b></color>", "activated"));
 				_cachedStoryProgresser.TryProgress();
 				if (_cachedStoryProgresser.isActiveAndEnabled == false)
 				{
@@ -99,7 +98,6 @@ public class CameraCollider : MonoBehaviour
 				}
 				if (_cachedStoryProgresser.GetType() == typeof(Door))
 				{
-					Debug.Log(string.Format("<color=white><b>{0}</b></color>", "transporting to: " + (_cachedStoryProgresser as Door)._teleportTo.gameObject.name));
 					// Pause, move camera etc
 					DisableControl();
 					DOVirtual.DelayedCall(gameDirector.GetFadeTime(), () => TransportPlayer((_cachedStoryProgresser as Door)._teleportTo));

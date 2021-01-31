@@ -63,6 +63,7 @@ MonoBehaviour:
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 1
   _displayName: 
   _interactiblesToActivate: []
@@ -636,6 +637,7 @@ MonoBehaviour:
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
   _interactiblesToActivate: []
@@ -644,6 +646,8 @@ MonoBehaviour:
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 23
+  startAnimationOnInteract: 0
+  transformToMove: {fileID: 0}
   _newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &3383322196784783523
 GameObject:
@@ -1273,6 +1277,7 @@ MonoBehaviour:
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 1
   _displayName: 
   _interactiblesToActivate: []
@@ -1340,6 +1345,7 @@ MonoBehaviour:
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 1
   _displayName: 
   _interactiblesToActivate: []

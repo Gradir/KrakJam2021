@@ -14,16 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeout: 0
   fadeBackIn: 1
-  blockInteraction: 1
+  blockInteraction: 0
   waitTime: 0
   id: 0
-  text: "There\u2019s nothing on the walls<br>only moisture dripping<br>It\u2019s
-    dark and cold in here.<br>"
+  text: "Returning memories?<br>No, at the time of death<br>I\u2019d like to see
+    lost objects<br>return instead<br>"
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: 7a9ffd81cbca63049b306dd03cde43d2, type: 3}
+  voiceOver: {fileID: 8300000, guid: 659925db129396b44a701296908dd8ac, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
+  _waitTime: 0
+  _waitTime2: 0
+  _waitTime3: 0
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1

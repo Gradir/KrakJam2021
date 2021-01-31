@@ -36,7 +36,8 @@ public enum GameProgress
 	Tunnel2,
 	TheEnd1,
 	TheEnd2,
-	TheEnd3
+	TheEnd3,
+	Entrance1
 }
 
 public class GameDirector : MonoBehaviour
@@ -124,10 +125,13 @@ public class GameDirector : MonoBehaviour
 			}
 
 			var txt = _textWithSoundDatabase.GetText(progressData, interactionCount);
-			if (txt != null)
+			if (txt != null && txt.Length != 0)
 			{
-				var length = txt.Length * 0.1f;
-				DOVirtual.DelayedCall(length, FadeOutStory);
+				_interactionStoryCG.alpha = 0;
+				FadeInStory();
+				var length = txt.Length * 0.15f;
+				Debug.Log(length);
+				DOVirtual.DelayedCall(length, FadeOutStory).SetId("story");
 				_interactionStory.ChangeText(txt);
 			}
 
@@ -139,10 +143,16 @@ public class GameDirector : MonoBehaviour
 		}
 	}
 
+	private void FadeInStory()
+	{
+		DOTween.Kill("story");
+		_interactionStoryCG.DOFade(1, 0.35f).SetId("story");
+	}
+
 	private void FadeOutStory()
 	{
 		DOTween.Kill("story");
-		_interactionStoryCG.DOFade(0, 0.5f);
+		_interactionStoryCG.DOFade(0, 0.5f).SetId("story");
 	}
 
 	public void ChangeBlackOpacity(bool showBlack)

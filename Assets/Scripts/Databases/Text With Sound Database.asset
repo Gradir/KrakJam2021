@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textWithSounds:
   - {fileID: 11400000, guid: ca4b6f9ce4e7e514089e123065014250, type: 2}
-  - {fileID: 11400000, guid: e84f21e514df1054196ec2f8fd95346d, type: 2}
   - {fileID: 11400000, guid: 37719bf2f937cbd47825ea6879b76473, type: 2}
   - {fileID: 11400000, guid: eb1ac37868169c840a4d6ff52fdb61fa, type: 2}
   - {fileID: 11400000, guid: 81ba915ca0944914abc0f982c829aed9, type: 2}
@@ -46,3 +45,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b9cb3456f5bd3dd4cbaf2552a2e0a0e4, type: 2}
   - {fileID: 11400000, guid: 6322f7b956ac4094a987506bcca09d42, type: 2}
   - {fileID: 11400000, guid: 98b9b64eb6fbc654ca59fb2418861873, type: 2}
+  - {fileID: 11400000, guid: 1b88cff1f7341fe428070260d0eddee7, type: 2}

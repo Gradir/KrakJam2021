@@ -63,6 +63,7 @@ MonoBehaviour:
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 1
   _displayName: 
   _interactiblesToActivate:
@@ -131,6 +132,7 @@ MonoBehaviour:
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 1
   _displayName: 
   _interactiblesToActivate:
@@ -199,6 +201,7 @@ MonoBehaviour:
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 1
   _displayName: 
   _interactiblesToActivate:
@@ -267,6 +270,7 @@ MonoBehaviour:
   _activateAutomatically: 1
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 1
   _displayName: 
   _interactiblesToActivate: []
