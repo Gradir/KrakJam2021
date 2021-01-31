@@ -193,6 +193,7 @@ MonoBehaviour:
   _nextProgress: 5
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
+  aus: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5475568894217183526
 GameObject:
@@ -415,6 +416,7 @@ MonoBehaviour:
   _nextProgress: 9
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
+  aus: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5475568894391171599
 GameObject:
@@ -541,6 +543,7 @@ MonoBehaviour:
   _nextProgress: 15
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
+  aus: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5475568894465302222
 GameObject:
@@ -1426,6 +1429,7 @@ MonoBehaviour:
   _nextProgress: 11
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
+  aus: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5475568896064065001
 GameObject:

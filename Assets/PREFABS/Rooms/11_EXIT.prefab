@@ -685,6 +685,7 @@ MonoBehaviour:
   _nextProgress: 0
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
+  aus: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5734054409714449810
 GameObject:
@@ -762,7 +763,7 @@ GameObject:
   - component: {fileID: 5734054409773688686}
   - component: {fileID: 5734054409773688687}
   m_Layer: 11
-  m_Name: Room_01_Door_2
+  m_Name: DOOR TO HOSPITAL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -873,6 +874,7 @@ MonoBehaviour:
   _nextProgress: 0
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
+  aus: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5734054409787011300
 GameObject:

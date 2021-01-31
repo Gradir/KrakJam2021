@@ -727,6 +727,7 @@ MonoBehaviour:
   _nextProgress: 0
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
+  aus: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &7896594061257756696
 GameObject:
@@ -853,6 +854,7 @@ MonoBehaviour:
   _nextProgress: 0
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
+  aus: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &7896594061288916535
 GameObject:

@@ -454,6 +454,7 @@ MonoBehaviour:
   _nextProgress: 0
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
+  aus: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &4238061885676279376
 GameObject:

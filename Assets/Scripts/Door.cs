@@ -9,14 +9,24 @@ public class Door : StoryProgresser
 	public GameProgress _nextProgress;
 	public bool startAnimationOnInteract = false;
 	public Transform transformToMove;
+	public AudioSource aus;
 
 	[SerializeField] private Color _newColor;
 
+	private void Start()
+	{
+		aus = GetComponent<AudioSource>();
+	}
+
 	public override void TryProgress()
 	{
+		if (aus != null)
+		{
+			aus.Play();
+		}
 		if (startAnimationOnInteract)
 		{
-			transformToMove.DOMoveX(transform.position.x - 2, 2f);
+			transformToMove.DOLocalMoveX(transform.position.x - 2, 2f);
 		}
 		base.TryProgress();
 	}

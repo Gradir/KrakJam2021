@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 581364565672759707}
   - component: {fileID: 581364565672759706}
   m_Layer: 11
-  m_Name: Room_03_Door_2
+  m_Name: Room_03_Door_2_good
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,6 +216,7 @@ MonoBehaviour:
   _nextProgress: 7
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
+  aus: {fileID: 0}
   _newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &581364565675489516
 GameObject:
@@ -422,7 +423,7 @@ GameObject:
   - component: {fileID: 581364566212551068}
   - component: {fileID: 581364566212551043}
   m_Layer: 11
-  m_Name: Room_03_Door_1_good
+  m_Name: Room_03_Door_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -533,6 +534,7 @@ MonoBehaviour:
   _nextProgress: 0
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
+  aus: {fileID: 0}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &581364566392566771
 GameObject:
