@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeout: 0
   fadeBackIn: 1
-  blockInteraction: 0
+  blockInteraction: 1
   waitTime: 0
   id: 0
   text: "Returning memories?<br>No, at the time of death<br>I\u2019d like to see
