@@ -26,9 +26,12 @@ MonoBehaviour:
   voiceOver: {fileID: 8300000, guid: b49477a4922ddb943aa0685cd9160609, type: 3}
   voiceOver2: {fileID: 8300000, guid: 1d17650bf3b018d40a07ed63946f1b8b, type: 3}
   voiceOver3: {fileID: 0}
+  _waitTime: 0
+  _waitTime2: 0
+  _waitTime3: 0
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1
-  _interactionModel: {fileID: 0}
+  _interactionModel: {fileID: 830486350397777534, guid: 04ebdf0b7f4939d4084dcad1237b5aa8, type: 3}
   rotateModel: 0
   startTimeline: 0

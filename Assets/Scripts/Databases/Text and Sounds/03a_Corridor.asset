@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeout: 0
   fadeBackIn: 1
-  blockInteraction: 0
+  blockInteraction: 1
   waitTime: 0
   id: 8
   text: Nothing - but after us, <br>Who were here<br>And who were eating our own
@@ -30,6 +30,6 @@ MonoBehaviour:
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1
-  _interactionModel: {fileID: 0}
-  rotateModel: 1
+  _interactionModel: {fileID: 3624785283251312948, guid: 784680fcf17d4724eab3d1950e98f53a, type: 3}
+  rotateModel: 0
   startTimeline: 0
