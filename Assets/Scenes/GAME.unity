@@ -8372,6 +8372,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 581364565672759704, guid: 179b7d7729eaa6045b1c402a11535285, type: 3}
+      propertyPath: m_Name
+      value: Room_03_Door_2_good
+      objectReference: {fileID: 0}
     - target: {fileID: 581364565672759706, guid: 179b7d7729eaa6045b1c402a11535285, type: 3}
       propertyPath: _teleportTo
       value: 
@@ -8380,6 +8384,10 @@ PrefabInstance:
       propertyPath: _newTargetAfterInteraction
       value: 
       objectReference: {fileID: 1863548342}
+    - target: {fileID: 581364566212551041, guid: 179b7d7729eaa6045b1c402a11535285, type: 3}
+      propertyPath: m_Name
+      value: Room_03_Door_1
+      objectReference: {fileID: 0}
     - target: {fileID: 581364566212551043, guid: 179b7d7729eaa6045b1c402a11535285, type: 3}
       propertyPath: _teleportTo
       value: 
