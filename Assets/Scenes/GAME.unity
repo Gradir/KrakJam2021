@@ -8609,10 +8609,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1086288950, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1086288953, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
       propertyPath: m_SceneBindings.Array.data[33].value
       value: 
       objectReference: {fileID: 1495259583}
+    - target: {fileID: 1922889293, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
+      propertyPath: field of view
+      value: 43.60282
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922889293, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
+      propertyPath: m_FocalLength
+      value: 29.999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922889293, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
+      propertyPath: near clip plane
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922889294, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 171.863
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922889294, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922889294, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.8640003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922889294, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0127453245
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922889294, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0021768864
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922889294, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.99985397
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922889294, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.011175047
+      objectReference: {fileID: 0}
     - target: {fileID: 5916244269156428373, guid: c0e76c54cc92ad245b158dd60da81e04, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
