@@ -42,16 +42,24 @@ public class AudioManager : MonoBehaviour
 
 	public void ReactOnStoryProgress(GameProgress _thisStory, bool activatesSomething)
 	{
-//		var sound = GetRandomClip(activatesSomething ? _interactionSoundsGood : _interactionSounds);
+		//		var sound = GetRandomClip(activatesSomething ? _interactionSoundsGood : _interactionSounds);
 		//PlayOneShot(sound);
 
+		Debug.Log(string.Format("<color=white><b>{0}</b></color>", "React on: " + _thisStory.ToString()));
 		var musicProgress = _musicDatabase.GetMusicScriptable(_thisStory);
 		if (musicProgress != null)
 		{
-			if (_thisStory != _currentStory && _cachedMusicProgress != null && musicProgress.music != _cachedMusicProgress.music)
+			if (_thisStory != _currentStory)
 			//var newType = _musicTypeByProgress[_thisStory];
 			//if (newType != _currentMusicType)
 			{
+				if (_cachedMusicProgress != null)
+				{
+					if (_cachedMusicProgress.music == musicProgress.music)
+					{
+						return;
+					}
+				}
 				_musicSource.loop = musicProgress.loops;
 				_currentStory = _thisStory;
 				var fadeInTime = _gameDirector.GetFadeTime();

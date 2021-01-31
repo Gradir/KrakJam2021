@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 1481.6191, g: 1835.6934, b: 2430.2617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -727,7 +727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508644643184564803, guid: edaf537d479a7604db041b97ca0e75cb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4454262
+      value: 0.843
       objectReference: {fileID: 0}
     - target: {fileID: 3508644643184564803, guid: edaf537d479a7604db041b97ca0e75cb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8583,6 +8583,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 902830456, guid: 5a688a581a74a7148bfb0776be0a310e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 902830457, guid: 5a688a581a74a7148bfb0776be0a310e, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 902830457, guid: 5a688a581a74a7148bfb0776be0a310e, type: 3}
+      propertyPath: m_Volume
+      value: 0.504
+      objectReference: {fileID: 0}
     - target: {fileID: 2467922643969317062, guid: 5a688a581a74a7148bfb0776be0a310e, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -10316,6 +10328,14 @@ PrefabInstance:
       propertyPath: m_FocusTarget
       value: 
       objectReference: {fileID: 194617933}
+    - target: {fileID: 2741210569634932703, guid: 2ad0001b03ec726498c30652ffa5e73d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5745043822223446527, guid: 2ad0001b03ec726498c30652ffa5e73d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7500460318596177526, guid: 2ad0001b03ec726498c30652ffa5e73d, type: 3}
       propertyPath: m_Name
       value: ROOM_07_DEATH

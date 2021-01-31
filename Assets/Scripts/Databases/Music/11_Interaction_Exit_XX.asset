@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: 11_Interaction_Exit_XX
   m_EditorClassIdentifier: 
   gameProgress: 24
-  music: {fileID: 8300000, guid: 517e567a85925dc419f12b25ca0b096b, type: 3}
+  music: {fileID: 8300000, guid: 5aec621fd3476f24b86a339ae513dc08, type: 3}
+  loops: 1

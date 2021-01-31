@@ -84,10 +84,10 @@ public class GameDirector : MonoBehaviour
 		}
 		_currentProgress = progress;
 
+		_audioManager.ReactOnStoryProgress(progress, activatesSomething);
 		var progressData = _textWithSoundDatabase.GetInteractionData(progress);
 		if (progressData != null)
 		{
-			_audioManager.ReactOnStoryProgress(progress, activatesSomething);
 
 			if (progressData.blockInteraction)
 			{
@@ -173,7 +173,7 @@ public class GameDirector : MonoBehaviour
 		{
 			if (_isInInteractionMode)
 			{
-				if (_cachedLastProgress != _currentProgress)
+				if (_cachedLastProgress != null)
 				{
 					_audioManager.ReactOnStoryProgress(_cachedLastProgress, false);
 				}
