@@ -8528,6 +8528,14 @@ PrefabInstance:
       propertyPath: _teleportTo
       value: 
       objectReference: {fileID: 1972091663}
+    - target: {fileID: 5630546844577661196, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_Size.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5630546844577661196, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_Center.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5630546844577661199, guid: 99090a418d90b3743bf2d24666082805, type: 3}
       propertyPath: _objectsToDeactivate.Array.data[0]
       value: 
