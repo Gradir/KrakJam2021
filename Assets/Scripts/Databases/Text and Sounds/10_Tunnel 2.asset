@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeout: 0
   fadeBackIn: 1
-  blockInteraction: 1
+  blockInteraction: 0
   waitTime: 0
   id: 30
   text: And not without an exit, even through the door,<br>Nothing without views,
@@ -25,6 +25,9 @@ MonoBehaviour:
   voiceOver: {fileID: 8300000, guid: 56bc9e0879478b04ca05036e38744066, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
+  _waitTime: 0
+  _waitTime2: 0
+  _waitTime3: 0
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1

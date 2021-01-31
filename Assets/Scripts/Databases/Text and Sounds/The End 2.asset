@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
   m_Name: The End 2
   m_EditorClassIdentifier: 
-  fadeout: 1
+  fadeout: 0
   fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
@@ -23,7 +23,12 @@ MonoBehaviour:
   voiceOver: {fileID: 0}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
+  _waitTime: 0
+  _waitTime2: 0
+  _waitTime3: 0
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1
   _interactionModel: {fileID: 0}
+  rotateModel: 1
+  startTimeline: 0

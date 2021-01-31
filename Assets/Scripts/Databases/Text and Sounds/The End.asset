@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: The End
   m_EditorClassIdentifier: 
   fadeout: 0
-  fadeBackIn: 1
+  fadeBackIn: 0
   blockInteraction: 1
   waitTime: 0
   id: 26
@@ -27,6 +27,9 @@ MonoBehaviour:
   voiceOver: {fileID: 8300000, guid: c229fa239aceba946a1749ebf2037a78, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
+  _waitTime: 0
+  _waitTime2: 0
+  _waitTime3: 0
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1

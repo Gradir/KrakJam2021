@@ -921,7 +921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _progressesStory: 1
-  _thisStory: 1
+  _thisStory: 25
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1

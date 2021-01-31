@@ -8116,6 +8116,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1076160821, guid: 2595a64e63d32e34599c557db201fea4, type: 3}
+      propertyPath: sharedProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: 064d52abcc3e20f49afbbfb7c1449c14, type: 2}
     - target: {fileID: 4238061885584758927, guid: 2595a64e63d32e34599c557db201fea4, type: 3}
       propertyPath: _teleportTo
       value: 
@@ -8755,10 +8759,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1720640822}
     - target: {fileID: 5734054409773688687, guid: e7f8fc2b730b065449507f6991cf8e93, type: 3}
-      propertyPath: _thisStory
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 5734054409773688687, guid: e7f8fc2b730b065449507f6991cf8e93, type: 3}
       propertyPath: _teleportTo
       value: 
       objectReference: {fileID: 1370606653}
@@ -8852,14 +8852,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 607306219, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
-      propertyPath: m_Volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 607306219, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
-      propertyPath: MinDistance
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6067285246583955620, guid: 183a0111cd418f840ac461317c7d89c4, type: 3}
       propertyPath: m_RootOrder
       value: 24

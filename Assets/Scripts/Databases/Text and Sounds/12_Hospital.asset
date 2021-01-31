@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
   m_Name: 12_Hospital
   m_EditorClassIdentifier: 
-  fadeout: 0
+  fadeout: 1
   fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
@@ -24,6 +24,9 @@ MonoBehaviour:
   voiceOver: {fileID: 8300000, guid: 5e3b5f5088e718a479aee0fb347ac99e, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
+  _waitTime: 0
+  _waitTime2: 0
+  _waitTime3: 0
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1
