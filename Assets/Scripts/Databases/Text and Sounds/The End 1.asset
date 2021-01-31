@@ -17,8 +17,8 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 31
-  text: "Authors: Marta Bernard, Marcin Bia\u0142kowski, Piotr Ko\u0142odziejczyk,
-    Nikola Ko\u0142odziejczyk, Norbert Trzeciakiewicz    Translation made by Paulina
+  text: "Authors:<br>Marta Bernard<br>Marcin Bia\u0142kowski<br>Piotr Ko\u0142odziejczyk<br>Nikola
+    Ko\u0142odziejczyk<br>Norbert Trzeciakiewicz<br><br>Translation made by Paulina
     Komenda"
   text2: 
   text3: 
