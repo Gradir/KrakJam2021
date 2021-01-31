@@ -20,7 +20,10 @@ public class UIWorldSpaceController : MonoBehaviour
 		spawnedObject = Instantiate(prefab, _holder).transform;
 		spawnedObject.transform.localScale = Vector3.zero;
 		spawnedObject.DOScale(1, timeToScale).SetTarget(this);
-		spawnedObject.DORotate(fullCircle, 15, RotateMode.FastBeyond360).SetTarget(this);
+		if (rotate)
+		{
+			spawnedObject.DORotate(fullCircle, 15, RotateMode.FastBeyond360).SetTarget(this);
+		}
 	}
 
 	public void CleanUp()
