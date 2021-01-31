@@ -2157,7 +2157,7 @@ MonoBehaviour:
   _displayName: 
   _interactiblesToActivate: []
   _hideOnStart: 0
-  _teleportTo: {fileID: 1086288951}
+  _teleportTo: {fileID: 0}
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
   _nextProgress: 0
