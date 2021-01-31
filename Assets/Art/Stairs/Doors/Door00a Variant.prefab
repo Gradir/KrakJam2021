@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a3cfd3df0e2ea09459a1f38396c48b4b, type: 2}
     - target: {fileID: 4977413616993793050, guid: fe885090f2c0d894f88986586a3eff4b, type: 3}
       propertyPath: m_Name
-      value: Door00a
+      value: Door00a Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5645407254345363104, guid: fe885090f2c0d894f88986586a3eff4b, type: 3}
       propertyPath: m_RootOrder
@@ -25,15 +25,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5645407254345363104, guid: fe885090f2c0d894f88986586a3eff4b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 170.70407
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5645407254345363104, guid: fe885090f2c0d894f88986586a3eff4b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.2200003
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5645407254345363104, guid: fe885090f2c0d894f88986586a3eff4b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.0822017
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5645407254345363104, guid: fe885090f2c0d894f88986586a3eff4b, type: 3}
       propertyPath: m_LocalRotation.w
