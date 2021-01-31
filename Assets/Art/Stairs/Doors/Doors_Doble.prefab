@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4562913572154940469}
   - component: {fileID: 7616314174224156239}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Doors_Doble
   m_TagString: Untagged
   m_Icon: {fileID: 0}

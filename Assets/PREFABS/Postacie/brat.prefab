@@ -289,7 +289,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.25
   m_Height: 1.6
   m_Direction: 1
   m_Center: {x: 0, y: 0.8, z: 0}
@@ -339,12 +339,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MovingTurnSpeed: 360
   m_StationaryTurnSpeed: 180
-  m_JumpPower: 12
+  m_JumpPower: 0
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 1
+  m_MoveSpeedMultiplier: 0.5
   m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: 0.3
+  m_GroundCheckDistance: 0.6
 --- !u!114 &991944242870207797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,7 +368,7 @@ NavMeshAgent:
   m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -376,7 +376,7 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
+  m_Height: 1
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
@@ -398,6 +398,7 @@ MonoBehaviour:
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
   _objectsToDeactivate: []
+  _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Brother
   _interactiblesToActivate: []
