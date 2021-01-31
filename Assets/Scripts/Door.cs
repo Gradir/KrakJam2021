@@ -26,7 +26,8 @@ public class Door : StoryProgresser
 		}
 		if (startAnimationOnInteract)
 		{
-			transformToMove.DOLocalMoveX(transform.position.x - 2, 2f);
+			transformToMove.DOLocalMoveX
+				(transform.position.x - 2, 2f);
 		}
 		base.TryProgress();
 	}
