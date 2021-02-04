@@ -8486,10 +8486,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 991944242870207792, guid: 301a882b2c34f124fa9f4ff8a20894a8, type: 3}
       propertyPath: _thisStory
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 991944242870207792, guid: 301a882b2c34f124fa9f4ff8a20894a8, type: 3}
       propertyPath: _hideOnStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 991944242870207792, guid: 301a882b2c34f124fa9f4ff8a20894a8, type: 3}
+      propertyPath: _hideOnInteraction
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 991944242870207792, guid: 301a882b2c34f124fa9f4ff8a20894a8, type: 3}
@@ -9232,6 +9236,10 @@ PrefabInstance:
     - target: {fileID: 991944242870207792, guid: 301a882b2c34f124fa9f4ff8a20894a8, type: 3}
       propertyPath: _progressesStory
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 991944242870207792, guid: 301a882b2c34f124fa9f4ff8a20894a8, type: 3}
+      propertyPath: _hideOnInteraction
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 991944242870207792, guid: 301a882b2c34f124fa9f4ff8a20894a8, type: 3}
       propertyPath: _interactiblesToActivate.Array.size
