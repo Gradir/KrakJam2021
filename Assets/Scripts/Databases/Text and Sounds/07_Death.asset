@@ -17,11 +17,12 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 16
-  text: Silence- but in the dark<br>Elevated by the eyelids.<br>Darkness- but in
-    the cold<br>Through the skin, through the bone.<br>Coldness- but of death.<br>
+  text: I remember the quiet that followed, heavier than any sound, the absence of
+    a life once so vivid pressing in, and how the room felt impossibly empty as if
+    the world itself had lost its color.
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: e689533488cbb074eb75bf2ac76d3307, type: 3}
+  voiceOver: {fileID: 8300000, guid: 59817cbcc107c2b4bb8b29e5622f54d4, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0

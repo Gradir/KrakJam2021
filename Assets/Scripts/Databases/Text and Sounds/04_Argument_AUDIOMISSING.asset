@@ -17,13 +17,17 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 10
-  text: "Sell me your soul.<br>You won\u2019t find another trader.<br><br>There\u2019s
-    no other devil.<br>"
+  text: "I remember the day my brother and I shouted until our voices cracked, anger
+    burning hotter than reason, and how afterward the silence between us felt heavier
+    than the words we\u2019d thrown."
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: a4b799a41b982da47944927808d3341f, type: 3}
+  voiceOver: {fileID: 8300000, guid: db426302a9f9f3c4086a4590267d400d, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
+  _waitTime: 0
+  _waitTime2: 0
+  _waitTime3: 0
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1

@@ -17,13 +17,18 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 2
-  text: "It\u2019s so dark and so cold<br>but after the burned out fire.<br>Nothing
-    - but bison <br>painted with ocher<br>"
+  text: "I can still see that old toy car, chipped paint and all, the crown jewel
+    of our childhood treasures\u2014how my twin and I would race to grab it first,
+    voices rising in stubborn protest until our laughter broke through the quarrel
+    and we ended up playing together anyway."
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: 28d3462769b4a29499cfc35f06ea6503, type: 3}
+  voiceOver: {fileID: 8300000, guid: 84466b01aedac224782e3bc5e51093df, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
+  _waitTime: 0
+  _waitTime2: 0
+  _waitTime3: 0
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1

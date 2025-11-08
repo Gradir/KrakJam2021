@@ -17,12 +17,11 @@ MonoBehaviour:
   blockInteraction: 0
   waitTime: 0
   id: 30
-  text: And not without an exit, even through the door,<br>Nothing without views,
-    even through the window,<br>This room seemed.<br>The distance glasses were lying
-    on the windowsill. <br>The lonely fly was buzzing, which means it was still alive.<br>
+  text: I remember, or at least I try, chasing fragments of moments that slip through
+    my fingers like smoke, leaving only the faintest trace of what once was.
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: 56bc9e0879478b04ca05036e38744066, type: 3}
+  voiceOver: {fileID: 8300000, guid: f99611efe7d27d842b3715d4a3d19b9c, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0

@@ -17,16 +17,14 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 18
-  text: "I\u2019m the soothing pill.<br>I work at home,<br>I\u2019m effective in
-    the office,<br>I get down to exams,<br>I carefully glue the broken pots - just
-    take me,<br>Dissolve me under the tongue,<br>Just swallow me, just wash me down.<br>"
-  text2: On Earth maybe one<br>in heaven? Maybe the seventh?<br>
-  text3: I know what to do with misery,<br>How to handle bad news,<br>Lessen the
-    injustice,<br>Brighten up the lack of God,<br>match a mourning hat to the face.<br>What
-    are you waiting for-<br>Trust the chemical mercy.<br>
-  voiceOver: {fileID: 8300000, guid: 184f0dd5c6e73424bb941f5c1239e29b, type: 3}
-  voiceOver2: {fileID: 8300000, guid: 09754483b9eb5b9409c157ec40d4ad1d, type: 3}
-  voiceOver3: {fileID: 8300000, guid: 6bdfa86cfab66ea439f6f13e850e1ace, type: 3}
+  text: I remember the first time I let the darkness in, how it slid through my veins
+    like liquid fire, warm and addictive, pulling me further from myself with each
+    fleeting high, until the world I knew began to fade.
+  text2: 
+  text3: 
+  voiceOver: {fileID: 8300000, guid: 9047b87fccdfe5240b6e9da045c967ae, type: 3}
+  voiceOver2: {fileID: 0}
+  voiceOver3: {fileID: 0}
   _waitTime: 0
   _waitTime2: 0
   _waitTime3: 0

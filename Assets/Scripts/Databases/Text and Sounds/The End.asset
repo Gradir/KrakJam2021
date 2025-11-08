@@ -17,14 +17,14 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 26
-  text: "The sharpness of images has nothing to do with reality.<br>You can often
-    think of suicide, see various details precisely,<br>you can even fiercely imagine
-    you\u2019re own dead body on the balk under the ceiling,<br>but somewhere deep
-    down your soul you know that you will not do it.<br>Everyone had the demon they
-    deserve.<br>"
+  text: "\"The sharpness of images has nothing to do with reality. You can often
+    think of suicide, see various details precisely, you can even fiercely imagine
+    you\u2019re own dead body, on the balk under the ceiling, but somewhere deep
+    down your soul you know that you will not do it. Everyone had the demon they
+    deserve. \""
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: c229fa239aceba946a1749ebf2037a78, type: 3}
+  voiceOver: {fileID: 8300000, guid: af2d5ec4e18a3d648a871331a765a469, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0

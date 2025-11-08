@@ -10638,30 +10638,6 @@ PrefabInstance:
       propertyPath: _teleportTo
       value: 
       objectReference: {fileID: 770262739}
-    - target: {fileID: 9161937394092044503, guid: 7ec98a21850e016438db3bc173ad9ff0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967287
-      objectReference: {fileID: 0}
-    - target: {fileID: 9161937394101217469, guid: 7ec98a21850e016438db3bc173ad9ff0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967287
-      objectReference: {fileID: 0}
-    - target: {fileID: 9161937394211259046, guid: 7ec98a21850e016438db3bc173ad9ff0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967287
-      objectReference: {fileID: 0}
-    - target: {fileID: 9161937394464814975, guid: 7ec98a21850e016438db3bc173ad9ff0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967287
-      objectReference: {fileID: 0}
-    - target: {fileID: 9161937395506043332, guid: 7ec98a21850e016438db3bc173ad9ff0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967287
-      objectReference: {fileID: 0}
-    - target: {fileID: 9161937395828627967, guid: 7ec98a21850e016438db3bc173ad9ff0, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4294967287
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

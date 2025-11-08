@@ -17,11 +17,12 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 12
-  text: "Give me your precipice -<br>I\u2019ll settle it down with a dream,<br>You\u2019ll
-    be thankful,<br>for four falling paws.<br>"
+  text: "The hollow voice on the other end, the silence that followed\u2014and how
+    the world seemed to tilt, leaving only the cold weight of something that could
+    never be undone."
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: b5ac5e2f08bcca849b1f0d0fd39443a3, type: 3}
+  voiceOver: {fileID: 8300000, guid: 6fa3d2ef41c361a409d7d2e8e9100291, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0

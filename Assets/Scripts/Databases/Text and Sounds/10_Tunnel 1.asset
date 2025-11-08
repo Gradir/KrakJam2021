@@ -17,10 +17,10 @@ MonoBehaviour:
   blockInteraction: 0
   waitTime: 0
   id: 22
-  text: Is it as elusive as the moment of falling asleep?<br>
+  text: Is it as elusive as the moment of falling asleep?
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: d645b5781bf784c418c0f928445e4588, type: 3}
+  voiceOver: {fileID: 8300000, guid: c85fc59f47d919f49b2d04d8b3c12e9f, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0

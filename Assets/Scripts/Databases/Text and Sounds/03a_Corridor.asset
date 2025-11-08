@@ -17,11 +17,12 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 8
-  text: Nothing - but after us, <br>Who were here<br>And who were eating our own
-    hearts<br>And drinking our own blood<br>
+  text: "I remember standing at that quiet crossroads, the air heavy with uncertainty,
+    knowing that whichever path I chose would change everything\u2014feeling both
+    terrified and strangely alive beneath the weight of possibility."
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: 51a59ea7c12d1fc4d9e52c81f4476763, type: 3}
+  voiceOver: {fileID: 8300000, guid: edffa85855ba76242b59b5f737aa3c87, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0

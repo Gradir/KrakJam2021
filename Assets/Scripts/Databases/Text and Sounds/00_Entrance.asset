@@ -17,11 +17,12 @@ MonoBehaviour:
   blockInteraction: 0
   waitTime: 0
   id: 0
-  text: "Returning memories?<br>No, at the time of death<br>I\u2019d like to see
-    lost objects<br>return instead<br>"
+  text: "I close my eyes and reach into the fog of memory, trying to piece together
+    the fragments\u2014faces, voices, moments that feel so close yet slip away the
+    harder I chase them."
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: 659925db129396b44a701296908dd8ac, type: 3}
+  voiceOver: {fileID: 8300000, guid: d887ef2623ab91f40b4938c2b24d7ff5, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0

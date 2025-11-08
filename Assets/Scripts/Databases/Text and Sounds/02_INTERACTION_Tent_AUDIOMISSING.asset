@@ -17,14 +17,14 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 4
-  text: Flickering dreams on the white canvas<br>A couple of hours of the lunar scale<br>There
-    was love to the tune of longing,<br>There was a happy return from the slog<br>
-  text2: Nothing- but nothing outstanding <br>after the long resistance <br>of a
-    leaned head.<br>Thus Nothing Beautiful.<br>Worthy of a capital letter.<br>Heresy
-    towards casual oblivion<br>unconverted and proud of the distinction. <br>
-  text3: Sometimes to progress forward<br>You need to take a step backwards...
-  voiceOver: {fileID: 8300000, guid: b49477a4922ddb943aa0685cd9160609, type: 3}
-  voiceOver2: {fileID: 8300000, guid: 1d17650bf3b018d40a07ed63946f1b8b, type: 3}
+  text: "I remember those endless summer days when the world felt boundless\u2014our
+    laughter echoing through the streets as we chased each other under the fading
+    sun, scraped knees forgotten in the thrill of play and the simple joy of being
+    young."
+  text2: 
+  text3: 
+  voiceOver: {fileID: 8300000, guid: ab52438aa2aa4d8489fe1069fdf70a67, type: 3}
+  voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0
   _waitTime2: 0

@@ -17,11 +17,12 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 14
-  text: Oh clock, swim out of the river,<br>Let me grab you in my hand,<br>So that
-    I could tell <br>That you pretend the hour.<br>
+  text: "The minutes stretching endlessly, each second heavy with expectation, my
+    eyes fixed on the door as if it held the answer to everything I couldn\u2019t
+    yet face."
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: 44ad1f6e30d0e0d42bfba59a93e85f8f, type: 3}
+  voiceOver: {fileID: 8300000, guid: 57444fc0211757744b96754c78165ada, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0

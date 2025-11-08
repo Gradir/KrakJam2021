@@ -17,11 +17,11 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 25
-  text: You leave the hospital, that is you recover<br>and come back to the world,
-    the one which is a great disease on its own.<br>
+  text: The quiet hum of the morning pressing against my eyelids, and the strange,
+    slow awareness that I was alive again, if only for a moment.
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: 5e3b5f5088e718a479aee0fb347ac99e, type: 3}
+  voiceOver: {fileID: 8300000, guid: 11fb6eb83324fa24b95db12fe2949c02, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0
