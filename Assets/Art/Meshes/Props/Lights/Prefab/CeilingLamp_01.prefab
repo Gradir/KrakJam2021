@@ -23,9 +23,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4939890636832620780}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.30264524, y: 0.30264524, z: 0.30264524}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8472090583104099950}
   - {fileID: 8680481441620816897}
@@ -35,13 +37,13 @@ Transform:
   - {fileID: 2059510699080700851}
   - {fileID: 9043819768548851323}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &503961556747191548
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 8707388281747785984}
     m_Modifications:
     - target: {fileID: 8317171192691987090, guid: cf82a8e1669110c419edd18ee94bbbce, type: 3}
@@ -57,6 +59,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf82a8e1669110c419edd18ee94bbbce, type: 3}
 --- !u!4 &8472090583104099950 stripped
 Transform:
@@ -68,6 +73,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 8707388281747785984}
     m_Modifications:
     - target: {fileID: 1230075585302205852, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
@@ -115,8 +121,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_Version
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_Intensity
       value: 21.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_VolumetricFadeDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4913237776817256236, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_Name
@@ -128,7 +146,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_Intensity
-      value: 370727.6
+      value: 8192
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_LightUnit
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_AreaSize.x
@@ -139,10 +161,17 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_ColorTemperature
       value: 2800.0002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
 --- !u!4 &2059510699080700851 stripped
 Transform:
@@ -154,8 +183,13 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 8707388281747785984}
     m_Modifications:
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_Version
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
       propertyPath: m_Intensity
       value: 21.7
@@ -164,9 +198,29 @@ PrefabInstance:
       propertyPath: m_LightUnit
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: useVolumetric
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_InnerSpotPercent
+      value: 74.61189
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_VolumetricDimmer
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_VolumetricFadeDistance
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1978862352675334064, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
       propertyPath: m_Intensity
       value: 425854.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978862352675334064, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_SpotAngle
+      value: 79.67897
       objectReference: {fileID: 0}
     - target: {fileID: 6030349360826037165, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
       propertyPath: m_RootOrder
@@ -217,6 +271,9 @@ PrefabInstance:
       value: Light_Spot_1200lm
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
 --- !u!4 &8680481441620816897 stripped
 Transform:
@@ -228,8 +285,13 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 8707388281747785984}
     m_Modifications:
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_Version
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
       propertyPath: m_Intensity
       value: 21.7
@@ -238,9 +300,29 @@ PrefabInstance:
       propertyPath: m_LightUnit
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: useVolumetric
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_InnerSpotPercent
+      value: 41.179844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_VolumetricDimmer
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_VolumetricFadeDistance
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1978862352675334064, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
       propertyPath: m_Intensity
       value: 425854.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978862352675334064, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_SpotAngle
+      value: 144.36671
       objectReference: {fileID: 0}
     - target: {fileID: 6030349360826037165, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
       propertyPath: m_RootOrder
@@ -291,6 +373,9 @@ PrefabInstance:
       value: Light_Spot_1200lm
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
 --- !u!4 &816027149252574580 stripped
 Transform:
@@ -302,6 +387,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 8707388281747785984}
     m_Modifications:
     - target: {fileID: 1230075585302205852, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
@@ -349,8 +435,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_Version
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_Intensity
       value: 21.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_VolumetricFadeDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4913237776817256236, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_Name
@@ -362,7 +460,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_Intensity
-      value: 370727.6
+      value: 8192
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_LightUnit
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_AreaSize.x
@@ -373,10 +475,17 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_ShadowRadius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_ColorTemperature
       value: 2800.0002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
 --- !u!4 &9043819768548851323 stripped
 Transform:
@@ -388,8 +497,13 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 8707388281747785984}
     m_Modifications:
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_Version
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
       propertyPath: m_Intensity
       value: 21.7
@@ -398,9 +512,29 @@ PrefabInstance:
       propertyPath: m_LightUnit
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: useVolumetric
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_InnerSpotPercent
+      value: 41.179844
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_VolumetricDimmer
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 1526240796000064953, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_VolumetricFadeDistance
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 1978862352675334064, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
       propertyPath: m_Intensity
       value: 425854.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978862352675334064, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
+      propertyPath: m_SpotAngle
+      value: 144.36671
       objectReference: {fileID: 0}
     - target: {fileID: 1978862352675334064, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
       propertyPath: m_BoundingSphereOverride.w
@@ -463,6 +597,9 @@ PrefabInstance:
       value: Light_Spot_1200lm
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbe8cbbfe4750f4429ff7e163423dfe6, type: 3}
 --- !u!4 &2720023507811775789 stripped
 Transform:
@@ -474,6 +611,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 8707388281747785984}
     m_Modifications:
     - target: {fileID: 1230075585302205852, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
@@ -521,8 +659,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_Version
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_Intensity
       value: 21.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_ShapeRadius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566621853601451998, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_VolumetricFadeDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4913237776817256236, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_Name
@@ -534,7 +684,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_Intensity
-      value: 370727.6
+      value: 8192
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_LightUnit
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_AreaSize.x
@@ -542,6 +696,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
       propertyPath: m_AreaSize.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
+      propertyPath: m_ShadowRadius
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7880006503359350210, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
@@ -553,6 +711,9 @@ PrefabInstance:
       value: 255
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b868dedbc9c0a3f469e82cc2ad6f200a, type: 3}
 --- !u!4 &7546543704524093070 stripped
 Transform:

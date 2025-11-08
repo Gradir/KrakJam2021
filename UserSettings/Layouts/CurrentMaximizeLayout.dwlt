@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 142
+  controlID: 1979
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -762,7 +762,7 @@ MonoBehaviour:
       scrollOffset: 0
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -772,9 +772,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 5.556325, y: 3.4986763, z: 3.5165615}
+    m_Target: {x: 18.074585, y: 4.384177, z: 4.444439}
     speed: 2
-    m_Value: {x: 5.556325, y: 3.4986763, z: 3.5165615}
+    m_Value: {x: 18.074585, y: 4.384177, z: 4.444439}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -820,13 +820,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.006050134, y: 0.9906948, z: 0.04698523, w: 0.12760769}
+    m_Target: {x: -0.061811227, y: 0.9344311, z: 0.20091924, w: 0.28750488}
     speed: 2
-    m_Value: {x: -0.005590696, y: 0.9908555, z: 0.043418307, w: 0.12762839}
+    m_Value: {x: -0.06301533, y: 0.9326848, z: 0.2005438, w: 0.29310486}
   m_Size:
     m_Target: 0.33272415
     speed: 2
-    m_Value: 0.33272415
+    m_Value: 8.864313
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -884,7 +884,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 143
+  controlID: 1980
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -910,7 +910,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 144
+  controlID: 1981
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -957,8 +957,8 @@ MonoBehaviour:
     y: 0
     width: 1162.4
     height: 688.8
-  m_MinSize: {x: 50, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 51, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 7}
