@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 107713
+  controlID: 113825
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -772,9 +772,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 241.87077, y: 1.3782504, z: 19.625551}
+    m_Target: {x: -22.317623, y: 22.257725, z: 13.007129}
     speed: 2
-    m_Value: {x: 241.87077, y: 1.3782504, z: 19.625551}
+    m_Value: {x: -22.317621, y: 22.257725, z: 13.007129}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -820,20 +820,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.048252672, y: -0.3216789, z: 0.016483748, w: -0.94554806}
+    m_Target: {x: -0.020430133, y: -0.94601995, z: 0.3177059, w: -0.060818613}
     speed: 2
-    m_Value: {x: -0.047986344, y: -0.3363665, z: 0.017233264, w: -0.94034994}
+    m_Value: {x: -0.016587328, y: -0.941719, z: 0.33269677, w: -0.046936832}
   m_Size:
-    m_Target: 15.096406
+    m_Target: 7.538287
     speed: 2
-    m_Value: 15.096395
+    m_Value: 7.538287
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.4007223
-    m_SpeedNormalized: 0.28000045
+    m_Speed: 2.6004822
+    m_SpeedNormalized: 0.52000046
     m_SpeedMin: 0.001
     m_SpeedMax: 5
     m_EasingEnabled: 1
@@ -844,7 +844,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.0021485614, y: 0.9979008, z: -0.04734486, w: 0.045204546}
+  m_LastSceneViewRotation: {x: -0.09084178, y: -0.73887205, z: 0.101713166, w: -0.65990263}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 2}
@@ -884,7 +884,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 107714
+  controlID: 113826
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -910,7 +910,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 107715
+  controlID: 113827
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
