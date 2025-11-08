@@ -25,6 +25,10 @@ Preset:
     value: 
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: m_Resource
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: m_PlayOnAwake
     value: 1
     objectReference: {fileID: 0}
@@ -66,7 +70,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: MaxDistance
-    value: 150
+    value: 30
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: Pan2D
@@ -90,7 +94,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.size
-    value: 9
+    value: 2
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].time
@@ -102,11 +106,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].inSlope
-    value: -943.77496
+    value: -11.344396
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].outSlope
-    value: -943.77496
+    value: -11.344396
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].tangentMode
@@ -122,23 +126,23 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[0].outWeight
-    value: 0
+    value: 0.024157614
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].time
-    value: 0.0021199998
+    value: 0.28579596
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].value
-    value: 0.5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].inSlope
-    value: -235.94374
+    value: -0.16945921
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outSlope
-    value: -235.94374
+    value: -0.16945921
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].tangentMode
@@ -150,234 +154,10 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].inWeight
-    value: 0
+    value: 0.096436284
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].time
-    value: 0.0042399997
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].value
-    value: 0.25
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].inSlope
-    value: -58.985935
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].outSlope
-    value: -58.985935
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].tangentMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].weightedMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].inWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[2].outWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[3].time
-    value: 0.008479999
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[3].value
-    value: 0.125
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[3].inSlope
-    value: -14.746484
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[3].outSlope
-    value: -14.746484
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[3].tangentMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[3].weightedMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[3].inWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[3].outWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[4].time
-    value: 0.014880989
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[4].value
-    value: 0.0637207
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[4].inSlope
-    value: -3.686621
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[4].outSlope
-    value: -3.686621
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[4].tangentMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[4].weightedMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[4].inWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[4].outWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[5].time
-    value: 0.077513486
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[5].value
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[5].inSlope
-    value: -0.072936185
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[5].outSlope
-    value: -0.072936185
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[5].tangentMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[5].weightedMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[5].inWeight
-    value: 0.55287665
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[5].outWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[6].time
-    value: 0.27135998
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[6].value
-    value: 0.00390625
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[6].inSlope
-    value: -0.014400863
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[6].outSlope
-    value: -0.014400863
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[6].tangentMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[6].weightedMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[6].inWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[6].outWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[7].time
-    value: 0.54271996
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[7].value
-    value: 0.001953125
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[7].inSlope
-    value: -0.0036002158
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[7].outSlope
-    value: -0.0036002158
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[7].tangentMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[7].weightedMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[7].inWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[7].outWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[8].time
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[8].value
-    value: 0.0010599999
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[8].inSlope
-    value: -0.0010604243
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[8].outSlope
-    value: -0.0010604243
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[8].tangentMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[8].weightedMode
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[8].inWeight
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: rolloffCustomCurve.m_Curve.Array.data[8].outWeight
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
@@ -537,3 +317,8 @@ Preset:
     value: 4
     objectReference: {fileID: 0}
   m_ExcludedProperties: []
+  m_CoupledType:
+    m_NativeTypeID: 0
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_CoupledProperties: []

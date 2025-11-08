@@ -6,6 +6,8 @@ public abstract class StoryProgresser : MonoBehaviour
 {
 	public bool _progressesStory = true;
 	public GameProgress _thisStory;
+	public AudioSource _audioSource;
+	public AudioClip _audioClip;
 	public bool _interactible = true;
 	public bool _activateAutomatically = false;
 	public bool _setInteractibleOnEnable = true;
@@ -37,6 +39,7 @@ public abstract class StoryProgresser : MonoBehaviour
 			{
 				GameObject.FindObjectOfType<CameraCollider>().DisableControl();
 			}
+			
 			Signals.Get<StoryShouldProgressSignal>().Dispatch(_thisStory, _interactiblesToActivate.Length > 0, interactionCount);
 			interactionCount++;
 
@@ -62,6 +65,8 @@ public abstract class StoryProgresser : MonoBehaviour
 					door.SwitchTarget();
 				}
 			}
+			if (_audioSource != null)
+				_audioSource.PlayOneShot(_audioClip);
 		}
 		if (_hideOnInteraction)
 		{
