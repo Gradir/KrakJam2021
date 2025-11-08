@@ -549,55 +549,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7896594060527133358, guid: 843dce675c89c034ba610a4efba3e571, type: 3}
   m_PrefabInstance: {fileID: 7896594060606645725}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &95625848
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 95625849}
-  - component: {fileID: 95625850}
-  m_Layer: 0
-  m_Name: TentTimeline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &95625849
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 95625848}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2081993332}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!320 &95625850
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 95625848}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 0}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings: []
-  m_ExposedReferences:
-    m_References: []
 --- !u!1 &108960825
 GameObject:
   m_ObjectHideFlags: 0
@@ -5434,6 +5385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerControllerFPS
       objectReference: {fileID: 0}
+    - target: {fileID: 738646681744756154, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 738646681744756156, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.066479
@@ -8539,11 +8494,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077544868}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &2081993332 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7896594060328251139, guid: 843dce675c89c034ba610a4efba3e571, type: 3}
-  m_PrefabInstance: {fileID: 7896594060606645725}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2095019426 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7500460319309322659, guid: 2ad0001b03ec726498c30652ffa5e73d, type: 3}
@@ -13083,10 +13033,7 @@ PrefabInstance:
       objectReference: {fileID: 1370606653}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 7896594060328251139, guid: 843dce675c89c034ba610a4efba3e571, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 95625849}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 843dce675c89c034ba610a4efba3e571, type: 3}
 --- !u!1001 &8263712824432648293
