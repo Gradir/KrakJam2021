@@ -170,11 +170,16 @@ public class GameDirector : MonoBehaviour
 
 	void Update()
 	{
+		if (Input.GetKeyUp(KeyCode.Escape))
+		{
+			Application.Quit();
+			return;
+		}
 		if (Input.GetMouseButtonUp(0) || Input.GetMouseButtonUp(1))
 		{
 			if (_isInInteractionMode)
 			{
-				if (_cachedLastProgress != null)
+				if (_cachedLastProgress != GameProgress.None)
 				{
 					_audioManager.ReactOnStoryProgress(_cachedLastProgress, false);
 				}

@@ -58,6 +58,7 @@ MonoBehaviour:
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
+  - {fileID: 8926484042661614866}
   - {fileID: 8926484042661614609}
   - {fileID: 114158099937248418}
   m_OutputSlots: []
@@ -73,7 +74,7 @@ MonoBehaviour:
   cullMode: 0
   zWriteMode: 0
   zTestMode: 0
-  useAlphaClipping: 0
+  useAlphaClipping: 1
   generateMotionVector: 0
   excludeFromTUAndAA: 0
   sortingPriority: 0
@@ -215,9 +216,9 @@ MonoBehaviour:
   uiBounds:
     serializedVersion: 2
     x: -215
-    y: -493
+    y: -494
     width: 2028
-    height: 2600
+    height: 2571
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2568,7 +2569,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.01
+      m_SerializableObject: 0.005
     m_Space: -1
   m_Property:
     name: A
@@ -2602,7 +2603,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.03
+      m_SerializableObject: 0.02
     m_Space: -1
   m_Property:
     name: B
@@ -6873,7 +6874,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":2.9433960914611818,"g":2.7181389331817629,"b":2.0825915336608888,"a":1.0},"time":0.0},{"color":{"r":1.0980392694473267,"g":0.7046868801116943,"b":0.39215683937072756,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":0.6868589520454407,"g":1.060659408569336,"b":2.4764304161071779,"a":1.0},"time":0.0},{"color":{"r":1.0980392694473267,"g":0.9442350268363953,"b":0.39667388796806338,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}],"gradientMode":0}'
     m_Space: -1
   m_Property:
     name: Color
@@ -9171,3 +9172,37 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661614843}
+--- !u!114 &8926484042661614866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualEffectGraph.Editor::UnityEditor.VFX.VFXSlotFloat
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661614866}
+  m_MasterData:
+    m_Owner: {fileID: 114063133802684794}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 0.5
+    m_Space: -1
+  m_Property:
+    name: alphaThreshold
+    m_serializedType:
+      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots: []
