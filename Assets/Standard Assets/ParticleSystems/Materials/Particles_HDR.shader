@@ -39,7 +39,8 @@ Shader "Particles_HDR"
 			#pragma multi_compile _ PIXELSNAP_ON
 			#pragma multi_compile _ ETC1_EXTERNAL_ALPHA
 			#include "UnityCG.cginc"
-			
+			#define ASE_NEEDS_FRAG_COLOR
+
 
 			struct appdata_t
 			{
@@ -108,7 +109,7 @@ Shader "Particles_HDR"
 
 				float2 uv_TextureSample0 = IN.texcoord.xy * _TextureSample0_ST.xy + _TextureSample0_ST.zw;
 				
-				fixed4 c = ( tex2D( _TextureSample0, uv_TextureSample0 ) * _Color0 );
+				fixed4 c = ( tex2D( _TextureSample0, uv_TextureSample0 ) * _Color0 * IN.color );
 				c.rgb *= c.a;
 				return c;
 			}
@@ -121,13 +122,15 @@ Shader "Particles_HDR"
 }
 /*ASEBEGIN
 Version=18800
-1920;6;776;1013;1057;491.5;1;True;False
-Node;AmplifyShaderEditor.SamplerNode;2;-550,-336.5;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.ColorNode;1;-459,-138.5;Inherit;False;Property;_Color0;Color 0;1;2;[HDR];[Gamma];Create;True;0;0;0;False;0;False;1,1,1,1;1,1,1,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.SimpleMultiplyOpNode;3;-196,-208.5;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
+2055.2;203.2;1920;802.8;1629;386.4;1;True;False
+Node;AmplifyShaderEditor.SamplerNode;2;-550,-336.5;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;a7404818c25b8844cb8baaa6a3855a55;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.ColorNode;1;-459,-138.5;Inherit;False;Property;_Color0;Color 0;1;2;[HDR];[Gamma];Create;True;0;0;0;False;0;False;1,1,1,1;3.342883,2.520308,1.971039,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.VertexColorNode;4;-281,173.6;Inherit;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;3;-196,-208.5;Inherit;False;3;3;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;2;COLOR;0,0,0,0;False;1;COLOR;0
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;-39,-199;Float;False;True;-1;2;ASEMaterialInspector;0;7;Particles_HDR;0f8ba0101102bb14ebf021ddadce9b49;True;SubShader 0 Pass 0;0;0;SubShader 0 Pass 0;2;True;3;1;False;-1;10;False;-1;0;1;False;-1;0;False;-1;False;False;False;False;False;False;False;False;True;2;False;-1;False;False;False;False;False;True;2;False;-1;False;False;True;5;Queue=Transparent=Queue=0;IgnoreProjector=True;RenderType=Transparent=RenderType;PreviewType=Plane;CanUseSpriteAtlas=True;False;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;2;0;;0;0;Standard;0;0;1;True;False;;False;0
 WireConnection;3;0;2;0
 WireConnection;3;1;1;0
+WireConnection;3;2;4;0
 WireConnection;0;0;3;0
 ASEEND*/
-//CHKSM=800AB8EF31E105E7F6A03123F6B5F0FCAB2B6D6D
+//CHKSM=00B4FCFE72FF74C59062F7C20FCEE94920C5E9ED
