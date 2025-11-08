@@ -17,8 +17,8 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 25
-  text: The quiet hum of the morning pressing against my eyelids, and the strange,
-    slow awareness that I was alive again, if only for a moment.
+  text: The quiet hum of the morning<br>pressing against my eyelids,<br>and the strange,
+    slow awareness<br>that I was alive again,<br>if only for a moment.
   text2: 
   text3: 
   voiceOver: {fileID: 8300000, guid: 11fb6eb83324fa24b95db12fe2949c02, type: 3}

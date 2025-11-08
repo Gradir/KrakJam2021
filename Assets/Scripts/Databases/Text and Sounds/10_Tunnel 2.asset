@@ -17,8 +17,9 @@ MonoBehaviour:
   blockInteraction: 0
   waitTime: 0
   id: 30
-  text: I remember, or at least I try, chasing fragments of moments that slip through
-    my fingers like smoke, leaving only the faintest trace of what once was.
+  text: I remember, or at least I try,<br>chasing fragments of moments<br>that slip
+    through my fingers like smoke,<br>leaving only the faintest trace<br>of what
+    once was.
   text2: 
   text3: 
   voiceOver: {fileID: 8300000, guid: f99611efe7d27d842b3715d4a3d19b9c, type: 3}

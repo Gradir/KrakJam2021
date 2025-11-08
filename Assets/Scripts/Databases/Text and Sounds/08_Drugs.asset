@@ -17,9 +17,9 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 18
-  text: I remember the first time I let the darkness in, how it slid through my veins
-    like liquid fire, warm and addictive, pulling me further from myself with each
-    fleeting high, until the world I knew began to fade.
+  text: I remember the first time I let the darkness in,<br>how it slid through my
+    veins like liquid fire,<br>warm and addictive,<br>pulling me further from myself<br>with
+    each fleeting high,<br>until the world I knew began to fade.
   text2: 
   text3: 
   voiceOver: {fileID: 8300000, guid: 9047b87fccdfe5240b6e9da045c967ae, type: 3}

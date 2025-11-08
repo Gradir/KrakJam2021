@@ -17,8 +17,8 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 14
-  text: "The minutes stretching endlessly, each second heavy with expectation, my
-    eyes fixed on the door as if it held the answer to everything I couldn\u2019t
+  text: "The minutes stretching endlessly,<br>each second heavy with expectation,<br>my
+    eyes fixed on the door<br>as if it held the answer<br>to everything I couldn\u2019t
     yet face."
   text2: 
   text3: 

@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
-  m_Name: 02_INTERACTION_Tent_AUDIOMISSING
+  m_Name: 02_INTERACTION_Tent
   m_EditorClassIdentifier: 
   fadeout: 0
   fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
   id: 4
-  text: "I remember those endless summer days when the world felt boundless\u2014our
-    laughter echoing through the streets as we chased each other under the fading
-    sun, scraped knees forgotten in the thrill of play and the simple joy of being
-    young."
+  text: "I remember those endless summer days<br>when the world felt boundless<br>\u2014our
+    laughter echoing through the streets<br>as we chased each other under the fading
+    sun,<br>scraped knees forgotten in the thrill<br>of play and the simple joy of
+    being young."
   text2: 
   text3: 
   voiceOver: {fileID: 8300000, guid: ab52438aa2aa4d8489fe1069fdf70a67, type: 3}

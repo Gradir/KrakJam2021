@@ -17,9 +17,9 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 16
-  text: I remember the quiet that followed, heavier than any sound, the absence of
-    a life once so vivid pressing in, and how the room felt impossibly empty as if
-    the world itself had lost its color.
+  text: I remember the quiet that followed,<br>heavier than any sound,<br>the absence
+    of a life<br>once so vivid pressing in,<br>and how the room felt impossibly empty<br>as
+    if the world itself had lost its color.
   text2: 
   text3: 
   voiceOver: {fileID: 8300000, guid: 59817cbcc107c2b4bb8b29e5622f54d4, type: 3}

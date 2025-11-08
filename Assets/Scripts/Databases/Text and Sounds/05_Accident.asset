@@ -17,9 +17,9 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 12
-  text: "The hollow voice on the other end, the silence that followed\u2014and how
-    the world seemed to tilt, leaving only the cold weight of something that could
-    never be undone."
+  text: "The hollow voice on the other end,<br>the silence that followed<br>\u2014and
+    how the world seemed to tilt,<br>leaving only the cold weight<br>of something
+    that could never be undone."
   text2: 
   text3: 
   voiceOver: {fileID: 8300000, guid: 6fa3d2ef41c361a409d7d2e8e9100291, type: 3}

@@ -136,6 +136,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SubSGThreePanner_a377c6a070424578813a0a27fb20d0bc_Noise_155962388_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 9e618e7d4ccc3744e869cf2794af9175, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SubsurfaceMaskMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}

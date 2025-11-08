@@ -10,20 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 367964f15cded0f4d838f751832fec73, type: 3}
-  m_Name: 01_INTERACTION_ToyCar_AUDIOMISSING
+  m_Name: 04_Argument
   m_EditorClassIdentifier: 
   fadeout: 0
   fadeBackIn: 1
   blockInteraction: 1
   waitTime: 0
-  id: 2
-  text: "I can still see that old toy car, chipped paint and all, the crown jewel
-    of our childhood treasures\u2014how my twin and I would race to grab it first,
-    voices rising in stubborn protest until our laughter broke through the quarrel
-    and we ended up playing together anyway."
+  id: 10
+  text: "I remember the day my brother and I<br>shouted until our voices cracked,<br>anger
+    burning hotter than reason,<br>and how afterward the silence between us<br>felt
+    heavier than the words we\u2019d thrown."
   text2: 
   text3: 
-  voiceOver: {fileID: 8300000, guid: 84466b01aedac224782e3bc5e51093df, type: 3}
+  voiceOver: {fileID: 8300000, guid: db426302a9f9f3c4086a4590267d400d, type: 3}
   voiceOver2: {fileID: 0}
   voiceOver3: {fileID: 0}
   _waitTime: 0
@@ -32,6 +31,6 @@ MonoBehaviour:
   customFootsteps: 0
   footsteps: []
   _timeScaleFactor: 1
-  _interactionModel: {fileID: 3906290212820355243, guid: 300bbbd36b1bbbf4193c4b8ff239926c, type: 3}
+  _interactionModel: {fileID: 8192676027003778834, guid: e274ffaaa79d64a4fb1ed56a29f0383c, type: 3}
   rotateModel: 1
   startTimeline: 0
