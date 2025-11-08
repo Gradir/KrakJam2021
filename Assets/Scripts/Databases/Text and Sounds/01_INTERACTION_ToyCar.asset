@@ -19,7 +19,7 @@ MonoBehaviour:
   id: 2
   text: "I can still see that old toy car,<br>chipped paint and all,<br>the crown
     jewel of our childhood treasures<br>\u2014how my twin and I would race to grab
-    it first,<br>voices rising in stubborn protest until our laughter broke through
+    it first,<br>voices rising in stubborn protest until<br>our laughter broke through
     the quarrel<br>and we ended up playing together anyway."
   text2: 
   text3: 

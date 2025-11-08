@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
 #else
         x = Input.GetAxis("Horizontal");
         z = Input.GetAxis("Vertical");
-        jumpPressed = Input.GetButtonDown("Jump");
+        //jumpPressed = Input.GetButtonDown("Jump");
 #endif
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
@@ -80,10 +80,10 @@ public class PlayerMovement : MonoBehaviour
 			controller.Move(move * speed * Time.deltaTime);
 		}
 
-        if(jumpPressed && isGrounded)
-        {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-        }
+        // if(jumpPressed && isGrounded)
+        // {
+        //     velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        // }
 
         velocity.y += gravity * Time.deltaTime;
 		if (controller.enabled == true)

@@ -17,9 +17,8 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 8
-  text: "I remember standing at that quiet crossroads,<br>the air heavy with uncertainty,
-    knowing that whichever path I chose<br>would change everything\u2014feeling both
-    terrified<br>and strangely alive<br>beneath the weight of possibility."
+  text: I remember the sting of betrayal,<br>how it cut deeper than any wound,<br>leaving
+    a hollow ache<br>that lingered long after the faces and words had faded.
   text2: 
   text3: 
   voiceOver: {fileID: 8300000, guid: edffa85855ba76242b59b5f737aa3c87, type: 3}

@@ -136,6 +136,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SubSGThreePanner_a377c6a070424578813a0a27fb20d0bc_Noise_155962388_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 9e618e7d4ccc3744e869cf2794af9175, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SubsurfaceMaskMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -347,7 +351,7 @@ Material:
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _Overlay: {r: 0.53826976, g: 0.7469176, b: 0.9056604, a: 1}
+    - _Overlay: {r: 0.7584905, g: 0.7584905, b: 0.7584905, a: 1}
     - _Panning: {r: -0.05, g: -0.1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _Speed1: {r: 0, g: 0.3, b: 0, a: 0}
