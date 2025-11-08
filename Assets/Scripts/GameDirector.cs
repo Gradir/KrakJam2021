@@ -42,21 +42,22 @@ public enum GameProgress
 
 public class GameDirector : MonoBehaviour
 {
-	[SerializeField] private CanvasGroup _blackCG;
-	[SerializeField] private float _timeForShowBlack = 0.4f;
-	[SerializeField] private float _timeForHideBlack = 0.3f;
-	[SerializeField] private CameraCollider _player;
-	[SerializeField] private CanvasGroup _interactionStoryCG;
-	[SerializeField] private FloatingText _interactionStory;
-	[SerializeField] private AudioManager _audioManager;
-	[SerializeField] private TextWithSoundDatabase _textWithSoundDatabase;
-	[SerializeField] private UIWorldSpaceController _closeUpModelHolder;
-	private bool _isInInteractionMode;
-	private GameProgress _cachedLastProgress;
-	private GameProgress _currentProgress;
-	private int _iterationsNumber;
-	private float fixedDeltaTime;
-	private bool cached;
+	[SerializeField] CanvasGroup _blackCG;
+	[SerializeField] float _timeForShowBlack = 0.4f;
+	[SerializeField] float _timeForHideBlack = 0.3f;
+	[SerializeField] CameraCollider _player;
+	[SerializeField] CanvasGroup _interactionStoryCG;
+	[SerializeField] FloatingText _interactionStory;
+	[SerializeField] AudioManager _audioManager;
+	[SerializeField] TextWithSoundDatabase _textWithSoundDatabase;
+	[SerializeField] UIWorldSpaceController _closeUpModelHolder;
+	bool _isInInteractionMode;
+	GameProgress _cachedLastProgress;
+	GameProgress _currentProgress;
+	int _iterationsNumber;
+	float fixedDeltaTime;
+	bool cached;
+	const string StoryId = "story";
 
 	void Awake()
 	{
@@ -69,7 +70,7 @@ public class GameDirector : MonoBehaviour
 		return _timeForShowBlack;
 	}
 
-	private void Start()
+	void Start()
 	{
 		Signals.Get<StoryShouldProgressSignal>().AddListener(ReactOnStoryProgress);
 		DOVirtual.DelayedCall(2f, () => ChangeBlackOpacity(false));
@@ -143,16 +144,16 @@ public class GameDirector : MonoBehaviour
 		}
 	}
 
-	private void FadeInStory()
+	void FadeInStory()
 	{
-		DOTween.Kill("story");
-		_interactionStoryCG.DOFade(1, 0.35f).SetId("story");
+		DOTween.Kill(StoryId);
+		_interactionStoryCG.DOFade(1, 0.5f).SetId(StoryId);
 	}
 
-	private void FadeOutStory()
+	void FadeOutStory()
 	{
-		DOTween.Kill("story");
-		_interactionStoryCG.DOFade(0, 0.5f).SetId("story");
+		DOTween.Kill(StoryId);
+		_interactionStoryCG.DOFade(0, 0.5f).SetId(StoryId);
 	}
 
 	public void ChangeBlackOpacity(bool showBlack)
@@ -167,7 +168,7 @@ public class GameDirector : MonoBehaviour
 		}
 	}
 
-	private void Update()
+	void Update()
 	{
 		if (Input.GetMouseButtonUp(0) || Input.GetMouseButtonUp(1))
 		{

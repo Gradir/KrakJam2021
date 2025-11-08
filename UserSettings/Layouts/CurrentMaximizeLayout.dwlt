@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 61185
+  controlID: 95006
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 61186
+  controlID: 95007
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 61187
+  controlID: 95008
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -941,7 +941,7 @@ MonoBehaviour:
       scrollOffset: 0
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -951,9 +951,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -19.378157, y: 5.643709, z: 13.277858}
+    m_Target: {x: 56.34399, y: 4.67295, z: 2.7664242}
     speed: 2
-    m_Value: {x: -19.378157, y: 5.643709, z: 13.277858}
+    m_Value: {x: 56.34399, y: 4.67295, z: 2.7664242}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -969,7 +969,7 @@ MonoBehaviour:
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
-    m_FxEnabled: 1
+    m_FxEnabled: 0
   m_Grid:
     xGrid:
       m_Fade:
@@ -999,22 +999,22 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.06001967, y: 0.9370037, z: -0.20148969, w: -0.2791366}
+    m_Target: {x: -0.026224187, y: -0.95866686, z: 0.09407124, w: -0.2674552}
     speed: 2
-    m_Value: {x: -0.060016863, y: 0.93695986, z: -0.20148027, w: -0.27912354}
+    m_Value: {x: -0.02314503, y: -0.96794313, z: 0.09732674, w: -0.2303866}
   m_Size:
-    m_Target: 1.1261778
+    m_Target: 0.8660254
     speed: 2
-    m_Value: 1.1261778
+    m_Value: 0.8660257
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.90054995
-    m_SpeedNormalized: 0.45
+    m_Speed: 0.20096219
+    m_SpeedNormalized: 0.04000044
     m_SpeedMin: 0.001
-    m_SpeedMax: 2
+    m_SpeedMax: 5
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
     m_AccelerationEnabled: 0
@@ -1023,7 +1023,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.0021485614, y: 0.9979008, z: -0.04734486, w: 0.045204546}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 6}

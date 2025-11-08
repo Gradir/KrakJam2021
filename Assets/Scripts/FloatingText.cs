@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class FloatingText : MonoBehaviour
 {
-	[SerializeField] private float _lengthBase = 10f;
-	[SerializeField] private float _lengthRandom = 2f;
-	[SerializeField] private float _maxDistance = 100f;
-	[SerializeField] private CanvasGroup _cg;
-	[SerializeField] private TextMeshProUGUI _text;
-	[SerializeField] private RectTransform _textRectTransform;
-	private Vector2 _textStartPosition;
+	[SerializeField] float _lengthBase = 10f;
+	[SerializeField] float _lengthRandom = 2f;
+	[SerializeField] float _maxDistance = 100f;
+	[SerializeField] CanvasGroup _cg;
+	[SerializeField] TextMeshProUGUI _text;
+	[SerializeField] RectTransform _textRectTransform;
+	Vector2 _textStartPosition;
+	const string FloatingTextId = "FloatingText";
 
-	private void Start()
+	void Start()
 	{
 		if (_text == null)
 		{
@@ -27,37 +28,38 @@ public class FloatingText : MonoBehaviour
 
 	public void ChangeText(string txt)
 	{
+		DOTween.Kill(this);
 		if (txt != null && txt != string.Empty)
 		{
-			_cg.DOFade(1, 0.6f);
-			_textRectTransform.anchoredPosition = _textStartPosition;
 			_text.text = txt;
+			_textRectTransform.anchoredPosition = _textStartPosition;
+			_cg.DOFade(1, 0.6f).SetTarget(this);
 			//_revealer.RestartWithText(txt);
 			_text.DOColor(Color.black, _lengthBase).SetLoops(-1, LoopType.Yoyo).SetTarget(this);
 			StartAnimation();
 		}
 		else
 		{
-			_cg.DOFade(0, 0.15f);
-			_text.text = string.Empty;
-			StopAnimation();
+			DOTween.Kill(FloatingTextId);
+			_cg.DOFade(0, 0.15f).OnComplete(ResetText).SetTarget(this);
 		}
 	}
 
-	private void StartAnimation()
+	void ResetText()
+	{
+		_text.text = string.Empty;
+	}
+
+	void StartAnimation()
 	{
 		var l = _lengthBase + Random.Range(-_lengthRandom, _lengthRandom);
 		var x = Random.Range(-_maxDistance, _maxDistance);
 		var y = Random.Range(-_maxDistance, _maxDistance);
 		var target = _textStartPosition + new Vector2(x, y);
 		_textRectTransform.DOAnchorPos(target, l)
-			.SetTarget(this)
+			.SetTarget(FloatingTextId)
 			.OnComplete(StartAnimation);
 
 	}
 
-	private void StopAnimation()
-	{
-		DOTween.Kill(this);
-	}
 }
