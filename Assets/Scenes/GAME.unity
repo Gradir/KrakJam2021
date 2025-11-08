@@ -4718,7 +4718,6 @@ MonoBehaviour:
   m_Script: {fileID: 1942117892}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.SceneObjectIDMapSceneAsset
-  m_Entries: []
 --- !u!4 &1234786903
 Transform:
   m_ObjectHideFlags: 19
@@ -9835,6 +9834,10 @@ PrefabInstance:
     - target: {fileID: 1040366662778321085, guid: 49e1242034915674b99515ba419862f7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3524580328519566327, guid: 49e1242034915674b99515ba419862f7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
