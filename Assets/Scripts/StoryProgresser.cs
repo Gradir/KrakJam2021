@@ -54,7 +54,6 @@ public abstract class StoryProgresser : MonoBehaviour
 				{
 					agent.TurnOnOrOff(true);
 				}
-				i.gameObject.SetActive(true);
 				if (i._setInteractibleOnEnable)
 				{
 					i._interactible = true;
@@ -64,6 +63,7 @@ public abstract class StoryProgresser : MonoBehaviour
 					var door = i as Door;
 					door.SwitchTarget();
 				}
+				i.gameObject.SetActive(true);
 			}
 			if (_audioSource != null)
 				_audioSource.PlayOneShot(_audioClip);
@@ -74,6 +74,7 @@ public abstract class StoryProgresser : MonoBehaviour
 			{
 				brother.FadeAway();
 			}
+			_interactible = false;
 			gameObject.SetActive(false);
 		}
 		if (_timeLineToActivate != null)
@@ -83,13 +84,13 @@ public abstract class StoryProgresser : MonoBehaviour
 		}
 	}
 
-	private void Update()
-	{
-		if (Input.GetKeyUp(KeyCode.Escape))
-		{
-			Application.Quit();
-		}
-	}
+	// private void Update()
+	// {
+	// 	if (Input.GetKeyUp(KeyCode.Escape))
+	// 	{
+	// 		Application.Quit();
+	// 	}
+	// }
 
 	public void OnDrawGizmos()
 	{

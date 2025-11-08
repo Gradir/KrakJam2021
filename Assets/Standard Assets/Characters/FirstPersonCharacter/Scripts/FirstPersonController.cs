@@ -67,10 +67,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 				RotateView();
 			}
             // the jump state needs to read here to make sure it is not missed
-            if (!m_Jump)
-            {
-                m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
-            }
+            // if (!m_Jump)
+            // {
+            //     m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+            // }
 
             if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
             {
@@ -117,13 +117,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_MoveDir.y = -m_StickToGroundForce;
 
-                if (m_Jump)
-                {
-                    m_MoveDir.y = m_JumpSpeed;
-                    PlayJumpSound();
-                    m_Jump = false;
-                    m_Jumping = true;
-                }
+                // if (m_Jump)
+                // {
+                //     m_MoveDir.y = m_JumpSpeed;
+                //     PlayJumpSound();
+                //     m_Jump = false;
+                //     m_Jumping = true;
+                // }
             }
             else
             {
