@@ -556,7 +556,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 1779485203}
-  m_BakedTexture: {fileID: 8900000, guid: e7dbd3526565ab949a783eb0a116f2a4, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: d0d8f186602406240955885520b4d646, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -2567,7 +2567,7 @@ GameObject:
   - component: {fileID: 990675364287835050}
   - component: {fileID: 788651695051581931}
   m_Layer: 0
-  m_Name: Ceiling (2)
+  m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2604,7 +2604,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3606727154930527077}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 3
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
