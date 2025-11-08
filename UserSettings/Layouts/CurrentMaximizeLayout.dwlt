@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 40785
+  controlID: 61185
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 40786
+  controlID: 61186
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 40787
+  controlID: 61187
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -941,7 +941,7 @@ MonoBehaviour:
       scrollOffset: 0
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -951,9 +951,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -22.55241, y: 4.277709, z: 2.5231724}
+    m_Target: {x: -19.378157, y: 5.643709, z: 13.277858}
     speed: 2
-    m_Value: {x: -22.55241, y: 4.277709, z: 2.5231724}
+    m_Value: {x: -19.378157, y: 5.643709, z: 13.277858}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -999,13 +999,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.011127063, y: 0.98821217, z: -0.08739246, w: -0.12549834}
+    m_Target: {x: -0.06001967, y: 0.9370037, z: -0.20148969, w: -0.2791366}
     speed: 2
-    m_Value: {x: -0.010674863, y: 0.9884836, z: -0.083831176, w: -0.12553291}
+    m_Value: {x: -0.060016863, y: 0.93695986, z: -0.20148027, w: -0.27912354}
   m_Size:
-    m_Target: 1.4942527
+    m_Target: 1.1261778
     speed: 2
-    m_Value: 7.6426597
+    m_Value: 1.1261778
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1123,8 +1123,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: cc727dc1e4b9de14fac24d5e3d09afcb, type: 2}
-  m_BreadCrumbs: []
+  m_AnimatorController: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 110700000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
   blendTreeGraph: {fileID: 0}
