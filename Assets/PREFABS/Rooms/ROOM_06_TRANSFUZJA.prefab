@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 5432047244924156754}
   - component: {fileID: 7028754145211807157}
   m_Layer: 0
-  m_Name: Volume 08 Squat
+  m_Name: Volume 06 Transfusion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -775,6 +775,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _progressesStory: 1
   _thisStory: 9
+  _audioSource: {fileID: 0}
+  _audioClip: {fileID: 0}
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
@@ -935,6 +937,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _progressesStory: 1
   _thisStory: 15
+  _audioSource: {fileID: 0}
+  _audioClip: {fileID: 0}
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
@@ -1113,6 +1117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _progressesStory: 1
   _thisStory: 11
+  _audioSource: {fileID: 0}
+  _audioClip: {fileID: 0}
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
@@ -1243,6 +1249,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _progressesStory: 1
   _thisStory: 14
+  _audioSource: {fileID: 0}
+  _audioClip: {fileID: 0}
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1

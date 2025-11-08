@@ -17,9 +17,7 @@ MonoBehaviour:
   blockInteraction: 0
   waitTime: 0
   id: 0
-  text: "I close my eyes<br>and reach into the fog of memory,<br>trying to piece
-    together the fragments\u2014faces,<br>voices, moments that feel so close<br>yet
-    slip away the harder I chase them."
+  text: I close my eyes<br>and reach into the fog of memory
   text2: 
   text3: 
   voiceOver: {fileID: 8300000, guid: d887ef2623ab91f40b4938c2b24d7ff5, type: 3}
