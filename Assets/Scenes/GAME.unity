@@ -10033,6 +10033,370 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 30604975259202602, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 30604975259202602, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 30604975259202602, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 38078281885919671, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 38078281885919671, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 38078281885919671, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 104437673484193592, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 358899034296537827, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 358899034296537827, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 358899034296537827, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392276259104032949, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 518108350525808729, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 576995133029764245, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 576995133029764245, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 576995133029764245, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 584485987005831209, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 721400196315489705, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 721400196315489705, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 721400196315489705, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1179714254010680970, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315403611691334410, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315403611691334410, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315403611691334410, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1322972458991742902, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887423193713645321, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935005826217020052, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958727152383568923, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958727152383568923, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958727152383568923, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2120477141153645434, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2120477141153645434, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2120477141153645434, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2208684321533096384, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246283945987189654, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246283945987189654, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246283945987189654, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507964085866688272, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507964085866688272, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2507964085866688272, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2706280377904076649, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2706280377904076649, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2706280377904076649, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2804528910677245232, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2804528910677245232, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2804528910677245232, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2814503912060350267, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2978077603126027101, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039221088246190905, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3051179306075521366, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113648531427372512, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113648531427372512, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113648531427372512, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3119787452985414019, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3195999396970317327, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3461637660650119797, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3461637660650119797, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3461637660650119797, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3490493186131357722, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3490493186131357722, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3490493186131357722, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3537142502834778784, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3537142502834778784, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3537142502834778784, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560135786653847235, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3677615397882953854, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3677615397882953854, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3677615397882953854, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797452836564975882, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893285949992002860, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893285949992002860, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893285949992002860, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076837904004467763, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4374809820918144531, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418842744726768664, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418842744726768664, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418842744726768664, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4599127256342246474, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784753149547738032, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784753149547738032, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784753149547738032, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865284133658193708, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965055880669156144, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965055880669156144, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4965055880669156144, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217964138030042106, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217964138030042106, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217964138030042106, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241977552024499693, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5437537306562366822, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5437537306562366822, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5437537306562366822, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5630546842902743733, guid: 99090a418d90b3743bf2d24666082805, type: 3}
       propertyPath: _teleportTo
       value: 
@@ -10097,6 +10461,126 @@ PrefabInstance:
       propertyPath: '_interactiblesToActivate.Array.data[0]'
       value: 
       objectReference: {fileID: 334101040}
+    - target: {fileID: 5848980935358819909, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5923408655164614873, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972613933393008334, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972613933393008334, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972613933393008334, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357703708363772051, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474263463874513935, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474263463874513935, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474263463874513935, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6825959987294138387, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147561618144981282, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147561618144981282, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147561618144981282, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202339611831638146, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202339611831638146, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202339611831638146, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7256717536907048102, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7256717536907048102, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7256717536907048102, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574904211666587427, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7982868021214017163, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305399992985775104, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305399992985775104, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305399992985775104, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8400649673270154664, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_DrawDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8400649673270154664, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_EndAngleFade
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8400649673270154664, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_StartAngleFade
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8749648659034067457, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8767976047770516385, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9144779306247690117, guid: 99090a418d90b3743bf2d24666082805, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

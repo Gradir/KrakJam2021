@@ -558,7 +558,7 @@ MonoBehaviour:
         m_Camera:
           bitDatas:
             data1: 140666621263709
-            data2: 4575659395735552024
+            data2: 4575659400030519320
           lodBias: 1
           lodBiasMode: 0
           lodBiasQualityLevel: 0
