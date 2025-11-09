@@ -241,6 +241,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         }
 
 
+        public void ResetCamera()
+        {
+            m_Camera.transform.localRotation = Quaternion.identity;
+        }
         public void RotateView()
         {
             m_MouseLook.LookRotation (transform, m_Camera.transform);

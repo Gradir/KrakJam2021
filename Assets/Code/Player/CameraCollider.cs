@@ -132,6 +132,7 @@ public class CameraCollider : MonoBehaviour
 	}
 	public void EnableControl()
 	{
+		firstPersonController.ResetCamera();
 		firstPersonController.RotateView();
 		firstPersonController._mouseLookEnabled = true;
 		_characterController.enabled = true;
