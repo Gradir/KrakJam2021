@@ -17,7 +17,7 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 33
-  text: For everyone<br>who lost someone
+  text: For everyone<br>who's ever lost someone
   text2: 
   text3: 
   voiceOver: {fileID: 0}
