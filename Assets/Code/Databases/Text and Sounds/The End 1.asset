@@ -18,8 +18,7 @@ MonoBehaviour:
   waitTime: 0
   id: 31
   text: "Authors:<br>Marta Bernard<br>Marcin Bia\u0142kowski<br>Piotr Ko\u0142odziejczyk<br>Nikola
-    Ko\u0142odziejczyk<br>Norbert Trzeciakiewicz<br><br>Translation made by Paulina
-    Komenda"
+    Ko\u0142odziejczyk"
   text2: 
   text3: 
   voiceOver: {fileID: 0}

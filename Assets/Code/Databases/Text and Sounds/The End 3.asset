@@ -17,7 +17,7 @@ MonoBehaviour:
   blockInteraction: 1
   waitTime: 0
   id: 33
-  text: "In memory of<br>Wis\u0142awa Szymborska (2.7.1921-1.2.2012)"
+  text: For everyone<br>who lost someone
   text2: 
   text3: 
   voiceOver: {fileID: 0}

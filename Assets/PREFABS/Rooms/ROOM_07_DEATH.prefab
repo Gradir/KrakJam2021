@@ -867,7 +867,7 @@ Camera:
   m_Iso: 200
   m_ShutterSpeed: 0.005
   m_Aperture: 2
-  m_FocusDistance: 0.1
+  m_FocusDistance: 0.5
   m_FocalLength: 20.002499
   m_BladeCount: 9
   m_Curvature: {x: 2, y: 11}
@@ -9543,7 +9543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508644643184564803, guid: edaf537d479a7604db041b97ca0e75cb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.391
+      value: -21.197014
       objectReference: {fileID: 0}
     - target: {fileID: 3508644643184564803, guid: edaf537d479a7604db041b97ca0e75cb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9551,11 +9551,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508644643184564803, guid: edaf537d479a7604db041b97ca0e75cb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.38
+      value: 3.3800128
       objectReference: {fileID: 0}
     - target: {fileID: 3508644643184564803, guid: edaf537d479a7604db041b97ca0e75cb, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7075021
+      value: -0.7075022
       objectReference: {fileID: 0}
     - target: {fileID: 3508644643184564803, guid: edaf537d479a7604db041b97ca0e75cb, type: 3}
       propertyPath: m_LocalRotation.x
@@ -9563,7 +9563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508644643184564803, guid: edaf537d479a7604db041b97ca0e75cb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7067113
+      value: 0.7067112
       objectReference: {fileID: 0}
     - target: {fileID: 3508644643184564803, guid: edaf537d479a7604db041b97ca0e75cb, type: 3}
       propertyPath: m_LocalRotation.z
@@ -10149,7 +10149,7 @@ MonoBehaviour:
   _hideOnInteraction: 0
   _displayName: Grave
   _interactiblesToActivate: []
-  _hideOnStart: 1
+  _hideOnStart: 0
   _teleportTo: {fileID: 0}
   _newTargetAfterInteraction: {fileID: 0}
   _timeForColorChange: 5
