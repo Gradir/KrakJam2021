@@ -3976,7 +3976,9 @@ MonoBehaviour:
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
-  _objectsToDeactivate: []
+  _objectsToDeactivate:
+  - {fileID: 0}
+  - {fileID: 0}
   _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Syringe

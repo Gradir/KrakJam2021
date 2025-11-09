@@ -7199,6 +7199,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865791215}
   m_CullTransparentMesh: 1
+--- !u!1 &1870184456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6047236925041479348, guid: 2ad0001b03ec726498c30652ffa5e73d, type: 3}
+  m_PrefabInstance: {fileID: 7500460318439975937}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1892985093
 GameObject:
   m_ObjectHideFlags: 0
@@ -9242,13 +9247,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 581072083, guid: 49e1242034915674b99515ba419862f7, type: 3}
-      propertyPath: _objectsToDeactivate.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 581072083, guid: 49e1242034915674b99515ba419862f7, type: 3}
       propertyPath: '_objectsToDeactivate.Array.data[0]'
       value: 
       objectReference: {fileID: 60078181}
+    - target: {fileID: 581072083, guid: 49e1242034915674b99515ba419862f7, type: 3}
+      propertyPath: '_objectsToDeactivate.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1870184456}
     - target: {fileID: 1040366661807959369, guid: 49e1242034915674b99515ba419862f7, type: 3}
       propertyPath: _teleportTo
       value: 

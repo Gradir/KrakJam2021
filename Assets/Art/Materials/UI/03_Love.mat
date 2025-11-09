@@ -352,7 +352,7 @@ Material:
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _Overlay: {r: 0.7332503, g: 0.8113208, b: 0.76698446, a: 1}
+    - _Overlay: {r: 1, g: 0.7694105, b: 0.54905653, a: 1}
     - _Panning: {r: -0.05, g: -0.1, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _Speed1: {r: 0, g: 0.3, b: 0, a: 0}
