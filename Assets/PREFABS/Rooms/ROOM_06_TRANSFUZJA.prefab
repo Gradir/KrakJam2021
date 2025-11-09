@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8952749585391510552
 Transform:
@@ -257,7 +257,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1550530463893796114
 Transform:
@@ -368,7 +368,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8133132484224081095
 Transform:
@@ -439,7 +439,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8461835858409662525
 Transform:
@@ -678,7 +678,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5630546842765765913
 Transform:
@@ -724,7 +724,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5630546842902743732
 Transform:
@@ -907,7 +907,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5630546843033657910
 Transform:
@@ -950,7 +950,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5630546843124371477
 Transform:
@@ -984,7 +984,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5630546843178922350
 Transform:
@@ -1166,7 +1166,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5630546843552105993
 Transform:
@@ -1262,7 +1262,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5630546843703477375
 Transform:
@@ -1445,7 +1445,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5630546844029760701
 Transform:
@@ -1490,7 +1490,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5630546844577661197
 Transform:
@@ -1552,7 +1552,7 @@ MonoBehaviour:
   - {fileID: 0}
   _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
-  _displayName: Pipes
+  _displayName: Blood transfusion
   _interactiblesToActivate:
   - {fileID: 0}
   _hideOnStart: 1
@@ -1569,11 +1569,11 @@ GameObject:
   - component: {fileID: 5630546844781787138}
   - component: {fileID: 5630546844781787141}
   m_Layer: 0
-  m_Name: r
+  m_Name: Transfusion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5630546844781787140
 Transform:
@@ -1685,7 +1685,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6224363690002674626
 Transform:
@@ -1925,7 +1925,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4558121475669891854
 Transform:
@@ -1996,7 +1996,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8507007534210532948
 Transform:
@@ -2232,6 +2232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Size.x
       value: 8
@@ -2322,6 +2326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 3
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
       propertyPath: m_Size.x
       value: 4
@@ -2399,6 +2407,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Name
       value: VesselDecal 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Version
@@ -2482,6 +2494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 0
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
       propertyPath: m_Version
       value: 3
@@ -2551,6 +2567,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Name
       value: VesselDecal 2 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Size.x
@@ -2638,9 +2658,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5630546843552105993}
     m_Modifications:
+    - target: {fileID: 2476197539993458842, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_Name
       value: Wall_800 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5427772370793496867, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_RootOrder
@@ -2711,6 +2739,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Name
       value: VesselDecal 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Size.x
@@ -2790,6 +2822,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
       propertyPath: m_Size.x
       value: 3
@@ -2867,6 +2903,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Name
       value: VesselDecal 1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Version
@@ -2946,9 +2986,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5630546843552105993}
     m_Modifications:
+    - target: {fileID: 2476197539993458842, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_Name
       value: Wall_800 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5427772370793496867, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_RootOrder
@@ -3019,6 +3067,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
       propertyPath: m_Name
       value: VesselDecal 0 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
       propertyPath: m_Version
@@ -3102,6 +3154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
       propertyPath: m_Size.x
       value: 3
@@ -3179,6 +3235,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Name
       value: VesselDecal 2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Size.x
@@ -3286,6 +3346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 0 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
       propertyPath: m_Version
       value: 3
@@ -3380,6 +3444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Size.x
       value: 8
@@ -3470,6 +3538,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
       propertyPath: m_Size.x
       value: 6
@@ -3556,6 +3628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 2
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Version
       value: 3
@@ -3625,6 +3701,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Name
       value: VesselDecal 2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Version
@@ -3708,6 +3788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 0 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
       propertyPath: m_Version
       value: 3
@@ -3789,6 +3873,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Name
       value: VesselDecal 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Size.x
@@ -3879,6 +3967,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
       propertyPath: m_Name
       value: VesselDecal 3 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
       propertyPath: m_Size.x
@@ -4002,9 +4094,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6309570332994717446, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6685131605529168509, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
       propertyPath: m_Name
       value: Floor_800x800 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6685131605529168509, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8039063399235563817, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4039,6 +4139,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
       propertyPath: m_Name
       value: VesselDecal 3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
       propertyPath: m_Size.x
@@ -4117,6 +4221,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
       propertyPath: m_Name
       value: VesselDecal 0 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
       propertyPath: m_Size.y
@@ -4224,6 +4332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 0 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
       propertyPath: m_Version
       value: 3
@@ -4305,6 +4417,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Name
       value: VesselDecal 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Size.x
@@ -4440,9 +4556,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6309570332994717446, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6685131605529168509, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
       propertyPath: m_Name
       value: Floor_800x800 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6685131605529168509, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8039063399235563817, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4477,6 +4601,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Name
       value: VesselDecal 2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Version
@@ -4556,9 +4684,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5630546843552105993}
     m_Modifications:
+    - target: {fileID: 2476197539993458842, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_Name
       value: Wall_800 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5427772370793496867, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_RootOrder
@@ -4674,9 +4810,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6309570332994717446, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6685131605529168509, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
       propertyPath: m_Name
       value: Floor_800x800 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6685131605529168509, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8039063399235563817, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4711,6 +4855,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
       propertyPath: m_Name
       value: VesselDecal 0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
       propertyPath: m_Version
@@ -4790,9 +4938,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5630546843552105993}
     m_Modifications:
+    - target: {fileID: 2476197539993458842, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_Name
       value: Wall_800
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5427772370793496867, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_RootOrder
@@ -4863,6 +5019,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Name
       value: VesselDecal 2 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Version
@@ -4946,6 +5106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 0 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1a0f76d1d2ab15e4fab72b01d9569b47, type: 3}
       propertyPath: m_Version
       value: 3
@@ -5027,6 +5191,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Name
       value: VesselDecal 1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Size.x
@@ -5162,6 +5330,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door00a Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2994128623365026577, guid: b65b81a72ac77c445a44c0c54c4b16c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3568766952777231445, guid: b65b81a72ac77c445a44c0c54c4b16c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3838280815056231597, guid: b65b81a72ac77c445a44c0c54c4b16c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6811757402938723484, guid: b65b81a72ac77c445a44c0c54c4b16c8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -5187,6 +5367,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Name
       value: VesselDecal 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Version
@@ -5270,6 +5454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 1e617f2dbbdd2cc4d96b75f90d9ee12b, type: 3}
       propertyPath: m_Size.x
       value: 4
@@ -5347,6 +5535,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Name
       value: VesselDecal 1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: d3af114ca23d7224f9142dfecccd6106, type: 3}
       propertyPath: m_Size.x
@@ -5482,9 +5674,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6309570332994717446, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6685131605529168509, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
       propertyPath: m_Name
       value: Floor_800x800
+      objectReference: {fileID: 0}
+    - target: {fileID: 6685131605529168509, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8039063399235563817, guid: 9508559d3de9dfb48818cef29f406843, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5527,6 +5727,10 @@ PrefabInstance:
     - target: {fileID: 2499495195164799443, guid: 20d06aa3617682a46a49c5c243a74033, type: 3}
       propertyPath: m_Name
       value: Door00b Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2499495195164799443, guid: 20d06aa3617682a46a49c5c243a74033, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3018587194893249385, guid: 20d06aa3617682a46a49c5c243a74033, type: 3}
       propertyPath: m_RootOrder
@@ -5572,6 +5776,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4225637724467965591, guid: 20d06aa3617682a46a49c5c243a74033, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496533809831353967, guid: 20d06aa3617682a46a49c5c243a74033, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6172901240815177310, guid: 20d06aa3617682a46a49c5c243a74033, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -5594,9 +5806,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5630546843552105993}
     m_Modifications:
+    - target: {fileID: 2476197539993458842, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_Name
       value: Wall_800 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5427772370793496867, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_RootOrder
@@ -5667,6 +5887,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Name
       value: VesselDecal 2 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Version
@@ -5750,6 +5974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VesselDecal 2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Version
       value: 3
@@ -5831,6 +6059,10 @@ PrefabInstance:
     - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Name
       value: VesselDecal 2 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 431855537133482000, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2279806744352641843, guid: 9af2063c8c9f69b458af862787999fe9, type: 3}
       propertyPath: m_Size.x
@@ -5942,6 +6174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door00
       objectReference: {fileID: 0}
+    - target: {fileID: 4977413616993793050, guid: fe885090f2c0d894f88986586a3eff4b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5645407254345363104, guid: fe885090f2c0d894f88986586a3eff4b, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -5986,6 +6222,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6474570281716587430, guid: fe885090f2c0d894f88986586a3eff4b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6708346854707014494, guid: fe885090f2c0d894f88986586a3eff4b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6004,9 +6248,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5630546843552105993}
     m_Modifications:
+    - target: {fileID: 2476197539993458842, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_Name
       value: Wall_800 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4618585016482651033, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5427772370793496867, guid: 8a3cb7f64353ffe458876cbeb78d944c, type: 3}
       propertyPath: m_RootOrder
