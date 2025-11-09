@@ -121,7 +121,7 @@ MonoBehaviour:
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
-  m_FadeDistance: 10000
+  m_FadeDistance: 20
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
@@ -544,7 +544,7 @@ MonoBehaviour:
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
-  m_FadeDistance: 10000
+  m_FadeDistance: 20
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
@@ -793,7 +793,7 @@ MonoBehaviour:
   _nextProgress: 9
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 107188792899351703}
   _newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!82 &107188792899351703
 AudioSource:
@@ -806,7 +806,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1053,7 +1053,7 @@ MonoBehaviour:
   _nextProgress: 15
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 3511904136655221573}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &3511904136655221573
 AudioSource:
@@ -1066,7 +1066,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1331,7 +1331,7 @@ MonoBehaviour:
   _nextProgress: 11
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 8255282133189961552}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &8255282133189961552
 AudioSource:
@@ -1344,7 +1344,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1790,7 +1790,7 @@ MonoBehaviour:
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
-  m_FadeDistance: 10000
+  m_FadeDistance: 20
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
@@ -2101,7 +2101,7 @@ MonoBehaviour:
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
-  m_FadeDistance: 10000
+  m_FadeDistance: 20
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
   m_AffectSpecular: 1

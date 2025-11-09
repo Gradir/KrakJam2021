@@ -136,7 +136,7 @@ MonoBehaviour:
   _nextProgress: 7
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 8606182181386894582}
   _newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!82 &8606182181386894582
 AudioSource:
@@ -149,7 +149,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -483,7 +483,7 @@ MonoBehaviour:
   _nextProgress: 0
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 5080210100710992435}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &5080210100710992435
 AudioSource:
@@ -496,7 +496,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5157,19 +5157,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508600948370743324, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 14299.281
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3508600948370743324, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 2.869911e+32
+      value: 5.313e-41
       objectReference: {fileID: 0}
     - target: {fileID: 3508600948370743324, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.1708378e-19
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3508600948370743324, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.3563156e-19
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3664002973147630065, guid: 76336da601705b24888cb14d8af76073, type: 3}
+      propertyPath: m_ShadowFadeDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4433790553183163454, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5177,15 +5181,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4869889032728308073, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0
+      value: 4.3e-44
       objectReference: {fileID: 0}
     - target: {fileID: 4869889032728308073, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 3.6518e-41
+      value: 8.67e-43
       objectReference: {fileID: 0}
     - target: {fileID: 4869889032728308073, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 2.524355e-29
+      value: 1e-43
       objectReference: {fileID: 0}
     - target: {fileID: 4869889032728308073, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.z
@@ -5203,9 +5207,17 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 5113636025284734156, guid: 76336da601705b24888cb14d8af76073, type: 3}
+      propertyPath: m_ShadowFadeDistance
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 5307934791213723907, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6039300106277135417, guid: 76336da601705b24888cb14d8af76073, type: 3}
+      propertyPath: m_ShadowFadeDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6646959568256708385, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5213,15 +5225,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7888398759032545584, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 1.308589e-39
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7888398759032545584, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 2.0644e-41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7888398759032545584, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 2.524355e-29
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7888398759032545584, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.z

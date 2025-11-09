@@ -1,6 +1,14 @@
 using DG.Tweening;
 using UnityEngine;
 
+
+public class RoomToMove
+{
+	public GameObject Room;
+	public Vector3 Position;
+	public Vector3 Rotation;
+}
+
 public class Door : StoryProgresser
 {
 	public Transform _teleportTo;
@@ -10,6 +18,7 @@ public class Door : StoryProgresser
 	public bool startAnimationOnInteract = false;
 	public Transform transformToMove;
 	public AudioSource aus;
+	public RoomToMove[] RoomsToMoveAfterUsing;
 
 	[SerializeField] private Color _newColor;
 

@@ -522,7 +522,7 @@ MonoBehaviour:
   _progressesStory: 1
   _thisStory: 3
   _audioSource: {fileID: 0}
-  _audioClip: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
+  _audioClip: {fileID: 0}
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
@@ -530,8 +530,7 @@ MonoBehaviour:
   _timeLineToActivate: {fileID: 0}
   _hideOnInteraction: 0
   _displayName: Door
-  _interactiblesToActivate:
-  - {fileID: 0}
+  _interactiblesToActivate: []
   _hideOnStart: 0
   _teleportTo: {fileID: 0}
   _newTargetAfterInteraction: {fileID: 0}
@@ -539,7 +538,7 @@ MonoBehaviour:
   _nextProgress: 0
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 7344426756105654454}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &7344426756105654454
 AudioSource:
@@ -552,7 +551,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1019,7 +1018,7 @@ MonoBehaviour:
   _progressesStory: 1
   _thisStory: 5
   _audioSource: {fileID: 0}
-  _audioClip: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
+  _audioClip: {fileID: 0}
   _interactible: 1
   _activateAutomatically: 0
   _setInteractibleOnEnable: 1
@@ -1035,7 +1034,7 @@ MonoBehaviour:
   _nextProgress: 0
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 8373925066813855429}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &8373925066813855429
 AudioSource:
@@ -1048,7 +1047,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

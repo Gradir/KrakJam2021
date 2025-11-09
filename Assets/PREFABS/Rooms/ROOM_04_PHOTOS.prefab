@@ -251,7 +251,7 @@ MonoBehaviour:
   _nextProgress: 15
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 5121197862406945728}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &5121197862406945728
 AudioSource:
@@ -264,7 +264,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -816,7 +816,7 @@ MonoBehaviour:
   _nextProgress: 11
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 7373514203456536660}
   _newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!82 &7373514203456536660
 AudioSource:
@@ -829,7 +829,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1947,7 +1947,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4858853491623424784, guid: 7d54c997e2f0d1e4385d72e389af1df9, type: 3}
       propertyPath: _hideOnInteraction
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4858853491623424784, guid: 7d54c997e2f0d1e4385d72e389af1df9, type: 3}
       propertyPath: '_interactiblesToActivate.Array.data[0]'
@@ -2315,19 +2315,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508600948370743324, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0
+      value: 1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 3508600948370743324, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 4.164e-41
+      value: 8.66e-43
       objectReference: {fileID: 0}
     - target: {fileID: 3508600948370743324, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 2.524355e-29
+      value: 1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 3508600948370743324, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3664002973147630065, guid: 76336da601705b24888cb14d8af76073, type: 3}
+      propertyPath: m_ShadowFadeDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4433790553183163454, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2335,15 +2339,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4869889032728308073, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 4.3e-44
+      value: 1.8e-43
       objectReference: {fileID: 0}
     - target: {fileID: 4869889032728308073, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 8.67e-43
+      value: 4.5736e-41
       objectReference: {fileID: 0}
     - target: {fileID: 4869889032728308073, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 9.2e-44
+      value: 2.524355e-29
       objectReference: {fileID: 0}
     - target: {fileID: 4869889032728308073, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.z
@@ -2361,9 +2365,17 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 5113636025284734156, guid: 76336da601705b24888cb14d8af76073, type: 3}
+      propertyPath: m_ShadowFadeDistance
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 5307934791213723907, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6039300106277135417, guid: 76336da601705b24888cb14d8af76073, type: 3}
+      propertyPath: m_ShadowFadeDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6646959568256708385, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2379,19 +2391,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7888398759032545584, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0.00087519555
+      value: NaN
       objectReference: {fileID: 0}
     - target: {fileID: 7888398759032545584, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 0.0009325062
+      value: 1.0602859e-38
       objectReference: {fileID: 0}
     - target: {fileID: 7888398759032545584, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.1705309e-19
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7888398759032545584, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1.2393039e+28
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8707388281747785984, guid: 76336da601705b24888cb14d8af76073, type: 3}
       propertyPath: m_RootOrder

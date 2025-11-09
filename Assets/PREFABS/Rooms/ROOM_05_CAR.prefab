@@ -121,7 +121,7 @@ MonoBehaviour:
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
-  m_FadeDistance: 10000
+  m_FadeDistance: 20
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
@@ -266,8 +266,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4031331892720651157}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.034141857, y: -0.9474825, z: -0.07679041, w: -0.3085684}
-  m_LocalPosition: {x: -1.499, y: 5.129155, z: 4.286378}
+  m_LocalRotation: {x: 0.2382382, y: 0.73505455, z: 0.31934273, w: -0.5485961}
+  m_LocalPosition: {x: -0.984, y: 5.517, z: 3.436}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -284,7 +284,7 @@ Light:
   serializedVersion: 11
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 28329.174
+  m_Intensity: 75281.13
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -333,9 +333,9 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShadowRadius: 1
   m_ShadowAngle: 0
-  m_LightUnit: 1
+  m_LightUnit: 4
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
 --- !u!114 &496655388967003455
@@ -360,8 +360,8 @@ MonoBehaviour:
   m_InnerSpotPercent: 0
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
-  m_VolumetricDimmer: 1
-  m_FadeDistance: 10000
+  m_VolumetricDimmer: 0.27
+  m_FadeDistance: 20
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
@@ -369,7 +369,7 @@ MonoBehaviour:
   m_ShapeWidth: 0.5
   m_ShapeHeight: 0.5
   m_AspectRatio: 1
-  m_ShapeRadius: 0.025
+  m_ShapeRadius: 1
   m_SoftnessScale: 1
   m_UseCustomSpotLightShadowCone: 0
   m_CustomSpotLightShadowCone: 30
@@ -789,8 +789,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 15, y: 5, z: 15}
-  m_Center: {x: 0, y: 5, z: 0}
+  m_Size: {x: 10.131935, y: 5, z: 16.332647}
+  m_Center: {x: -0.1374855, y: 5, z: 0.6663246}
 --- !u!1 &6634028592140640762
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,7 +877,7 @@ MonoBehaviour:
   _nextProgress: 9
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 3509984775425085591}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &3509984775425085591
 AudioSource:
@@ -890,7 +890,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   _nextProgress: 13
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 8114161540834040317}
   _newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!82 &8114161540834040317
 AudioSource:
@@ -1225,7 +1225,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1430,7 +1430,7 @@ MonoBehaviour:
   _nextProgress: 7
   startAnimationOnInteract: 0
   transformToMove: {fileID: 0}
-  aus: {fileID: 0}
+  aus: {fileID: 5663183767731299443}
   _newColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!82 &5663183767731299443
 AudioSource:
@@ -1443,7 +1443,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 74dc3a574a49f914c8644496a2021a28, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
